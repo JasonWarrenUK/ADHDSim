@@ -3,13 +3,12 @@
         background-color: #ECA58D;
         font-size: large;
         font-family: 'Raleway', 'Urbanist', 'Comfortaa', Verdana, Tahoma, sans-serif;
+        text-align: center;
         padding: 20px;
     }
-
 /*Headings*/
     h1 {
         font-family: 'Rampart One', Georgia, Times, serif;
-        text-align: center;
         border: 6px solid royalblue;
         padding: 20px;
     }
@@ -23,9 +22,7 @@
     }
     h4 {
         font-family: 'Domine', 'Arvo', Georgia, Times, serif;
-        text-align: center;
     }
-
 /*Main Text*/
     p {
         background-color: #F2C3B3;
@@ -36,7 +33,6 @@
         font-family: 'Indie Flower', cursive;
         padding: 10px;
     }
-
 /*Links*/
     a:link {
         color: #3CB371;
@@ -59,14 +55,12 @@
         color: #2E8B57;
         background-color: transparent;
     }
-
 /* Font Ideas
     Notes Font: 
         'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'
     Mono Font:
         'Syne Mono', monospace
     */
-
 /* Color Swatches
     Dark Salmon-White
         #E9967A Dark Salmon
