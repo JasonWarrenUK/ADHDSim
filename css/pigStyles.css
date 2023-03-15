@@ -1,9 +1,10 @@
-body {
-    background-color: #ECA58D;
-    font-size: large;
-    font-family: 'Raleway', 'Urbanist', 'Comfortaa', Verdana, Tahoma, sans-serif;
-    padding: 20px;
-}
+/*Body*/
+    body {
+        background-color: #ECA58D;
+        font-size: large;
+        font-family: 'Raleway', 'Urbanist', 'Comfortaa', Verdana, Tahoma, sans-serif;
+        padding: 20px;
+    }
 
 /*Headings*/
     h1 {
@@ -34,6 +35,29 @@ body {
         background-color: #9FC69F;
         font-family: 'Indie Flower', cursive;
         padding: 10px;
+    }
+
+/*Links*/
+    a:link {
+        color: #3CB371;
+        background-color: transparent;
+        font-weight: bold;
+    } 
+    a:hover {
+        color: #228B22;
+        background-color: transparent;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }  
+    a:active {
+        color: #3CB371;
+        background-color: #2F4F4F;
+        font-style: italic;
+    }
+    a:visited {
+        color: #2E8B57;
+        background-color: transparent;
     }
 
 /* Font Ideas
