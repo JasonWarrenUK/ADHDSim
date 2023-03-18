@@ -1,8 +1,10 @@
 # Founders & Coders Application: The Endless Tangent
 This page is being built to demonstrate my capacity to learn:
+
 - HTML
 - CSS
 - JS
+
 It hosts the 5 preliminary projects specified on the course's application.
 
 ## Projects
