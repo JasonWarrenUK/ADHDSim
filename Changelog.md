@@ -1,26 +1,20 @@
-# Current Build
- ## Structure
- ## HTML
-  ### Images
-  ### Other
- ## CSS
-  ### Style Sheets
- ## JS
- ## Docs
-  ### README.md
-  ### To Do.md
-
 # 23-03-18
  ## Structure
   - Created separate folder for each site rather than a folder for HTML/CSS etc
   - Created Device Oracle page to test <picture>
  ## HTML
-  - Started Snack table
-  ### Other
+  ### index.html
    - Created favicon for Hub page 
+  ### pig.html
+   - Table: Crunch Ratings
+   - Ordered List: Crunch Rankings
+   - Unordered List: Disqualified Snacks
+   - Definition List: Glossary
  ## CSS
-  ### Style Sheets
+  ### hubStyles.css
    - Created hubStyles.css
+  ### pigStyles.css
+   - Table Styling
 
 # 23-03-17
  ## HTML
@@ -30,6 +24,18 @@
   ### Other
    - Created a favicon for Piglet page
  ## Docs
-  -  Created Changelog.md
   ### To Do.md
    - Absolutely loads of nonsense
+
+# Current Build
+ ## Structure
+ ## HTML
+  ### index.html
+  ### pig.html
+ ## CSS
+  ### hubStyles.css
+  ### pigStyles.css
+ ## JS
+ ## Docs
+  ### README.md
+  ### To Do.md

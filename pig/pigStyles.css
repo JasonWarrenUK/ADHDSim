@@ -55,6 +55,23 @@
         color: #2E8B57;
         background-color: transparent;
     }
+/*Tables*/
+    table {
+        border: 1px solid #000000;
+        border-style: inset;
+    }
+    th, td {
+        border: 1px solid #ECA58D;
+        border-radius: 10px;
+        border-style: outset;
+        background-color: #9FC69F;
+    }
+    tr:nth-child(even) {
+        background-color: #BFC6BF;
+    }
+    tr:hover{
+        font-weight: bold;
+    }
 /* Font Ideas
     Notes Font: 
         'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'
