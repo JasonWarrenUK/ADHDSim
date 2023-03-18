@@ -1,42 +1,27 @@
 # Founders & Coders Application: The Endless Tangent
 This page is being built to demonstrate my capacity to learn:
-
 - HTML
 - CSS
 - JS
-
 It hosts the 5 preliminary projects specified on the course's application.
 
 ## Projects
-### Project 1: Hobby Page
-#### Rupert J Piggit's Cavern of Curiosidoodles
+### Project 1: Rupert J Piggit's Cavern of Curiosidoodles
 Just me trying to build a basic web page to display capacity to learn different web languages
-
 ### Project 2: TBA
-Coming Soon
-
 ### Project 3: TBA
-Coming Soon
-
 ### Project 4: TBA
-Coming Soon
-
 ### Project 5: TBA
-Coming Soon
 
 ## To Do List
-### 1. Hub Page
+### Hub Page
 - [ ] Link to Creating Worlds
 - [ ] Image Map for Portfolio?
 - [ ] Fix the fucking pig picture
 - [ ] NavMenu
-
-### 2. Project 1: 
-
-### 3. Somewhere
+### Somewhere
 - [ ] Background Image
-
-### 4. Pages to Revisit
+### Pages to Revisit
 - Links https://www.w3schools.com/html/html_links.asp
   - [ ] JS: Buttons
 - Link Colours https://www.w3schools.com/html/html_links_colors.asp
