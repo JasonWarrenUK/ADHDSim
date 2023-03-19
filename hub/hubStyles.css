@@ -14,9 +14,14 @@
         align-items: stretch;
         align-content: space-around;
         gap: 10px 30px;
+        background-color: #dddddd;
+        border-width: 1px;
+        border-style: inset;
     }
     .projectsCard {/*Defaults*/
-        background-color: #999999;
+        background-color: #aaaaaa;
+        border-width: 1px;
+        border-style: outset;
         order: 0;
         flex: 2/*grow*/ 1/*shrink*/ auto/*basis*/;
         align-self: auto;
