@@ -26,31 +26,31 @@ Just me trying to build a basic web page to display capacity to learn different 
 - [ ] Background Image
 ### Pages to Revisit
 - [ ] Links
-      https://www.w3schools.com/html/html_links.asp
-      - [ ] JS: Buttons
+  https://www.w3schools.com/html/html_links.asp
+  - [ ] JS: Buttons
 - [ ] Link Colours
-      https://www.w3schools.com/html/html_links_colors.asp
-      - [ ] CSS: Create some rules around when to present links as buttons
+  https://www.w3schools.com/html/html_links_colors.asp
+  - [ ] CSS: Create some rules around when to present links as buttons
 - [ ] Image Maps
-      https://www.w3schools.com/html/html_images_imagemap.asp
-      - [ ] HTML: <map>
-      - [ ] JS: onclick
+  https://www.w3schools.com/html/html_images_imagemap.asp
+  - [ ] HTML: <map>
+  - [ ] JS: onclick
 - [ ] HTML Unordered Lists
-      https://www.w3schools.com/html/html_lists_unordered.asp
-      - [ ] HTML/CSS: Nav Menu
+  https://www.w3schools.com/html/html_lists_unordered.asp
+  - [ ] HTML/CSS: Nav Menu
 - [ ] HTML & CSS Classes
-      https://www.w3schools.com/html/html_classes.asp
-      - [ ] HTML/CSS: Classes
+  https://www.w3schools.com/html/html_classes.asp
+  - [ ] HTML/CSS: Classes
 - [X] HTMl IDs
-      https://www.w3schools.com/html/html_id.asp
+  https://www.w3schools.com/html/html_id.asp
 - [ ] HTML Layout Techniques
-      https://www.w3schools.com/html/html_layout.asp
-      - [ ] Try CSS frameworks
-      - [ ] Try float
-      - [ ] Try flexbox
-      - [ ] Try grid
+  https://www.w3schools.com/html/html_layout.asp
+  - [ ] Try CSS frameworks
+  - [ ] Try float
+  - [ ] Try flexbox
+  - [ ] Try grid
 - [ ] Responsive HTML
-      https://www.w3schools.com/html/html_responsive.asp
+  https://www.w3schools.com/html/html_responsive.asp
 
 ## Notes
   - Can add gifs just like jpgs etc
