@@ -1,83 +1,23 @@
-# Founders & Coders Application: The Endless Tangent
-## Introduction
-This page is being built to demonstrate my capacity to learn:
+# Founders & Coders Application
+## Documentation
+### Intro Notes
+This repo contains my application projects for the Founders & Coders course.
 
-- HTML
-- CSS
-- JS
-
-It hosts the 5 preliminary projects specified on the course's application.
-
-## Projects
-### Project 1: Rupert J Piggit's Cavern of Curiosidoodles
+### Projects
+#### Project 1: Rupert's Pigpen
 Just me trying to build a basic web page to display capacity to learn different web languages
 
-### Project 2: TBA
-### Project 3: TBA
-### Project 4: TBA
-### Project 5: TBA
+I followed the w3schools HTML tutorial, building this page as I went.
 
-## To Do List
-### Hub Page
-- [ ] Link to Creating Worlds
-- [ ] Image Map for Portfolio?
-- [ ] Fix the fucking pig picture
-- [ ] NavMenu
+To make it a creative project rather than just a process of imitation, I decided to explore how to create humour & personality through code. Therefore, this has been made as the personal website of a small piglet who has just discovered a computer & has no idea what he's doing.
 
-### Somewhere
-- [ ] Background Image
+Examples include:
+- How to make a really ugly colour palette that still actually adheres to colour theory & design principles
+- How to use the code itself to explore humour (e.g. through commenting)
+- Using over-the-top methods to present & explore nonsense ideas (e.g. tables & lists backing up the pig's assertion that we can empirically rate & rank crunchy snacks)
+- Using highlighted text & mouse-over messages to insert silly "notes to self"
 
-## Pages to Revisit
-### W3 Schools
-#### HTML
-##### HTML Tutorial
-- [ ] Links
-  - https://www.w3schools.com/html/html_links.asp
-  - [ ] JS: Buttons
-- [ ] Link Colours
-  - https://www.w3schools.com/html/html_links_colors.asp
-  - [ ] CSS: Create some rules around when to present links as buttons
-- [ ] Image Maps
-  - https://www.w3schools.com/html/html_images_imagemap.asp
-  - [ ] HTML: <map>
-  - [ ] JS: onclick
-- [ ] HTML Unordered Lists
-  - https://www.w3schools.com/html/html_lists_unordered.asp
-  - [ ] HTML/CSS: Nav Menu
-- [ ] HTML & CSS Classes
-  - https://www.w3schools.com/html/html_classes.asp
-  - [ ] HTML/CSS: Classes
-- [X] HTMl IDs
-  - https://www.w3schools.com/html/html_id.asp
-- [ ] HTML Layout Techniques
-  - https://www.w3schools.com/html/html_layout.asp
-  - [ ] Try CSS frameworks
-  - [ ] Try float
-  - [ ] Try flexbox
-  - [ ] Try grid
-- [ ] Responsive HTML
-  - https://www.w3schools.com/html/html_responsive.asp
-- [ ] HTML Symbols
-  - https://www.w3schools.com/html/html_symbols.asp
-- [ ] HTML Emojis
-  - https://www.w3schools.com/html/html_emojis.asp
-- [ ] HTML URLs
-  - https://www.w3schools.com/html/html_urlencode.asp
-
-##### HTML Forms
-- [ ] HTML Forms
-  - https://www.w3schools.com/html/html_forms.asp
-  
-##### HTML Graphics
-##### HTML Media
-##### HTML APIs
-##### HTML Examples
-##### HTML References
-
-## Notes
-  - Can add gifs just like jpgs etc
-  - File Paths:
-    - fileHere.xxx
-    - folderHere/fileThere.xxx
-    - /folderRoot/folderThere/fileThere.xxx
-    - ../fileUp.xxx
+#### Project 2: Coming Soon
+#### Project 3: Coming Soon
+#### Project 4: Coming Soon
+#### Project 5: Coming Soon
