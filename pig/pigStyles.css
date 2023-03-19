@@ -33,6 +33,9 @@
         font-family: 'Indie Flower', cursive;
         padding: 10px;
     }
+    ul, ol, li, dl, dt, dd {
+        text-align: left;
+    }
 /*Links*/
     a:link {
         color: #3CB371;
