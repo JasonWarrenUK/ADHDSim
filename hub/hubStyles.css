@@ -1,4 +1,4 @@
-/*Body*/
+/* Body */
     body {
         /*background-color: #ECA58D;*/
         font-size: large;
@@ -6,7 +6,21 @@
         /*text-align: center;*/
         padding: 20px;
     }
-/*Headings*/
+/* Layout */
+    .projectsGallery {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: space-around;
+        gap: 10px 30px;
+    }
+    .projectsCard {/*Defaults*/
+        order: 0;
+        flex: 0/*grow*/ 1/*shrink*/ auto/*basis*/;
+        align-self: auto;
+    }
+/* Headings */
     h1 {
         font-family: serif;
         /*border: 6px solid royalblue;*/
@@ -23,7 +37,7 @@
     h4 {
         font-family: serif;
     }
-/*Main Text*/
+/* Main Text */
     p {
         /*background-color: #F2C3B3;*/
         padding: 10px;
@@ -36,7 +50,7 @@
     code {
         background-color: #000000;
     }
-/*Links*/
+/* Links */
     a:link {
         /*color: #3CB371;*/
         background-color: transparent;

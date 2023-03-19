@@ -2,12 +2,14 @@
 ## Tasks
 ### Hub Page
 - [ ] Link to Creating Worlds
-- [ ] Image Map for Portfolio?
-- [ ] Fix the fucking pig picture
+- [X] Fix the fucking pig picture
 - [ ] NavMenu
+- [ ] Flexbox Prefixes
+  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-prefixing-flexbox
 
 ### Somewhere
 - [ ] Background Image
+- [ ] Image Map for Portfolio?
 
 ## Pages to Revisit
 ### W3 Schools

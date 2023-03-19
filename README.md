@@ -17,7 +17,7 @@ Examples include:
 - Using over-the-top methods to present & explore nonsense ideas (e.g. tables & lists backing up the pig's assertion that we can empirically rate & rank crunchy snacks)
 - Using highlighted text & mouse-over messages to insert silly "notes to self"
 
-#### Project 2: Coming Soon
-#### Project 3: Coming Soon
-#### Project 4: Coming Soon
-#### Project 5: Coming Soon
+#### Project 2: Project Gallery
+#### Project 3: Movie Data
+#### Project 4: Website
+#### Project 5: Game
