@@ -1,60 +1,63 @@
 /*Body*/
-body {
-    /*background-color: #ECA58D;*/
-    font-size: large;
-    font-family: sans-serif;
-    /*text-align: center;*/
-    padding: 20px;
-}
+    body {
+        /*background-color: #ECA58D;*/
+        font-size: large;
+        font-family: sans-serif;
+        /*text-align: center;*/
+        padding: 20px;
+    }
 /*Headings*/
-h1 {
-    font-family: serif;
-    /*border: 6px solid royalblue;*/
-    padding: 20px;
-}
-h2 {
-    font-family: serif;
-    padding-top: 20px;
-}
-h3 {
-    font-family: serif;
-    padding-top: 5px;
-}
-h4 {
-    font-family: serif;
-}
+    h1 {
+        font-family: serif;
+        /*border: 6px solid royalblue;*/
+        padding: 20px;
+    }
+    h2 {
+        font-family: serif;
+        padding-top: 20px;
+    }
+    h3 {
+        font-family: serif;
+        padding-top: 5px;
+    }
+    h4 {
+        font-family: serif;
+    }
 /*Main Text*/
-p {
-    /*background-color: #F2C3B3;*/
-    padding: 10px;
-}
-pre {
-    /*background-color: #9FC69F;*/
-    font-family: cursive;
-    padding: 10px;
-}
+    p {
+        /*background-color: #F2C3B3;*/
+        padding: 10px;
+    }
+    pre {
+        /*background-color: #9FC69F;*/
+        font-family: cursive;
+        padding: 10px;
+    }
+    code {
+        background-color: #000000;
+    }
 /*Links*/
-a:link {
-    /*color: #3CB371;*/
-    background-color: transparent;
-    font-weight: bold;
-} 
-a:hover {
-    /*color: #228B22;*/
-    background-color: transparent;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
-}  
-a:active {
-    /*color: #3CB371;*/
-    /*background-color: #2F4F4F;*/
-    font-style: italic;
-}
-a:visited {
-    /*color: #2E8B57;*/
-    background-color: transparent;
-}
+    a:link {
+        /*color: #3CB371;*/
+        background-color: transparent;
+        font-weight: bold;
+    } 
+    a:hover {
+        /*color: #228B22;*/
+        background-color: transparent;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }  
+    a:active {
+        /*color: #3CB371;*/
+        /*background-color: #2F4F4F;*/
+        font-style: italic;
+    }
+    a:visited {
+        /*color: #2E8B57;*/
+        background-color: transparent;
+    }
 /* Font Ideas
 Notes Font: 
     'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'

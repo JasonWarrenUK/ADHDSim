@@ -1,4 +1,4 @@
-/*Body*/
+/* Body */
     body {
         background-color: #ECA58D;
         font-size: large;
@@ -6,7 +6,8 @@
         text-align: center;
         padding: 20px;
     }
-/*Headings*/
+
+/* Headings */
     h1 {
         font-family: 'Rampart One', Georgia, Times, serif;
         border: 6px solid royalblue;
@@ -23,7 +24,10 @@
     h4 {
         font-family: 'Domine', 'Arvo', Georgia, Times, serif;
     }
-/*Main Text*/
+
+    .listHead {text-align: left;}
+
+/* Text */
     p {
         background-color: #F2C3B3;
         padding: 10px;
@@ -33,10 +37,25 @@
         font-family: 'Indie Flower', cursive;
         padding: 10px;
     }
-    ul, ol, li, dl, dt, dd {
-        text-align: left;
+
+    article, aside {
+        background-color: #F9E1D9;
+        padding: 10px;
     }
-/*Links*/
+    article {font-family: serif;}
+    aside {
+        font-family: monospace;
+        float: right;
+        padding-left: 15px;
+        margin-left: 15px;
+        width: 30%;
+      }
+
+/* Lists */
+    ul, ol, dl {text-align: left;}
+    li, dt, dd {text-align: left;}
+
+/* Links */
     a:link {
         color: #3CB371;
         background-color: transparent;
@@ -55,39 +74,34 @@
         font-style: italic;
     }
     a:visited {
-        color: #2E8B57;
+        color: #2E8B57; 
         background-color: transparent;
     }
-/*Tables*/
-    table {
-        border: 1px solid #000000;
-        border-style: inset;
-    }
+
+/* Tables */
+    table {border-style: inset;}
     th, td {
         border: 1px solid #ECA58D;
         border-radius: 10px;
         border-style: outset;
         background-color: #9FC69F;
     }
-    tr:nth-child(even) {
-        background-color: #BFC6BF;
-    }
-    tr:hover{
-        font-weight: bold;
-    }
+    tr:hover{background-color: #9Ff69F;}
+
 /* Font Ideas
     Notes Font: 
         'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'
     Mono Font:
         'Syne Mono', monospace
-    */
+*/
 /* Color Swatches
     Dark Salmon-White
         #E9967A Dark Salmon
         #ECA58D body
         #EFB4A0
         #F2C3B3 p
-        #F6D2C6
-        #F9E1D9
+        #F6D2C6 
+        #F9E1D9 article
         #FCF0EC
         #FFFFFF White
+*/

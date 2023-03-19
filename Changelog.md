@@ -1,4 +1,19 @@
-# 23-03-19
+# 23-03-19b
+  ## Structure
+  - created new address references for internal links (a la knots & stitches from ink)
+
+  ## HTML
+  ### index.html
+  - used semantic elements like main, header, footer, nav, aside etc
+  ### pig.html
+  - used semantic elements like main, header, footer, nav, aside etc
+
+  ## CSS
+  ### pigStyles.css
+  - new class: listHead
+  - rules for article & aside
+
+# 23-03-19a
   ## HTML
   ### index.html
   - added meta tags into head

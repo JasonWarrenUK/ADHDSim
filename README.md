@@ -11,6 +11,7 @@ It hosts the 5 preliminary projects specified on the course's application.
 ## Projects
 ### Project 1: Rupert J Piggit's Cavern of Curiosidoodles
 Just me trying to build a basic web page to display capacity to learn different web languages
+
 ### Project 2: TBA
 ### Project 3: TBA
 ### Project 4: TBA
@@ -22,9 +23,14 @@ Just me trying to build a basic web page to display capacity to learn different 
 - [ ] Image Map for Portfolio?
 - [ ] Fix the fucking pig picture
 - [ ] NavMenu
+
 ### Somewhere
 - [ ] Background Image
-### Pages to Revisit
+
+## Pages to Revisit
+### W3 Schools
+#### HTML
+##### HTML Tutorial
 - [ ] Links
   - https://www.w3schools.com/html/html_links.asp
   - [ ] JS: Buttons
@@ -51,6 +57,22 @@ Just me trying to build a basic web page to display capacity to learn different 
   - [ ] Try grid
 - [ ] Responsive HTML
   - https://www.w3schools.com/html/html_responsive.asp
+- [ ] HTML Symbols
+  - https://www.w3schools.com/html/html_symbols.asp
+- [ ] HTML Emojis
+  - https://www.w3schools.com/html/html_emojis.asp
+- [ ] HTML URLs
+  - https://www.w3schools.com/html/html_urlencode.asp
+
+##### HTML Forms
+- [ ] HTML Forms
+  - https://www.w3schools.com/html/html_forms.asp
+  
+##### HTML Graphics
+##### HTML Media
+##### HTML APIs
+##### HTML Examples
+##### HTML References
 
 ## Notes
   - Can add gifs just like jpgs etc
