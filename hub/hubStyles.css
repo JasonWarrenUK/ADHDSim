@@ -9,7 +9,8 @@
 /* Layout */
     /* Project Gallery */
         .projGallery {
-            border: 1px inset #333333 #777777 #999999 #555555;
+            border: 3px inset #333333 #777777 #999999 #555555;
+            background-color: #777777;
             display: flex;
             flex-flow: row wrap;
             justify-content: space-around;
@@ -17,7 +18,8 @@
             align-content: space-around;
         }
         .projCard {
-            border: 1px outset #AAAAAA #666666 #444444 #888888;
+            border: 3px outset #AAAAAA #666666 #444444 #888888;
+            background-color: #888888;
             order: 0;
             flex: 1 1 30%;
         }
