@@ -11,15 +11,16 @@
         .projGallery .projCard {
             border-width: 2px;
             border-radius: 8px;
-            background-color: #777777;
-
-            margin: 5%;
-            padding: 5%;
         }
 
         .projGallery {
             border-style: inset;
             border-color: #333333 #999999 #BBBBBB #555555;
+
+            background-color: #777777;
+
+            padding: 0;
+            margin: 0;
 
             display: flex;
             flex-flow: row wrap;
@@ -31,12 +32,17 @@
             border-style: outset;
             border-color: #BBBBBB #555555 #333333 #999999;
 
+            padding: 5px;
+            margin: 1%;
+
+            width: 45%;
+
             order: 0;
             flex: 1 1 30%;
         }
         .projCardImage {
-            width:40%;
-            height:auto;
+            max-width: 40%;
+            height: auto;
             float: right;
         }
 /* Headings */
