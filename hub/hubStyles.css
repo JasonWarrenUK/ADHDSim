@@ -9,21 +9,14 @@
 /* Layout */
     .projectsGallery {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         justify-content: space-around;
         align-items: stretch;
         align-content: space-around;
-        gap: 10px 30px;
-        background-color: #dddddd;
-        border-width: 1px;
-        border-style: inset;
     }
-    .projectsCard {/*Defaults*/
-        background-color: #aaaaaa;
-        border-width: 1px;
-        border-style: outset;
+    .projectsCard {
         order: 0;
-        flex: 2/*grow*/ 1/*shrink*/ auto/*basis*/;
+        flex: 0 1 auto;
         align-self: auto;
     }
 /* Headings */
