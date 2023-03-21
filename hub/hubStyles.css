@@ -16,6 +16,9 @@
     }
     .projectsCard {
         order: 0;
+        height: auto;
+        width: 30%;
+        flex: 0 1 auto;
     }
 /* Headings */
     h1 {
