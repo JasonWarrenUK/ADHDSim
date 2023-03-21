@@ -60,13 +60,11 @@
     }
 /* Layout */
     /* Project Gallery */
-    .projGallery .projCard {
-        border-width: 4px;
-        border-radius: 8px;
-    }
     .projGallery {
         border-style: inset;
-        border-color: #333333 #999999 #BBBBBB #555555;
+        border-color: #333333 #999999 #BBBBBB #333333;
+        border-width: 4px;
+        border-radius: 8px;
 
         background-color: #777777;
 
@@ -81,17 +79,23 @@
     }
     .projCard {
         border-style: outset;
-        border-color: #BBBBBB #555555 #333333 #999999;
+        border-color: #CCCCCC #555555 #555555 #AAAAAA;
+        border-width: 4px;
+        border-radius: 8px;
 
         padding: 5px;
         margin: 1%;
 
-        width: 45%;
+        background-color: #888888;
+
+        height: 300px;
+        width: 30%;
 
         order: 0;
         flex: 1 1 auto;
     }
     .projImage {
+        max-height: auto;
         max-width: 40%;
         height: auto;
         float: right;
