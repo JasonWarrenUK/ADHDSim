@@ -11,13 +11,11 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        align-items: stretch;
+        align-items: space-around;
         align-content: space-around;
     }
     .projectsCard {
         order: 0;
-        flex: 0 1 auto;
-        align-self: auto;
     }
 /* Headings */
     h1 {
