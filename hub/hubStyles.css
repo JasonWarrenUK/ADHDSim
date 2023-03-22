@@ -98,9 +98,12 @@
         max-width: 33%;
     }
     .projImage {
+        padding: 5px;
+
+        float: right;
+
         max-height: 70%;
         max-width: 40%;
-        float: right;
     }
 /* Font Ideas
 Notes Font: 
