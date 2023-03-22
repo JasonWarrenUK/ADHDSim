@@ -92,10 +92,8 @@
         margin: 5px;
 
         flex: 1 1 400px;
-            /*
-            min-width: 25%;
-            max-width: 33%;
-            */
+            max-width: 500px;
+            /*min-width: 25%;*/
     }
     .projImage {
         padding: 5px;
