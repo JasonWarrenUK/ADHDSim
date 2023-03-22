@@ -77,7 +77,6 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        height: 650px;
         align-items: stretch;
         align-content: space-around;
     }
