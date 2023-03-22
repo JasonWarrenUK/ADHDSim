@@ -23,6 +23,9 @@
     h4 {
         font-family: serif;
     }
+        .projCard > h4 {
+            text-align: center;
+        }
 /* Main Text */
     p {
         /*background-color: #F2C3B3;*/
