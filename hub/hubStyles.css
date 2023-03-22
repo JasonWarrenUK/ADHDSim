@@ -68,7 +68,7 @@
             border-width: 4px;
             border-radius: 12px;
         
-        border-color: #333333 #999999 #BBBBBB #333333;
+        border-color: #444444 #999999 #BBBBBB #666666;
         background-color: #777777;
 
         padding: 5px;
@@ -85,7 +85,7 @@
             border-width: 4px;
             border-radius: 12px;
             
-        border-color: #DDDDDD #555555 #555555 #BBBBBB;
+        border-color: #DDDDDD #777777 #555555 #BBBBBB;
         background-color: #999999;
 
         padding: 5px;
