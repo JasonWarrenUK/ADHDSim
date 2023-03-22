@@ -89,12 +89,13 @@
         background-color: #999999;
 
         order: 0;
-        flex: /*change to 1*/1 1 32%;
+        flex: /*change to 1*/1 1 auto;
 
         padding: 5px;
         margin: 1%;
 
         min-width: 25%;
+        max-width: 33%;
     }
     .projImage {
         max-height: 70%;
