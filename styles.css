@@ -23,9 +23,9 @@
     h4 {
         font-family: serif;
     }
-        .projCard > h4 {
-            text-align: center;
-        }
+    .projCard > h4 {
+        text-align: center;
+    }
 /* Main Text */
     p {
         /*background-color: #F2C3B3;*/
@@ -61,8 +61,7 @@
         /*color: #2E8B57;*/
         background-color: transparent;
     }
-/* Layout */
-    /* Project Gallery */
+/* Flexbox */
     .projGallery {
         border-style: inset;
             border-width: 4px;
