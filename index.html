@@ -33,9 +33,11 @@
 
         <nav id="navi"><!--Main Nav Menu-->
             <ul id="naviLinks">
-                <li><a href="#proj">Projects</a></li>
+                <li><a href="#projApp">Founders & Coders Projects</a></li>
+                <li><a href="#projOther">Other Projects</a></li>
+                <li><a href="#projExperiment">Insignificant Experiments</a></li>
                 <li><a href="#link">Links</a><br></li>
-                <li><a href="#cont">Contact</a></li>
+                <li><a href="#linkCont">Contact</a></li>
             </ul>
         </nav>
 
@@ -44,11 +46,15 @@
         <main><!--Main Content-->
             <section id="proj"><!--Projects-->
                 <h2>Project Pages</h2>
-                <ul id="projNav"><!--Nav Menu: Projects-->
-                    <li><a href="#projApp">Founders & Coders Projects</a><br></li>
-                    <li><a href="#projOther">Other Projects</a></li>
-                    <li><a href="#projExperiment">Insignificant Experiments</a><br></li>
-                </ul>
+                <!-- Blank Project Card 
+                    <section id="proj" class="projCard">
+                        <h4><a href="">Project</a></h4>
+                        <img src="/image/" class="projImage" title="" alt="">
+                        <p>Desc 1.<br>
+                            <br>
+                            Desc 2
+                        </p>
+                    </section>-->
 
                 <h3>Founders & Coders Application</h3><!--Application Projects-->
                 <section id="projApp" class="projGallery">
@@ -157,30 +163,15 @@
                         </p>
                     </section>
                 </section>
-
-                <!-- Blank Project Card 
-                    <section id="proj" class="projCard">
-                        <h4><a href="">Project</a></h4>
-                        <img src="/image/" class="projImage" title="" alt="">
-                        <p>Desc 1.<br>
-                            <br>
-                            Desc 2
-                        </p>
-                    </section>-->
             </section>
 
             <hr />
 
             <section id="link"><!--Links-->
                 <h2>Links</h2>
-                <!--Links Nav Menu
-                    <ul id="linkNav">
-                        <li><a href="#linkProfile">Social Media & Profiles</a></li>
-                        <li><a href="#linkRepo">Repositories</a></li>
-                    </ul>-->
 
-                <section id="linkLink" class="projGallery"><!--Links Gallery-->
-                    <section id="linkProfile" class="projCard"><!--Profile Links-->
+                <section id="linkLink" class="linkGallery"><!--Links Gallery-->
+                    <section id="linkProfile" class="linkCard"><!--Profile Links-->
                         <h3>Profiles</h3>
                         <dl>
                             <dt>GitHub: <a href="https://github.com/JasonWarrenUK" title="GitHub: JasonWarrenUK">JasonWarrenUK</a></dt><dd>Where you can see the code for the projects listed above.</dd>
@@ -188,29 +179,29 @@
                         </dl>
                     </section>
 
-                    <section id="linkRepo" class="projCard"><!--Repo Links-->
+                    <section id="linkRepo" class="linkCard"><!--Repo Links-->
                         <h3>Repositories</h3>
-                        <p>Coming Soon</p>
+                        <dl>
+                            <dt>Coming Soon</dt><dd></dd>
+                        </dl>
+                    </section>
+
+                    <section id="linkCont" class="linkCard"><!--Contact Links-->
+                        <h3>Contact Me</h3>
+                        <ul>
+                            <li><a href="mailto:contact.jwarren@gmail.com">Email Me</a></li>
+                            <li><a href="https://twitter.com/neurosocialist>">Twitter</a></li>
+                        </ul>
                     </section>
                 </section>
-            </section>
-
-            <hr />
-
-            <section id="cont"><!--Contact-->
-                <h2>Contact</h2>
-                <ul>
-                    <li><a href="mailto:contact.jwarren@gmail.com">Email Me</a></li>
-                    <li><a href="https://twitter.com/neurosocialist>">Twitter</a></li>
-                </ul>
             </section>
         </main>
 
         <hr />
 
         <footer id="foot"><!--Footer-->
-            <section id="footNav"><!--End Links-->
-                <p style="text-align: center;"><a href="#contents">Back to Contents</a></p>
+            <section id="footNavi"><!--End Links-->
+                <p style="text-align: center;"><a href="#navi">Back to Contents</a></p>
             </section>
         </footer>
     </body>

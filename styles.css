@@ -62,45 +62,91 @@
         background-color: transparent;
     }
 /* Flexbox */
-    .projGallery {
-        border-style: inset;
+    /* Project Gallery */
+        .projGallery {
+            border-style: inset;
+                border-width: 4px;
+                border-radius: 12px;
+            
+            border-color: #444444 #999999 #BBBBBB #666666;
+            background-color: #777777;
+
+            padding: 5px;
+            margin: 5px;
+
+            display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: stretch;
+                align-content: space-around;
+        }
+        .projCard {
+            border-style: outset;
             border-width: 4px;
             border-radius: 12px;
-        
-        border-color: #444444 #999999 #BBBBBB #666666;
-        background-color: #777777;
+                
+            border-color: #DDDDDD #777777 #555555 #BBBBBB;
+            background-color: #999999;
 
-        padding: 5px;
-        margin: 5px;
+            padding: 5px;
+            margin: 5px;
 
-        display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            align-items: stretch;
-            align-content: space-around;
-    }
-    .projCard {
-        border-style: outset;
-        border-width: 4px;
-        border-radius: 12px;
+            flex: 1 1 400px;
             
-        border-color: #DDDDDD #777777 #555555 #BBBBBB;
-        background-color: #999999;
+            /*min-width: 25%;*/
+            max-width: 500px;
+            /*min-height: 45%;*/
+            max-height: 300px;
+        }
+        .projImage {
+            padding: 5px;
 
-        padding: 5px;
-        margin: 5px;
+            float: right;
 
-        flex: 1 1 400px;
-        
-        /*min-width: 25%;*/
-        max-width: 500px;
-        max-height: 300px;
-    }
-    .projImage {
-        padding: 5px;
+            max-height: 70%;
+            max-width: 40%;
+        }
+    /* Link Gallery */
+        .linkGallery {
+            border-style: inset;
+                border-width: 4px;
+                border-radius: 12px;
+            
+            border-color: #444444 #999999 #BBBBBB #666666;
+            background-color: #777777;
 
-        float: right;
+            padding: 5px;
+            margin: 5px;
 
-        max-height: 70%;
-        max-width: 40%;
-    }
+            display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: stretch;
+                align-content: space-around;
+        }
+        .linkCard {
+            border-style: outset;
+            border-width: 4px;
+            border-radius: 12px;
+                
+            border-color: #DDDDDD #777777 #555555 #BBBBBB;
+            background-color: #999999;
+
+            padding: 5px;
+            margin: 5px;
+
+            flex: 1 1 400px;
+            
+            /*min-width: 25%;*/
+            /*max-width: 500px;*/
+            /*min-height: 45%;*/
+            /*max-height: 300px;*/
+        }
+        .linkImage {
+            padding: 5px;
+
+            float: right;
+
+            max-height: 70%;
+            max-width: 40%;
+        }   
