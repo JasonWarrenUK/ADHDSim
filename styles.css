@@ -81,8 +81,8 @@
     }
     .projCard {
         border-style: outset;
-            border-width: 4px;
-            border-radius: 12px;
+        border-width: 4px;
+        border-radius: 12px;
             
         border-color: #DDDDDD #777777 #555555 #BBBBBB;
         background-color: #999999;
@@ -91,8 +91,10 @@
         margin: 5px;
 
         flex: 1 1 400px;
-            max-width: 500px;
-            /*min-width: 25%;*/
+        
+        /*min-width: 25%;*/
+        max-width: 500px;
+        max-height: 300px;
     }
     .projImage {
         padding: 5px;
@@ -102,19 +104,3 @@
         max-height: 70%;
         max-width: 40%;
     }
-/* Font Ideas
-Notes Font: 
-    'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'
-Mono Font:
-    'Syne Mono', monospace
-*/
-/* Color Swatches
-Dark Salmon-White
-    #E9967A Dark Salmon
-    #ECA58D body
-    #EFB4A0
-    #F2C3B3 p
-    #F6D2C6
-    #F9E1D9
-    #FCF0EC
-    #FFFFFF White
