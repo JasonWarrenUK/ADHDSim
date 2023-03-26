@@ -6,6 +6,7 @@
         /*text-align: center;*/
         padding: 20px;
     }
+
 /* Headings */
     h1 {
         font-family: serif;
@@ -20,25 +21,23 @@
         font-family: serif;
         padding-top: 5px;
     }
-    h4 {
-        font-family: serif;
-    }
-    .projCard > h4 {
-        text-align: center;
-    }
+    h4 {font-family: serif;}
+    
+    .projCard > h4, .linkCard > h4 {text-align: center;}
+
 /* Main Text */
-    p {
-        /*background-color: #F2C3B3;*/
-        padding: 10px;
-    }
+    p {padding: 10px;}
+    code {background-color: #000000;}
     pre {
-        /*background-color: #9FC69F;*/
         font-family: cursive;
         padding: 10px;
     }
-    code {
-        background-color: #000000;
-    }
+
+/* Lists */
+    ul {list-style: circle outside;}
+    dt {font-weight: bold;}
+    dd {padding: 0, 0, 0.5em, 0;}
+
 /* Links */
     a:link {
         /*color: #3CB371;*/
@@ -52,21 +51,15 @@
         font-weight: bold;
         text-decoration: underline;
     }  
-    a:active {
-        /*color: #3CB371;*/
-        /*background-color: #2F4F4F;*/
-        font-style: italic;
-    }
-    a:visited {
-        /*color: #2E8B57;*/
-        background-color: transparent;
-    }
+    a:active {font-style: italic;}
+    a:visited {background-color: transparent;}
+
 /* Flexbox */
     /* Project Gallery */
         .projGallery {
             border-style: inset;
-                border-width: 4px;
-                border-radius: 12px;
+            border-width: 4px;
+            border-radius: 12px;
             
             border-color: #444444 #999999 #BBBBBB #666666;
             background-color: #777777;
@@ -75,10 +68,10 @@
             margin: 5px;
 
             display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-                align-items: stretch;
-                align-content: space-around;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-around;
         }
         .projCard {
             border-style: outset;
@@ -94,7 +87,7 @@
             flex: 1 1 400px;
             
             /*min-width: 25%;*/
-            max-width: 500px;
+            max-width: 550px;
             /*min-height: 45%;*/
             max-height: 300px;
         }
@@ -106,11 +99,12 @@
             max-height: 70%;
             max-width: 40%;
         }
+    
     /* Link Gallery */
         .linkGallery {
             border-style: inset;
-                border-width: 4px;
-                border-radius: 12px;
+            border-width: 4px;
+            border-radius: 12px;
             
             border-color: #444444 #999999 #BBBBBB #666666;
             background-color: #777777;
@@ -119,10 +113,10 @@
             margin: 5px;
 
             display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-                align-items: stretch;
-                align-content: space-around;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-around;
         }
         .linkCard {
             border-style: outset;
@@ -138,7 +132,7 @@
             flex: 1 1 400px;
             
             /*min-width: 25%;*/
-            /*max-width: 500px;*/
+            max-width: 550px;
             /*min-height: 45%;*/
             /*max-height: 300px;*/
         }
@@ -149,4 +143,52 @@
 
             max-height: 70%;
             max-width: 40%;
-        }   
+        }
+    
+    /* Default Gallery */
+        .pageGallery {
+            border-style: hidden;
+            
+            padding: 5px;
+            margin: 5px;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-around;
+        }
+        .textCard {
+            border-style: hidden;
+                
+            padding: 5px;
+            margin: 5px;
+
+            flex: 1 1 400px;
+            
+            /*min-width: 25%;*/
+            /*max-width: 550px;*/
+            /*min-height: 45%;*/
+            /*max-height: 300px;*/
+        }
+        .naviCard {
+            border-style: hidden;
+                
+            padding: 5px;
+            margin: 5px;
+
+            flex: 0 1 400px;
+            
+            /*min-width: 25%;*/
+            max-width: 400px;
+            /*min-height: 45%;*/
+            /*max-height: 300px;*/
+        }
+        .defaImage {
+            padding: 5px;
+
+            float: right;
+
+            max-height: 70%;
+            max-width: 40%;
+        }
