@@ -29,6 +29,7 @@
     p {padding: 10px;}
     code {background-color: #000000;}
     pre {
+        background-color: #999999;
         font-family: cursive;
         padding: 10px;
     }
@@ -159,7 +160,7 @@
             align-content: space-around;
         }
         .textCard {
-            border-style: hidden;
+            border: 1px solid #000000;
                 
             padding: 5px;
             margin: 5px;
