@@ -1,20 +1,19 @@
 # To Do List
-## Tasks
-### Hub Page
-- [ ] Link to Creating Worlds
+## 1. Tasks
+### 1A. Hub Page
+- [X] Link to Creating Worlds
 - [X] Fix the fucking pig picture
-- [ ] NavMenu
+- [X] NavMenu
 - [ ] Flexbox Prefixes
   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-prefixing-flexbox
-
-### Somewhere
+### 1B. Somewhere
 - [ ] Background Image
 - [ ] Image Map for Portfolio?
 
-## Pages to Revisit
-### W3 Schools
-#### HTML
-##### HTML Tutorial
+## 2. Pages to Revisit
+### 2A. W3 Schools
+#### 2A1. HTML
+##### 2A1A. HTML Tutorial
 - [ ] Links
   - https://www.w3schools.com/html/html_links.asp
   - [ ] JS: Buttons
@@ -47,21 +46,19 @@
   - https://www.w3schools.com/html/html_emojis.asp
 - [ ] HTML URLs
   - https://www.w3schools.com/html/html_urlencode.asp
-
-##### HTML Forms
+##### 2A1B. HTML Forms
 - [ ] HTML Forms
   - https://www.w3schools.com/html/html_forms.asp
-  
-##### HTML Graphics
-##### HTML Media
-##### HTML APIs
-##### HTML Examples
-##### HTML References
+##### 2A1C. HTML Graphics
+##### 2A1D. HTML Media
+##### 2A1E. HTML APIs
+##### 2A1F. HTML Examples
+##### 2A1G. HTML References
 
-## Notes
-  - Can add gifs just like jpgs etc
-  - File Paths:
-    - fileHere.xxx
-    - folderHere/fileThere.xxx
-    - /folderRoot/folderThere/fileThere.xxx
-    - ../fileUp.xxx
+## 3. Notes
+- Can add gifs just like jpgs etc
+- File Paths:
+  - fileHere.xxx
+  - folderHere/fileThere.xxx
+  - /folderRoot/folderThere/fileThere.xxx
+  - ../fileUp.xxx
