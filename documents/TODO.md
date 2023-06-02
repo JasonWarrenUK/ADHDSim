@@ -1,83 +1,102 @@
-# To Do List
+# Tasklist
 
-## 1. Tasks
+## Now
 
-### 1A. Project 0: Hub Page
+### Learn
 
-#### 1A1. Hub Images
+#### CSS
 
-- [X] Fix the fucking pig picture
+* [ ] Figure out what Overflow is
 
-#### 1A2. Hub Layout
+#### git
 
-- [ ] Flexbox Prefixes
-  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-prefixing-flexbox>
+* [ ] How to link existing repositories with new computers
 
-#### 1A3. Hub Links
+### Organise
 
-- [X] Link to Creating Worlds
+* [ ] Transcribe the ChatGPT coding action plan into actions on TaskHeat
 
-#### 1A4. Hub UI
+## Not Now
 
-- [X] Make a NavMenu
+### Down the Road: Later
 
-### 1B. Project 1: Hobby Site
+#### Explore Later
 
-### 1C. Project 2: Project Gallery
+##### Explore HTML Later
 
-### 1D. Project 3: Movie Data
+###### HTML Tags to Try
 
-### 1E. Project 4: Website
+* [ ] progress
+  * min, max
+  * low, optimum, high
+  * value
+* [ ] sup & sub
+* [ ] datalist
+  * use inside inputs to add autocomplete suggestions
+  * works on text, color, date, time, range
+* [ ] map & area
+* [ ] details & summary
+* [ ] object
+  * embed PDF, image, video (inc. YouTube), audio
+* [ ] abbr
 
-### 1F. Project 5: Game
+### Over the Horizon: Much Later
 
-## 2. Pages to Revisit
+#### Ambitious Ideas
 
-### 2A. W3 Schools
+##### APIs
 
-#### 2A1. HTML
+* [ ] Pokemon API <https://pokeapi.co/>
+  * lol why not
+  * maybe serve the perfect pokemon for someone's neurotype?
+    * no that's a terrible idea and is a potential gateway to accidental hate crime
+* [ ] agify.io <https://agify.io/>
+* [-] genderize.io <https://genderize.io/>
+  * hell no
+* [ ] nationalize.io <https://nationalize.io/>
+  * careful now
+* [ ] Bored API <http://www.boredapi.com/>
+* [ ] Numbers API <http://numbersapi.com>
+  * HELL YES
+* [ ] Dog API <https://dog.ceo/dog-api/>
+  * Mad not to really
+* [ ] NASA API <https://api.nasa.gov/>
+* [ ] REST Countries <https://restcountries.com/>
+  * omg this is my love language
+* [ ] OpenWeather <https://openweathermap.org/api>
+* [ ] NewsAPI <https://newsapi.org/>
+* [ ] MapBox <https://docs.mapbox.com/api/overview/>
 
-##### 2A1A. General
+### Danger: Rabbit Holes
 
-- [ ] Links
-  <https://www.w3schools.com/html/html_links.asp>
-  - [ ] JS: Buttons
-- [ ] Link Colours
-  <https://www.w3schools.com/html/html_links_colors.asp>
-  - [ ] CSS: Create some rules around when to present links as buttons
-- [ ] Image Maps
-  <https://www.w3schools.com/html/html_images_imagemap.asp>
-  - [ ] HTML Tag: map
-- [/] HTML Unordered Lists
-  <https://www.w3schools.com/html/html_lists_unordered.asp>
-  - [/] HTML/CSS: Nav Menu
-- [X] HTML & CSS Classes
-  <https://www.w3schools.com/html/html_classes.asp>
-  - [X] HTML/CSS: Classes
-- [X] HTMl IDs
-  <https://www.w3schools.com/html/html_id.asp>
-  - [X] HTML: Add \<id> to sections
-- [/] HTML Layout Techniques
-  <https://www.w3schools.com/html/html_layout.asp>
-  - [ ] Try CSS frameworks
-  - [ ] Try float
-  - [X] Try flexbox
-  - [ ] Try grid
-- [ ] Responsive HTML
-  <https://www.w3schools.com/html/html_responsive.asp>
-- [ ] HTML Symbols
-  <https://www.w3schools.com/html/html_symbols.asp>
-- [ ] HTML Emojis
-  <https://www.w3schools.com/html/html_emojis.asp>
-- [ ] HTML URLs
-  <https://www.w3schools.com/html/html_urlencode.asp>
+#### Lists
 
-##### 2A1B. Forms
+* [ ] List of Public APIs <https://github.com/public-apis/public-apis>
 
-- [ ] HTML Forms
-  <https://www.w3schools.com/html/html_forms.asp>
+## Inbox
 
-## 3. Vague Ideas
+### Imported from Old TODO.md
 
-- [ ] Background Image
-- [ ] Image Map for Portfolio?
+* [ ] Links <https://www.w3schools.com/html/html_links.asp>
+  * [ ] JS: Buttons
+* [ ] Link Colours <https://www.w3schools.com/html/html_links_colors.asp>
+  * [ ] CSS: Create some rules around when to present links as buttons
+* [ ] Image Maps <https://www.w3schools.com/html/html_images_imagemap.asp>
+  * [ ] HTML Tag: map
+* [/] HTML Unordered Lists <https://www.w3schools.com/html/html_lists_unordered.asp>
+  * [/] HTML/CSS: Nav Menu
+* [X] HTML & CSS Classes <https://www.w3schools.com/html/html_classes.asp>
+  * [X] HTML/CSS: Classes
+* [X] HTMl IDs <https://www.w3schools.com/html/html_id.asp>
+  * [X] HTML: Add \<id> to sections
+* [/] HTML Layout Techniques <https://www.w3schools.com/html/html_layout.asp>
+  * [ ] Try CSS frameworks
+  * [ ] Try float
+  * [X] Try flexbox
+  * [ ] Try grid
+* [ ] Responsive HTML <https://www.w3schools.com/html/html_responsive.asp>
+* [ ] HTML Symbols <https://www.w3schools.com/html/html_symbols.asp>
+* [ ] HTML Emojis <https://www.w3schools.com/html/html_emojis.asp>
+* [ ] HTML URLs <https://www.w3schools.com/html/html_urlencode.asp>
+
+## fin
