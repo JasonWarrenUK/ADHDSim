@@ -182,14 +182,13 @@ Remember: This is for reminders. Main TODO document should contain all non-ephem
     * Spread
         * ...arr
   * Objects
-    * Key-Value Pairs
-      * Check whether Property Exists
-        * object.hasOwnProperty("property");
-        * "property" in object;
-      * Delete Property
-        * delete object.property;
+    * Check whether Property Exists
+      * object.hasOwnProperty("property");
+      * "property" in object;
+    * Delete Property
+      * delete object.property;
   * Other
-    * An Array of an Object's Properties
+    * Return an Array of an Object's Properties
       * Object.keys(object);
 * Methods
   * .length

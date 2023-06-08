@@ -1,10 +1,24 @@
-# Structure of JasonWarrenUK.github.io
+# Website Scratchpad
 
-## The Endless Tangent
+## Notes
 
-### Main Page
+### HTML
 
-### Achievements/CV
+* width of 80%
+
+### CSS
+
+#### Classes
+
+* page gallery
+
+## Structure of JasonWarrenUK.github.io
+
+### The Endless Tangent
+
+#### Main Page
+
+#### Achievements/CV
 
 ### Game
 
@@ -14,4 +28,4 @@
   * Video Games
     * Disco Elysium
 
-## Rupert's Pigpen
+### Rupert's Pigpen
