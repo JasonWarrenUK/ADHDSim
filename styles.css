@@ -23,8 +23,6 @@ h3 {
 }
 h4 {font-family: serif;}
 
-.projCard > h4, .linkCard > h4 {text-align: center;}
-
 /* Main Text */
 p {padding: 10px;}
 code {background-color: #000000;}
@@ -56,16 +54,16 @@ a:active {font-style: italic;}
 a:visited {background-color: transparent;}
 
 /* Flexbox Project Gallery */
-.projGallery {
-    border-style: inset;
+.projGallery, .projCard {
     border-width: 4px;
     border-radius: 12px;
-    
-    border-color: #444444 #999999 #BBBBBB #666666;
-    background-color: #777777;
-
     padding: 5px;
     margin: 5px;
+}
+.projGallery {
+    border-style: inset;
+    border-color: #444444 #999999 #BBBBBB #666666;
+    background-color: #777777;
 
     display: flex;
     flex-flow: row wrap;
@@ -75,21 +73,15 @@ a:visited {background-color: transparent;}
 }
 .projCard {
     border-style: outset;
-    border-width: 4px;
-    border-radius: 12px;
-        
     border-color: #DDDDDD #777777 #555555 #BBBBBB;
     background-color: #999999;
-
-    padding: 5px;
-    margin: 5px;
 
     flex: 1 1 400px;
     
     /*min-width: 25%;*/
     max-width: 550px;
     /*min-height: 45%;*/
-    max-height: 300px;
+    max-height: auto;
 }
 .projImage {
     padding: 5px;
@@ -146,12 +138,15 @@ a:visited {background-color: transparent;}
 }
 
 /* Flexbox Default Gallery */
-.pageGallery {
-    border-style: hidden;
-    
+.pageGallery, .textCard {
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 12px;
     padding: 5px;
     margin: 5px;
-
+}
+.pageGallery {
+    border-style: inset;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -159,13 +154,8 @@ a:visited {background-color: transparent;}
     align-content: space-around;
 }
 .textCard {
-    border: 1px none #000000;
-        
-    padding: 5px;
-    margin: 5px;
-
+    border-style: outset;
     flex: 1 1 400px;
-    
     /*min-width: 25%;*/
     /*max-width: 550px;*/
     /*min-height: 45%;*/
@@ -192,3 +182,6 @@ a:visited {background-color: transparent;}
     max-height: 70%;
     max-width: 40%;
 }
+
+/* Flexbox Headings */
+.projCard > h4, .linkCard > h4 {text-align: center;}
