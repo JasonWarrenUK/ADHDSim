@@ -36,6 +36,7 @@ pre {
 ul {list-style: circle outside;}
 dt {font-weight: bold;}
 dd {padding: 0, 0, 0.5em, 0;}
+/*details {border: solid;}*/
 
 /* Links */
 a:link {
