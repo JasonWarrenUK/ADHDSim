@@ -1,5 +1,7 @@
 # Learning Log
 
+[Back Home](/index.html)
+
 ## To Do
 
 Remember: This is for reminders. Main TODO document should contain all non-ephemeral tasks
@@ -11,50 +13,43 @@ Remember: This is for reminders. Main TODO document should contain all non-ephem
 * Thought Catcher
   * [ ] Web app to give people ideas for small meaningful changes they can make when they feel shit because they haven't got any change to give
 
-## Questions
+## My Questions
 
-* JavaScript
-  * [ ] Can I create an address for a deeply-nested array?
-    * Something like...
-      * let arrayAddress = array[0][0][0][0][0][1];
-        arrayAddress = "blue";
-      * And this changes the array item being addressed to "blue", rather replacing the address with the string "blue"
-  * [ ] Can I push items to an array with...
-    * [ ] array += item
-    * [ ] array += [item]
-    * [ ] array += [item, item]
+### My Questions: JavaScript
+
+* [ ] Can I create an address for a deeply-nested array?
+  * Something like...
+    * let arrayAddress = array[0][0][0][0][0][1];
+      arrayAddress = "blue";
+    * And this changes the array item being addressed to "blue", rather replacing the address with the string "blue"
+* [ ] Can I push items to an array with...
+  * [ ] array += item
+  * [ ] array += [item]
+  * [ ] array += [item, item]
 
 ## Progress
 
-### Basic Overview
-
-* Application
-  * [ ] Application Form
+* [/] Application
+  * [/] Application Form
   * [/] Codewars
-    * 7th Kyu
-  * [-] Website
-    * On hold til basic fCC completed
-  * [/] Game
-    * Basic Ideas
-* Learning
-  * [/] freeCodeCamp
-    * [/] Responsive Web Design
-    * [/] JavaScript Algorithms & Data Structures
+  * [/] Website
+  * [/] Games
+* [/] Learning
+  * [/] freeCodeCamp: Responsive Web Design
+  * [/] freeCodeCamp: JavaScript Algorithms & Data Structures
 
-### Application
-
-#### Codewars
+### [/] Codewars
 
 * Week 1: May 29th-June 4th
   * Tuesday May 30th: Hit 1st Kyu
   * Thursday June 1st:
   * Friday June 2nd:
 
-#### Website
+### [/] Website
 
 * Friday June 2nd: 
 
-#### Game
+### [/] Game
 
 * Thursday June 1st
   * Wrote facGame.js on my phone to experiment with recreating ink data structures in JS
@@ -101,11 +96,9 @@ Remember: This is for reminders. Main TODO document should contain all non-ephem
     * along with custom functions to query & modify the LIST item
 * Friday June 2nd: 
 
-### Learning
+### [/] Learning
 
-#### freeCodeCamp
-
-##### Responsive Web Design
+#### [/] Responsive Web Design
 
 * [X] Level 1 (FAC Recommended)
   * [X] HTML
@@ -132,7 +125,7 @@ Remember: This is for reminders. Main TODO document should contain all non-ephem
   * [ ] CSS Animation
   * [ ] CSS Transforms
 
-##### JavaScript Algorithms & Data Structures
+#### [/] JavaScript Algorithms & Data Structures
 
 * [/] Level 1 (FAC Recommended)
   * [X] Basic JavaScript (June 1st)
@@ -150,49 +143,73 @@ Remember: This is for reminders. Main TODO document should contain all non-ephem
 
 ## Knowledge Captures
 
-### CSS
+### CSS Knowledge
 
 * parent::after
     Creates an element that is the last child of the parent element
 
-### JavaScript
+### HTML Knowledge
 
-* Arrays & Objects
-  * Arrays
-    * Index of
-      * array.indexOf(x)
-      * returns -1 if element not found
-    * Shift & Unshift
-      * shift()
-      * unshift(x)
-    * Slice & Splice
-      * slice(x, y)
-        * start at index x
-        * extract all elements from there until index y
-        * do not extract index y
-        * do not modify original array
-      * splice(x, y, a)
-        * start at index x
-        * remove y elements
-        * return a new array containing those elements
-        * at index x, replace removed elements with a, b, c...
-    * Pop & Push
-      * pop()
-      * push(x)
-    * Spread
-        * ...arr
-  * Objects
-    * Check whether Property Exists
-      * object.hasOwnProperty("property");
-      * "property" in object;
-    * Delete Property
-      * delete object.property;
-  * Other
-    * Return an Array of an Object's Properties
+### JavaScript Knowledge
+
+#### Arrays & Objects
+
+##### Arrays
+
+* Index of
+  * array.indexOf(x)
+  * returns -1 if element not found
+* Shift & Unshift
+  * shift()
+  * unshift(x)
+* Slice & Splice
+  * slice(x, y)
+    * start at index x
+    * extract all elements from there until index y
+    * do not extract index y
+    * do not modify original array
+  * splice(x, y, a)
+    * start at index x
+    * remove y elements
+    * return a new array containing those elements
+    * at index x, replace removed elements with a, b, c...
+* Pop & Push
+  * pop()
+  * push(x)
+* Spread
+      * ...arr
+
+##### Objects
+
+* Check whether Property Exists
+  * object.hasOwnProperty("property");
+  * "property" in object;
+* Delete Property
+  * delete object.property;
+* Other
+  * Return an Array of an Object's Properties
       * Object.keys(object);
-* Methods
-  * .length
-    * Arrays: Number of elements in the array
+
+#### Methods
+
+* .length
+  * Arrays: Number of elements in the array
+
+### Markdown Knowledge
+
+#### Markdown Links
+
+* Destinations
+  * External: Try [Google](https://www.google.com/) for more info.
+  * Internal: Need to [contact someone](/least-github-pages/contact.html)?
+* Relative Directory Notation, 
+  * ./ (current directory), and two docs followed by a slash 
+  * ../ (parent directory)
+* Examples
+  * assets/img/screenshot-home-1024x512.png
+  * ../chapter1.md
+  * ../../chapter1.md
+
 
 ## Journals
 
