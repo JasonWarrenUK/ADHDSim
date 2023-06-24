@@ -2,7 +2,7 @@
 
 Description
 
-[Back Home](/index.html)
+* [Back Home](/index.html)
 
 ## Prompt Prefix
 
@@ -10,8 +10,9 @@ Description
 
 ## Chat Logs
 
-Saturday 17th June
-[Allowing User Annotations](/bard230617.md)
+### Saturday 17th June
+* [Allowing User Annotations](/bard230617.md)
 
-Saturday 24th June
-[Creating a Web of Linked Nodes](/bard230624.md#Creating-a-Web-of-Linked-Nodes)
+### Saturday 24th June
+* [Creating a Web of Linked Nodes](/bard230624.md#Creating-a-Web-of-Linked-Nodes)
+* [Neurotype Switcher](/bard230624.md#Neurotype-Switcher)
