@@ -19,12 +19,12 @@
 
 ### Feature Ideas
 
-* [Dark Mode](/documents/logsAI/bard230624.md#neurotype-switcher)
-* [Neurotype Picker](/documents/logsAI/bard230624.md#neurotype-switcher)
+* [Dark Mode](/documents/logAI/bard230624.md#neurotype-switcher)
+* [Neurotype Picker](/documents/logAI/bard230624.md#neurotype-switcher)
   * Inattentive: Fade Outs
   * Hyperactive/Impulsive: ?
   * Hyperfocus: No Back Button
-* [User Annotations](/documents/logsAI/bard230617.md)
+* [User Annotations](/documents/logAI/bard230617.md)
 
 ### Page Ideas
 
@@ -36,7 +36,7 @@
 
 #### Page Ideas: Structural
 
-* [Glossary Map](/documents/logsAI/bard230624.md#Creating-a-Web-of-Linked-Nodes)
+* [Glossary Map](/documents/logAI/bard230624.md#Creating-a-Web-of-Linked-Nodes)
 
 #### Page Ideas: Helpful
 
