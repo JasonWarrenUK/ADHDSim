@@ -1,0 +1,147 @@
+/* Body */
+body {
+    max-width: 80%;
+    padding: 20px;
+    /*background-color: #ECA58D;*/
+    font-size: large;
+    font-family: sans-serif;
+    /*text-align: center;*/
+}
+
+/* Text Etc */
+h1 {
+    font-family: serif;
+    /*border: 6px solid royalblue;*/
+    padding: 20px;
+}
+h2 {
+    font-family: serif;
+    padding-top: 20px;
+}
+h3 {
+    font-family: serif;
+    padding-top: 5px;
+}
+h4 {font-family: serif;}
+
+p {padding: 10px;}
+code {background-color: #000000;}
+pre {
+    background-color: #999999;
+    font-family: cursive;
+    padding: 10px;
+}
+
+ul {list-style: circle outside;}
+li {margin: 0.5em;}
+dt {font-weight: bold;}
+dd {padding: 0, 0, 0.5em, 0;}
+/*details {border: solid;}*/
+
+/* Links */
+a:link {/*color: #3CB371;*/ font-weight: bold;}
+a:hover, a:active {color: #ffffff;}
+a:visited {/*color: #228B22;*/ font-style: italic;}
+
+/* Flexbox */
+.gallGen, .gallGhost, .gallLink, .gallNavi, .gallProj {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+    
+    padding: 25px;
+    margin: 50px;
+}
+.gallGen, .gallNavi {
+    border: 1px inset #000000;
+    border-radius: 12px;
+}
+.gallNavi_WrapYes, .gallNavi_WrapNo {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+}
+.gallNavi_WrapYes { flex-wrap: wrap;}
+.gallNavi_WrapNo { flex-wrap: nowrap;}
+
+.gallLink, .gallProj {
+    border: 4px inset #444444 #999999 #BBBBBB #666666;
+    background-color: #777777;
+}
+
+/* Flex Items */
+.cardGhost {
+    flex: 1 0 auto;
+    max-width: 50%;
+}
+
+.cardLink, .cardNavi, .cardProj, .cardText {
+    flex: 1 1 auto /*was 400px*/;
+    /*
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+    */
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.cardLink, .cardProj {
+    max-width: 50%;
+    border: 4px outset #DDDDDD #777777 #555555 #BBBBBB;
+    background-color: #999999;
+    padding: 5px;    
+}
+.cardProj {
+    max-height: auto;
+}
+
+.cardNavi, .cardText {
+    border: 1px outset #000000;
+    padding: 0px 10px;
+}
+.cardNavi {        
+    min-width: 15%;
+    max-width: 80%;
+}
+.cardText {
+    min-width: 30%;
+    max-width: 35%;
+}
+
+/* Within Flex Items */
+.cardProj > h4, .cardLink > h4, .cardNavi > h4, .cardText > h4 {
+    text-align: center;
+}
+.cardProj > img {
+    padding: 5px;
+    
+    float: right;
+    
+    max-height: 70%;
+    max-width: 40%;
+}
+
+.cardNavi > ol {list-style-type: georgian;}
+
+/* To Sort */
+.linkImage {
+    padding: 5px;
+    
+    float: right;
+    
+    max-height: 70%;
+    max-width: 40%;
+}
+.defaImage {
+    padding: 5px;
+
+    float: right;
+
+    max-height: 70%;
+    max-width: 40%;
+}
