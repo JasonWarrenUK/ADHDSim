@@ -1,71 +1,138 @@
-/* Body */
-body {
-    max-width: 80%;
-    padding: 20px;
-    /*background-color: #ECA58D;*/
-    font-size: large;
-    font-family: sans-serif;
-    /*text-align: center;*/
-}
+/* META */
+    body {
+        /*max-width: 80%;*/
+        padding: 1em;
+        /*background-color: #ECA58D;*/
+        font-size: large;
+        font-family: sans-serif;
+        /*text-align: center;*/
+    }
 
-/* Text Etc */
-h1 {
-    font-family: serif;
-    /*border: 6px solid royalblue;*/
-    padding: 20px;
-}
-h2 {
-    font-family: serif;
-    padding-top: 20px;
-}
-h3 {
-    font-family: serif;
-    padding-top: 5px;
-}
-h4 {font-family: serif;}
+    header, footer {
+        margin: 1em;
+        border: 2px solid lime;
+        border-radius: 12px;
+        padding: 1em;
+    }
 
-p {padding: 10px;}
-code {background-color: #000000;}
-pre {
-    background-color: #999999;
-    font-family: cursive;
-    padding: 10px;
-}
+    nav, aside {
+        margin: 1em;
+        border: 2px solid orange;
+        border-radius: 12px;
+        padding: 1em;
+    }
 
-ul {list-style: circle outside;}
-li {margin: 0.5em;}
-dt {font-weight: bold;}
-dd {padding: 0, 0, 0.5em, 0;}
-/*details {border: solid;}*/
+    section {
+        margin: 1em;
+        border: 2px solid deeppink;
+        border-radius: 12px;
+        padding: 1em;
+    }
+
+    div {
+        margin: 1em;
+        border: 2px dashed deeppink;
+        border-radius: 12px;
+        padding: 1em;
+    }
+      
+    article {
+        margin: 1em;
+        border: 2px solid #000000;
+        border-radius: 12px;
+        padding: 1em;
+    }
+
+/* PAGE LAYOUT */
+    /*Top & Tail*/
+    footer {
+        height: 30vh;
+    }
+    footer {
+        height: 10vh;
+    }
+    /*Central Section*/
+    .flexContainer0 {
+        display: flex;
+        /*100 - header - footer*/
+        min-height: calc(100vh - 40vh);
+    }
+
+    .flexContainer0 > article {
+        flex: 1;
+    }
+
+    /*Side Sections*/
+    .flexContainer0 > nav {
+        flex: 0 0 20vw;
+    }
+    .flexContainer0 > aside {
+        flex: 0 0 15vw;
+    }
+
+    /*Nav comes first*/
+    .flexContainer0 > nav {
+    order: -1;
+    }
+
+
+/* TEXT */
+    h1, h2, h3, h4 {
+        font-family: sans-serif;
+        /*border: 6px solid royalblue;*/
+        padding: 20px auto 5px;
+    }
+
+    p {padding: 10px;}
+    code {background-color: #000000;}
+    pre {
+        background-color: #999999;
+        font-family: cursive;
+        padding: 10px;
+    }
+
+    ul {list-style: circle outside;}
+    li {margin: 0.5em;}
+    dt {font-weight: bold;}
+    dd {padding: 0, 0, 0.5em, 0;}
+    /*details {border: solid;}*/
 
 /* Links */
-a:link {/*color: #3CB371;*/ font-weight: bold;}
-a:hover, a:active {color: #ffffff;}
-a:visited {/*color: #228B22;*/ font-style: italic;}
+    a:link {/*color: #3CB371;*/ font-weight: bold;}
+    a:hover, a:active {color: #ffffff;}
+    a:visited {/*color: #228B22;*/ font-style: italic;}
 
 /* Flexbox */
-.gallGen, .gallGhost, .gallLink, .gallNavi, .gallProj {
+.gallGen, .gallGhost, .gallLink, .gallProj {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: stretch;
-    align-content: space-around;
+    align-content: stretch;
+
+    flex: 0;
     
     padding: 25px;
     margin: 50px;
 }
-.gallGen, .gallNavi {
+.flexContainer1_column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+
+    flex: 1 0 auto;
+    
+    /*margin: 50px;*/
+    border: 2px dashed goldenrod;
+    border-radius: 12px;
+    /*padding: 25px;*/
+}
+.gallGen {
     border: 1px inset #000000;
     border-radius: 12px;
 }
-.gallNavi_WrapYes, .gallNavi_WrapNo {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: center;
-}
-.gallNavi_WrapYes { flex-wrap: wrap;}
-.gallNavi_WrapNo { flex-wrap: nowrap;}
 
 .gallLink, .gallProj {
     border: 4px inset #444444 #999999 #BBBBBB #666666;
@@ -101,7 +168,7 @@ a:visited {/*color: #228B22;*/ font-style: italic;}
 }
 
 .cardNavi, .cardText {
-    border: 1px outset #000000;
+    border: 2px outset #000000;
     padding: 0px 10px;
 }
 .cardNavi {        
@@ -120,7 +187,7 @@ a:visited {/*color: #228B22;*/ font-style: italic;}
 .cardProj > img {
     padding: 5px;
     
-    float: right;
+    /*float: right;*/
     
     max-height: 70%;
     max-width: 40%;
@@ -132,7 +199,7 @@ a:visited {/*color: #228B22;*/ font-style: italic;}
 .linkImage {
     padding: 5px;
     
-    float: right;
+    /*float: right;*/
     
     max-height: 70%;
     max-width: 40%;
@@ -140,7 +207,7 @@ a:visited {/*color: #228B22;*/ font-style: italic;}
 .defaImage {
     padding: 5px;
 
-    float: right;
+    /*float: right;*/
 
     max-height: 70%;
     max-width: 40%;

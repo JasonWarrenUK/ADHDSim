@@ -7,7 +7,7 @@
 * The Endless Tangent
   * Home
   * About me
-    * [ ] give examples of actor journeys
+    * [ ] give examples of student journeys
     * [ ] Testimonials
 * Rupert's Pigpen
 * Nihilistic Narrative Game
@@ -58,7 +58,7 @@
   * FlowSavvy + Goblin Tools
   * Sorting Factors
     * Tagging
-    * Deadlines: 
+    * Deadlines
       * Date
       * Rigidity
     * Priority
@@ -66,9 +66,9 @@
       * Consequence
   * NatLang Input
 * Self-Knowledge Tool
-* [Theatre of the Oppressed]() Conflict Resolution Tools
+* [Theatre of the Oppressed] Conflict Resolution Tools
 * Typological Concept Correlator
-* [Variable Cues]()
+* [Variable Cues]
 
 ##### Cage of Integrations
 
