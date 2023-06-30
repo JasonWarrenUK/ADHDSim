@@ -1,23 +1,41 @@
 # Tasklist
 
+## Inbox
+
+* [ ] web of linked nodes
+
 ## Organisation
 
-* ~Stop putting content everywhere~ LOLno
-* [ ] Pull all content from elsewhere into MarkDown docs
-  * [X] Pull content from Goblin Tools
-  * [ ] Pull content from ChatGPT
-  * [ ] Pull content from Bard
-  * [ ] Pull content from BuJo
-  * [ ] Pull content from ProJo
-  * [ ] Pull content from FireFox Tab Collections
-* [ ] Move content from MarkDown docs to HTML files
-  * [ ] Move content from deconstruction
-  * [ ] Move content from sparks
-  * [ ] Move content from portfolio
-  * [ ] Move content from cage
-  * [ ] Move content from archive
-  * [ ] Move content from machine
-* [ ] Fix document links (documents/file -> documents/planning/file)
+* [ ] Fix document links 
+  (documents/file -> documents/planning/file)
+* [ ] ~Stop putting content everywhere~ LOLno Aggregate all tasks
+  * [ ] Move tasks into this TODO
+    * [X] Move Goblin Tools tasks to this TODO
+    * [ ] Move AI tasks into this TODO
+      * [X] Pull tasks from Goblin Tools
+      * [ ] Move ChatGPT tasks to this TODO
+        * [X] Pull content from ChatGPT
+      * [X] Move Bard tasks to this TODO
+        * [X] Pull content from Bard
+    * [ ] Move XxJo tasks to this TODO
+      * [ ] Move BuJo tasks to this TODO
+        * [ ] Pull content from BuJo
+      * [ ] Move ProJo tasks to this TODO
+        * [ ] Pull content from ProJo
+  * [ ] Aggregate all content
+    * [ ] Move content into planning docs
+      * [ ] Pull content from Bard
+      * [ ] Pull content from ChatGPT
+      * [ ] Pull content from FireFox Tab Collections
+      * [ ] Pull content from BuJo
+      * [ ] Pull content from ProJo
+    * [ ] Move content to html
+      * [ ] Move content from deconstruction
+      * [ ] Move content from sparks
+      * [ ] Move content from portfolio
+      * [ ] Move content from cage
+      * [ ] Move content from archive
+      * [ ] Move content from machine
 
 ## Action Plan
 
@@ -30,12 +48,14 @@ Courtesy of [Goblin Tools](https://goblin.tools/)
   * [X] Submit repo link
   * [ ] Create basic functioning website
     * [ ] Create HTML structure
-      * [X] Create structure of index.html
-      * [ ] Create structure of portfolio.html
-      * [ ] Create structure of deconstruction.html
-      * [ ] Create structure of sparks.html
-      * [ ] Create structure of cage.html
-      * [ ] Create structure of archive.html
+      * [ ] Create page structures
+        * [X] Create structure of index.html
+        * [ ] Create structure of portfolio.html
+        * [ ] Create structure of deconstruction.html
+        * [ ] Create structure of sparks.html
+        * [ ] Create structure of cage.html
+        * [ ] Create structure of archive.html
+      * [ ] Create frame (?) structure
     * [ ] Write website content
       * [ ] Write content for index.html
       * [ ] Write content for portfolio.html
