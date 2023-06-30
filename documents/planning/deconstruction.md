@@ -1,6 +1,16 @@
-# Who, What, Where, When, How & Why
+# Applicant Atomiser
+
+function deconstruct(who){
+  data = who.closet(skeletons);
+  return data;
+}
+
+deconstruct(jason)
 
 [Back Home](/index.html)
+
+## Function
+Factual Overview of 
 
 ## Who?
 
