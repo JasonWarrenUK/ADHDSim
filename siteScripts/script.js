@@ -3,7 +3,7 @@
 */
 
 // CONTENT SWITCHER v2
-var showNow = document.getElementById("home")
+/*var showNow = document.getElementById("home")
 var navMenu = document.getElementById("left");
 var navLinks = navMenu.querySelectorAll("li");
 
@@ -22,4 +22,18 @@ for (var i = 0; i < navLinks.length; i++) {
         var goHere = this.id;
         showContent(goHere);
     });
-}
+}*/
+
+document.addEventListener("DOMContentLoaded", function() {
+    var navMenu = document.getElementById("left");
+    var navLinks = navMenu.querySelectorAll("li");
+
+    for (var i = 0; i < navLinks.length; i++) {
+      var link = navLinks[i];
+      var contentId = link.getAttribute("data-content-id");
+      var content = document.getElementById(contentId);
+      link.addEventListener("click", function() {
+        content.classList.toggle("hidden");
+      });
+    }
+  });
