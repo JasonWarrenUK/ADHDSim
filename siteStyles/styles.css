@@ -75,6 +75,10 @@
     order: -1;
     }
 
+/* SECTIONS */
+    .hidden {
+        display: none;
+    }
 
 /* TEXT */
     h1, h2, h3, h4 {

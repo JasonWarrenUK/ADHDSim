@@ -6,7 +6,7 @@
 
 ## Organisation
 
-* [ ] Fix document links 
+* [ ] Fix document links
   (documents/file -> documents/planning/file)
 * [ ] ~Stop putting content everywhere~ LOLno Aggregate all tasks
   * [ ] Move tasks into this TODO
@@ -64,10 +64,10 @@ Courtesy of [Goblin Tools](https://goblin.tools/)
       * [ ] Write content for cage.html
       * [ ] Write content for archive.html
     * [ ] Create normie stylesheet
-      * [X] SORT OUT THE FUCKING FLEXBOXES
+      * [X] SORT OUT THE FECKING FLEXBOXES
       * [ ] Choose normie fonts
       * [ ] Choose normie colour scheme
-  * [ ] Create cool ADHD website
+  * [ ] Create cool neuroawesome website
   * [ ] Add neurotype behaviours
     * [ ] Learn DOM
       * [ ] Learn DOM: Structure of DOM
