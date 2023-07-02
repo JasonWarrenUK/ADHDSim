@@ -3,18 +3,23 @@
 */
 
 // CONTENT SWITCHER v2
+var showNow = document.getElementById("home")
+var navMenu = document.getElementById("left");
+var navLinks = navMenu.querySelectorAll("li");
 
-function showContent(id) {
-    var origin = document.getElementById(id);
-    var target = document.getElementById(origin.dataset.contentId);
-    target.classList.remove("hidden");
+function showContent(what) {
+    var showLink = document.getElementById(what);
+    var showNext = document.getElementById(showLink.dataset.contentId);
+    
+    showNow.classList.add("hidden")
+    showNext.classList.remove("hidden");
+    showNow = showingNext;
   }
-  
-  var menuNav = document.getElementById("left");
-  var links = menuNav.querySelectorAll("li");
-  for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function() {
-      var origin = this.id;
-      showContent(origin);
+
+
+for (var i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener("click", function() {
+        var goHere = this.id;
+        showContent(goHere);
     });
-  }
+}
