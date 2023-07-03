@@ -1,4 +1,9 @@
 {
     "outline.collapseItems": "alwaysCollapse",
-    "breadcrumbs.symbolSortOrder": "name"
+    "breadcrumbs.symbolSortOrder": "name",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#451C50",
+        "titleBar.activeBackground": "#60276F",
+        "titleBar.activeForeground": "#FDFBFE"
+    }
 }
