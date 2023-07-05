@@ -22,6 +22,8 @@
         padding: 1em;
     }
 
+        nav li {list-style-type: none;}
+
     section {
         margin: 1em;
         border: 2px solid deeppink;
@@ -45,8 +47,8 @@
 
 /* PAGE LAYOUT */
     /*Top & Tail*/
-    footer {
-        height: 30vh;
+    header {
+        height: 15vh;
     }
     footer {
         height: 10vh;
@@ -55,7 +57,7 @@
     .flexContainer0 {
         display: flex;
         /*100 - header - footer*/
-        min-height: calc(100vh - 40vh);
+        min-height: calc(100vh - 25vh);
     }
 
     .flexContainer0 > article {
@@ -75,8 +77,16 @@
     order: -1;
     }
 
+    .flexContainer0 #middle {
+        min-width: 45vw;
+    }
+
 /* SECTIONS */
-    .hidden {
+    .showYes {
+        display:block
+    }
+
+    .showNo {
         display: none;
     }
 
