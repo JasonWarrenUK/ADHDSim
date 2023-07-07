@@ -21,7 +21,7 @@
     }
   }); */
 
-  // VALIDATED
+  //FUCK OFF WHY IS THIS BIT SO STOOPID
   /*document.addEventListener("DOMContentLoaded", function() {
     var navMenu = document.getElementById("naviLinksPageList"); 
     var navLinks = navMenu.querySelectorAll("li");
@@ -36,7 +36,6 @@
     }
   });*/
 
-  
   /*
   document.addEventListener("DOMContentLoaded", function() {
     var navMenu = document.getElementById("naviLinksPageList");
@@ -53,19 +52,21 @@
   });
   */
 
-  // Version 25832558 *cries*
-  document.addEventListener("DOMContentLoaded", function() {
-    var navMenu = document.getElementById("naviLinksPageList");
-    var navLinks = navMenu.querySelectorAll("li");
-  
-    navLinks.addEventListener("click", function() {
-      var contentTarget = contentLink.getAttribute("data-content-id");
-      var contentNew = document.getElementById(contentTarget);
-      if (!contentNew.classList.contains("showYes")) {
-        contentNew.classList.add("showYes");
-      }
-    });
+  // THIS IS SO JANKY
+  /*getElementById("showDeconstrction").addEventListener("click", function() {
+    document.getElementById("middle").innerHtml = "/sitePages/deconstruction.html";
+  }
+  );*/
+
+  /*
+  navLinks.addEventListener("click", function() {
+    var contentTarget = contentLink.getAttribute("data-content-id");
+    var contentNew = document.getElementById(contentTarget);
+    if (!contentNew.classList.contains("showYes")) {
+      contentNew.classList.add("showYes");
+    }
   });
+  */
 
 // SYMPTOMS
   // Template
@@ -92,7 +93,7 @@
   }
 
 // SYMPTOM SWITCHER
-  addEventListener.getElementById("symptom")("click", function({
+  addEventListener.getElementById("symptom")("click", function(symptom){
     if (symptom.on = true){
       addSpice(symptom);
     } else {
@@ -107,9 +108,9 @@
     // add symptom
     neurotype.symptomNames += symptom.sName;
       neurotype.spiceLevel = neurotype.symptomNames.length;
-    neurotype.contents +=
-    neurotype.features +=
-    neurotype.styles +=
+    neurotype.contents += "a";
+    neurotype.features += "a";
+    neurotype.styles += "a";
   }
   
   function goBeige(symptom){
