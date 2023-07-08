@@ -1,79 +1,91 @@
-/* META */
-    body {
-        padding: 1em;
-        font-size: large;
-        font-family: sans-serif;
-    }
-    header, footer, nav, aside, section, div, article {
-        margin: 1em;
-        border-radius: 12px;
-        padding: 1em;
-    }
-    header, footer, div, article {border: 2px solid #000000;}
-    header, footer {border-color: limegreen;}
-    aside {border-color: orange;}
-    nav {padding: 0;}
+/*|| PAGE LAYOUT ||*/
+    /*General*/
+        body {
+            font-size: large;
+            font-family: sans-serif;
+        }
+        header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
+        header, footer, section, nav, aside, article {
+            margin: 1em;
+            padding: 1em;
+        }
+        footer {border: 1px dashed limegreen;}
 
-/* PAGE LAYOUT */
     /*Top to Tail*/
-        header {height: 15vh;}
-        .flexContainer0 {display: flex;}/*min-height: calc(100vh - 25vh);*/
-        footer {height: 10vh;}
+        .gallery0_head {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+
+            max-height: 15vh;
+            border: 1px dashed darkcyan;
+            padding: 0 auto;
+        }
+        .gallery0_main {
+            display: flex;
+            flex-flow: row nowrap;
+            /*min-height: calc(100vh - 25vh);*/
+        }
+        .gallery0_bottom{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+
+            max-height: 10vh;
+            border: 1px dashed darkcyan;
+            padding: 0 auto;
+        }
     
     /*Left to Right*/
-        .flexContainer0 > #left {
-            flex: 0 0 20vw;
-            order: -1; /*Nav comes first*/
-        }
-        .flexContainer0 > #middle {
-            flex: 0 1 auto;
-            min-width: 30vw;
-        }
-        .flexContainer0 > #right {flex: 0 0 15vw;}
-        .flexContainer0 > article {flex: 1;}
+        #left {order: -99; flex: 0 1 15%;}
+        #middle {order: 0; flex: 1 1 70%;}
+        #right {order: 99; flex: 0 1 15%;}
+    
+    /* Show & Hide */
+        .showYes {display:block}
+        .showNo {display: none;}
 
-/* SECTIONS */
-    .showYes {display:block}
-    .showNo {display: none;}
-
-/* TEXT */
+/*|| TEXT FORMATTING ||*/
     /*General*/
-        h1, h2, h3, h4 {padding: 20px auto 5px;}
-        p {padding: 10px;}
+        h1, h2, h3, h4, h5, h6 {padding: 20px auto 5px; text-align: center;}
+        p {line-height: 1.2em;}
         /*code {}*/
-        pre {
-            background-color: #999999;
-            font-family: cursive;
-            padding: 10px;
-        }
-        summary del {color: #aa0000;}
-
+        pre {font-family: cursive;}
+        summary del {color: #aa0000;} /*strikethru details*/
+    
     /*Lists*/
-        /*details {border: solid;}*/
-        nav details {
-            padding: 0px 20px;
-            line-height: 1.5em;
-        }
         ul {list-style: circle outside;}
-        details ul {
-            border: 2px outset #000000;
-            border-radius: 20px;
-            background-color: #eeeeee;
-            padding: 10px;
-        }
         li {margin: 0.5em;}
-        nav li {list-style-type: none;}
         dt {font-weight: bold;}
         dd {padding: 0, 0, 0.5em, 0;}
     
     /*Links*/
         a:link {font-weight: bold;}
-        a:hover, a:active {color: #ffffff;}
+        /*a:hover, a:active {color: #ffffff;} LOL*/
         a:visited {font-style: italic;}
-    
-    /*Buttons*/
-        #neuroswitcher {text-align: center;}
-        #neuroswitcher button {
+
+/*|| WITHIN LEFT ||*/
+    /*General*/
+        #left details {/*menus in nav*/
+            padding: 0px 20px;
+            line-height: 1.5em;
+        }
+        #left ul {/*ul inside details*/
+            border: 2px outset #000000;
+            border-radius: 20px;
+            background-color: #eeeeee;
+            padding: 10px;
+        }
+        #left li {list-style-type: none;} /*no bullet in nav*/
+
+/*|| WITHIN RIGHT ||*/
+    /*General*/
+        #right {text-align: center;}
+        #right button {
             margin: 10px auto;
             border: 5px double #000000;
             border-radius: 5px;
@@ -81,7 +93,7 @@
             padding: 5px 10px;
             font-weight: lighter;
         }
-        #neuroswitcher button:hover {
+        #right button:hover {
             text-decoration-line: underline;
             background-color:#9999aa;
             color: yellow;
@@ -89,47 +101,90 @@
             font-weight:bolder
         }
 
-/* Flexbox */
-    .flexContainer1_column {
+/*|| FLEX GALLERIES ||*/
+    .gallery1_column {
+        flex: 1 0 auto;
+
         display: flex;
         flex-flow: column nowrap;
         justify-content: start;
-        align-items: center;
-        align-content: stretch;
-        flex: 1 0 auto;
-    }
-
-    .gallGen, .gallProj {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
         align-items: stretch;
         align-content: stretch;
 
-        flex: 0;
-        
-        margin: 50px;
-        border: 4px inset #444444 #999999 #BBBBBB #666666;
-        border-radius: 12px;
-        padding: 25px;
+        border: 1px dashed darkkhaki;
     }
-    .gallProj {background-color: #777777;}
+    .gallery1_row {
+        flex: 0;
 
-/* Flex Items */
-    .cardLayout {
-        flex: 0 1 auto /*was 400px*/;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: start;
+        align-content: start;
         
+        border: 1px dashed darkcyan;
+        /*background-color: #777777;*/
+    }
+
+/*|| FLEX CARDS ||*/
+    .cardSite {
+        flex: 1 1 auto;
+        margin: 1em 0;
+        max-width: 50%;
+    }
+    .cardPage {
+        flex: 1 1 auto;
+        margin: auto 0;
+        max-width: 30%;
+    }
+    .cardLayout {
+        flex: 0 1 auto;
         margin: 5px;
-        min-width: 80%;
+        
         max-width: 80%;
         border: 2px outset #000000;
         border-radius: 12px;
         padding: 10px;
     }
-    .cardLayout h3, .cardLayout h4 {text-align: center;}
-    .cardLayout > ol {list-style-type: georgian;}
+    .cardProject {
+        flex: 1 1 30%;
+        margin: 5px;
+        
+        max-width: 80%;
+        border: 2px outset #000000;
+        border-radius: 12px;
+        padding: 10px;
 
-/* To Sort
+        text-align: center;
+    }
+    .cardGhost {
+        flex: 0 1 auto;
+        margin: 1em;
+        border-style: none;
+        border-radius: 12px;
+    }
+    
+    /*Within Layout Card*/
+        .cardLayout :is(h2, h3, h4, h5, h6) {text-align: center;}
+        .cardLayout p {
+            display: block;
+            margin: auto;
+            max-width: 80%;
+            padding: 1em 0 0 0;
+        }
+        .cardLayout ol {list-style-type: georgian;}
+        .cardLayout > *:last-child {padding-bottom: 1em;}
+
+    /*Within Project Cards*/
+        .cardProject img {
+            margin: auto;
+            max-width: 60%;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+
+/*|| TO SORT ||*/
+    /*Images*/
     .linkImage {
         padding: 5px;
         float: right;
@@ -142,4 +197,3 @@
         max-height: 70%;
         max-width: 40%;
     }
-*/
