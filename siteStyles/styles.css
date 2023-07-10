@@ -1,16 +1,58 @@
-/*|| PAGE LAYOUT ||*/
-    /*General*/
-        body {
-            font-size: large;
-            font-family: sans-serif;
-        }
-        header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
-        header, footer, section, nav, aside, article {
-            margin: 1em;
-            padding: 1em;
-        }
-        footer {border: 1px dashed limegreen;}
+/*################################################*/
+/*#               LIGHTS UP!!                    #*/
+/*################################################*/
 
+body {
+    font-size: large;
+    font-family: sans-serif;
+}
+header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
+header, footer, section, nav, aside, article {
+    margin: 1em;
+    padding: 1em;
+}
+footer {border: 1px dashed limegreen;}
+
+/*|| FORMATTING ||*/
+    /*Headers*/
+        h1, h2, h3, h4, h5, h6 {
+            padding: 20px auto 5px;
+            text-align: center;
+        }
+
+    /*Text*/
+        p {line-height: 1.2em;}
+        /*code {}*/
+        pre {font-family: cursive;}
+        summary del {color: #aa0000;} /*strikethru details*/
+
+    /*Links*/
+        a:link {font-weight: bold;}
+        /*a:hover, a:active {color: #ffffff;} LOL*/
+        a:visited {font-style: italic;}
+
+    /*Lists*/
+        ul {list-style: circle outside;}
+        li {margin: 0.5em;}
+        dt {font-weight: bold;}
+        dd {padding: 0, 0, 0.5em, 0;}
+
+
+/*################################################*/
+/*################  ############  ################*/
+/*####   ######        ######        ######   ####*/
+/*#####   ###                          ###   #####*/
+/*#######      NOW, LET US GET FUNKY!      #######*/
+/*#####   ###                          ###   #####*/
+/*####   ######        ######        ######   ####*/
+/*################  ############  ################*/
+/*################################################*/
+
+/*################################################*/
+/*#                 L A Y O U T                  #*/
+/*################################################*/
+
+/*|| LEVEL 0: PAGE STRUCTURE ||*/
     /*Top to Tail*/
         .gallery0_head {
             display: flex;
@@ -44,89 +86,83 @@
         #left {order: -99; flex: 0 1 15%;}
         #middle {order: 0; flex: 1 1 70%;}
         #right {order: 99; flex: 0 1 15%;}
-    
-    /* Show & Hide */
-        .showYes {display:block}
-        .showNo {display: none;}
 
-/*|| TEXT FORMATTING ||*/
-    /*General*/
-        h1, h2, h3, h4, h5, h6 {padding: 20px auto 5px; text-align: center;}
-        p {line-height: 1.2em;}
-        /*code {}*/
-        pre {font-family: cursive;}
-        summary del {color: #aa0000;} /*strikethru details*/
-    
-    /*Lists*/
-        ul {list-style: circle outside;}
-        li {margin: 0.5em;}
-        dt {font-weight: bold;}
-        dd {padding: 0, 0, 0.5em, 0;}
-    
-    /*Links*/
-        a:link {font-weight: bold;}
-        /*a:hover, a:active {color: #ffffff;} LOL*/
-        a:visited {font-style: italic;}
 
-/*|| WITHIN LEFT ||*/
-    /*General*/
-        #left details {/*menus in nav*/
-            padding: 0px 20px;
-            line-height: 1.5em;
-        }
-        #left ul {/*ul inside details*/
-            border: 2px outset #000000;
-            border-radius: 20px;
-            background-color: #eeeeee;
-            padding: 10px;
-        }
-        #left li {list-style-type: none;} /*no bullet in nav*/
+/*################################################*/
+/*#                   SECTIONS                   #*/
+/*################################################*/
 
-/*|| WITHIN RIGHT ||*/
-    /*General*/
-        #right {text-align: center;}
-        #right button {
-            margin: 10px auto;
-            border: 5px double #000000;
-            border-radius: 5px;
-            background-color: #fefeee;
-            padding: 5px 10px;
-            font-weight: lighter;
+/*|| LEVEL 1: SECTION STRUCTURE ||*/
+    /*Any Section*/
+        .gallery1_column {
+            flex: 1 0 auto;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: stretch;
+            align-content: stretch;
+
+            border: 1px dashed darkkhaki;
         }
-        #right button:hover {
-            text-decoration-line: underline;
-            background-color:#9999aa;
-            color: yellow;
-            text-transform: uppercase;
-            font-weight:bolder
+        .gallery1_row {
+            flex: 0;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: start;
+            align-content: start;
+            
+            border: 1px dashed darkcyan;
+            /*background-color: #777777;*/
         }
 
-/*|| FLEX GALLERIES ||*/
-    .gallery1_column {
-        flex: 1 0 auto;
+    /*Left Section*/
+        /*Formatting*/
+            #left details {/*menus in nav*/
+                padding: 0px 20px;
+                line-height: 1.5em;
+            }
+            #left ul {/*ul inside details*/
+                border: 2px outset #000000;
+                border-radius: 20px;
+                background-color: #eeeeee;
+                padding: 10px;
+            }
+            #left li {list-style-type: none;} /*no bullet in nav*/
 
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: start;
-        align-items: stretch;
-        align-content: stretch;
+    /*Middle Section*/
+        /*Classes*/
+            .showYes {display:block}
+            .showNo {display: none;}
 
-        border: 1px dashed darkkhaki;
-    }
-    .gallery1_row {
-        flex: 0;
+    /*Right Section*/
+        /*Formatting*/
+            #right {text-align: center;}
+        /*Buttons*/
+            #right button {
+                margin: 10px auto;
+                border: 5px double #000000;
+                border-radius: 5px;
+                background-color: #fefeee;
+                padding: 5px 10px;
+                font-weight: lighter;
+            }
+            #right button:hover {
+                text-decoration-line: underline;
+                background-color:#9999aa;
+                color: yellow;
+                text-transform: uppercase;
+                font-weight:bolder
+            }
 
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: start;
-        align-content: start;
-        
-        border: 1px dashed darkcyan;
-        /*background-color: #777777;*/
-    }
 
-/*|| FLEX CARDS ||*/
+/*################################################*/
+/*#                   C A R D S                  #*/
+/*################################################*/
+
+/*|| CARD TYPES ||*/
     .cardSite {
         flex: 1 1 auto;
         margin: 1em 0;
@@ -164,7 +200,8 @@
         border-radius: 12px;
     }
     
-    /*Within Layout Card*/
+/*|| CARD CONTENT ||*/
+    /*Layout Card*/
         .cardLayout :is(h2, h3, h4, h5, h6) {text-align: center;}
         .cardLayout p {
             display: block;
@@ -175,7 +212,7 @@
         .cardLayout ol {list-style-type: georgian;}
         .cardLayout > *:last-child {padding-bottom: 1em;}
 
-    /*Within Project Cards*/
+    /*Project Cards*/
         .cardProject img {
             margin: auto;
             max-width: 60%;
@@ -183,17 +220,19 @@
             border-radius: 20px;
         }
 
-/*|| TO SORT ||*/
+
+/*################################################*/
+/*#                   T R A S H                  #*/
+/*################################################*/
     /*Images*/
-    .linkImage {
-        padding: 5px;
-        float: right;
-        max-height: 70%;
-        max-width: 40%;
-    }
-    .defaImage {
-        padding: 5px;
-        float: right;
-        max-height: 70%;
-        max-width: 40%;
-    }
+        .linkImage, .defaImage {
+            padding: 5px;
+            /*float: right;*/
+            max-height: 70%;
+            max-width: 40%;
+        }
+    
+
+/*################################################*/
+/*#            ~ ~ ~ ¡SILENCIO! ~ ~ ~            #*/
+/*################################################*/

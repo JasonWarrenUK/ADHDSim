@@ -28,58 +28,1031 @@
         <nav id="left">
             <h2>Navigation</h2>
             <div class="gallery1_column">
-                <div class="cardLayout">
-                    <details><summary><b>Pages</b></summary>
-                        <ul id="naviLinks">
-                            <li><a href="/index.html">Home</a></li>
-                            <li><a href="/sitePages/deconstruction.html">Jason Deconstructor</a></li>
-                            <li><a href="/sitePages/vault.html"><del>Vault</a></li>
-                            <li><a href="/sitePages/sparks.html">Sparks</a></li>
-                            <li><a href="/sitePages/portfolio.html">Portfolio of Nonsense Innit</a></li>
-                            <li><a href="/sitePages/machine.html">The Machine</a></li>
-                            <li><a href="/sitePages/cage.html">The Cage</a></li>
-                        </ul>
-                    </details>
-                </div>
-                <div class="cardLayout">
-                    <details><summary><b>Projects</b></summary>
-                        <ul id="naviLinksProjectList">
-                            <li id="goGame"><a href="siteGame/gamePage.html">Nihilistic Narrative Game</a></li>
-                        </ul>
-                    </details>
-                </div>
-                <div class="cardLayout">
-                    <details><summary><del>WIP Nav Links</del></summary>
-                        <ul>
-                            <li id="showIndex" data-content-id="index"><a href="#">Home</a></li>
-                            <li id="showDeconstruction" data-content-id="deconstruction"><a href="#">Jason Deconstructor</a></li>
-                            <li id="showArchive" data-content-id="archive"><a href="#"><del>Vault</a></li>
-                            <li id="showVault" data-content-id="vault"><a href="#">Sparks</a></li>
-                            <li id="showPortfolio" data-content-id="portfolio"><a href="#">Portfolio of Nonsense Innit</a></li>
-                            <li id="showMachine" data-content-id="machine"><a href="#">The Machine</a></li>
-                            <li id="showCage" data-content-id="cage"><a href="#">The Cage</a></li>
-                        </ul>
-                    </details>
-                </div>
-                <div class="cardLayout">
-                    <details><summary><b>Test Builds</b></summary>
-                        <ul id="naviLinksTestsList">
-                            <li><a href="/experiments/labs/frame.html">Nav Frame Tester</a></li>
-                            <li><a href="experiments/testBuilds/indexCoffee.html">Coffee Test</a></li>
-                            <li><a href="experiments/testBuilds/indexHistories.html">Histories Test</a></li>
-                            <li><a href="experiments/testBuilds/indexNavBar.html">Navbar Test</a></li>
-                        </ul>
-                    </details>
-                </div>
+                <details id="naviOld" class="cardLayout">
+                    <summary><b>Navigation (Old)</b></summary>
+                    <ul id="naviOldList">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/sitePages/deconstruction.html">Jason Deconstructor</a></li>
+                        <li><a href="/sitePages/vault.html"><del>Vault</a></li>
+                        <li><a href="/sitePages/sparks.html">Sparks</a></li>
+                        <li><a href="/sitePages/portfolio.html">Portfolio of Nonsense Innit</a></li>
+                        <li><a href="/sitePages/machine.html">The Machine</a></li>
+                        <li><a href="/sitePages/cage.html">The Cage</a></li>
+                    </ul>
+                </details>
+        
+                <details id="naviNew" class="cardLayout">
+                    <summary><del>Navigation (New)</del></summary>
+                    <ul id="naviNewList">
+                        <li><a id="showHome" href="#">Home</a></li>
+                        <li><a id="showDeconstructor" href="#">Deconstructor</a></li>
+                        <li><a id="showVault" href="#"><del>Oubliette</del><ins>Vault</ins> of <del>Shame</del><ins>Wonder</ins></a></li>
+                        <li id="showSparks">
+                            <a href="/sitePages/sparks.html">Sparks</a>
+                        </li>
+                        <li id="showPortfolio">
+                            <a href="/sitePages/portfolio.html">Portfolio of Nonsense Innit</a>
+                        </li>
+                        <li id="showMachine">
+                            <a href="/sitePages/machine.html">The Machine</a>
+                        </li>
+                        <li id="showCage">
+                            <a href="/sitePages/cage.html">The Cage</a>
+                        </li>
+                    </ul>
+                </details>
+        
+                <details id="naviProjects" class="cardLayout">
+                    <summary><b>Projects</b></summary>
+                    <ul id="naviProjectList">
+                        <li id="goGame">
+                            <a href="siteGame/gamePage.html">Nihilistic Narrative Game</a>
+                        </li>
+                        <li id="goPigpen">
+                            <a href="">Rupert's Pigpen</a>
+                        </li>
+                    </ul>
+                </details>
+        
+                <details id="naviTests" class="cardLayout">
+                    <summary><b>Test Builds</b></summary>
+                    <ul id="naviLinksTestsList">
+                        <li><a href="/experiments/labs/frame.html">Nav Frame Tester</a></li>
+                        <li><a href="experiments/testBuilds/indexCoffee.html">Coffee Test</a></li>
+                        <li><a href="experiments/testBuilds/indexHistories.html">Histories Test</a></li>
+                        <li><a href="experiments/testBuilds/indexNavBar.html">Navbar Test</a></li>
+                    </ul>
+                </details>
             </div>
         </nav>
         
-        <section id="middle">
-            <h2>Blurby</h2>
-            <div id="home">
+        <section id="middle"> 
+            <div id="home" class="showYes">
+                <h2>Blurby</h2>
+
                 <p>This is totally just a placeholder right now, but one day, ONE DAY, it will be a glorious hub; an ætheric guide connecting you to my achievements throughout the digital world.</p>
+
                 <p>A glowing beacon, some would say, of what humanity could be.</p>
+
                 <p>When humanity finally finishes this grand collective experiment in Dadaist art (destroying the planet), this page will stand as our epitaph.</p>
+            </div>
+
+            <div id="deconstructor" class="showNo">
+                <section id="brainDump">
+                    <h3>Brain Dump</h3>
+                    <details>
+                        <summary>Beliefs</summary>
+                        <ul>
+                            <li>AnarchoSocialist as fuck</li>
+                            <li>Enabling All Uplifts All</li>
+                            <li>Men are dying, feminism can save us</li>
+                            <li>From my anger, to everyone's path</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>About Me</summary>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>Neurofucked</summary>
+                                    <ul>
+                                        <li>
+                                            <details>
+                                                <summary>ADHD as Fuck</summary>
+                                                <ul>
+                                                    <li>
+                                                        <details>
+                                                            <summary>Superpowers</summary>
+                                                            <ul>
+                                                                <li>Masters Disso</li>
+                                                            </ul>
+                                                        </details>
+                                                    </li>
+                                                    <li>
+                                                        <details>
+                                                            <summary>Diagnosed at 32</summary>
+                                                            <ul>
+                                                                <li>
+                                                                    <details>
+                                                                        <summary>BSB</summary>
+                                                                        <ul>
+                                                                            <li>School Reports</li>
+                                                                        </ul>
+                                                                    </details>
+                                                                </li>
+                                                                <li>Chris Main</li>
+                                                            </ul>
+                                                        </details>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>Probably autistic lol</li>
+                                    </ul>
+                                </details> 
+                            </li>
+                            <li>Brothers</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>Places I've Sullied</summary>
+                    </details>
+                
+                    <details>
+                        <summary>Random Shit</summary>
+                        <ul>
+                            <li>Fragment</li>
+                            <li>Carthage</li>
+                        </ul>
+                    </details>
+                    
+                    <details>
+                        <summary>Shit That Shaped Me</summary>
+                            <ul>
+                                <li>Greg Love</li>
+                            </ul>
+                    </details>
+                    
+                    <details>
+                        <summary>Actor Training: East 15</summary>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>Neurodivergence in Actor Training</summary>
+                                    <ul>
+                                        <li>Testimonials</li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>BA PT Chekhov</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>Immersive Theatre</summary>
+                        <ul>
+                            <li>Creating Worlds</li>
+                            <li>Anima</li>
+                            <li>#MSND</li>
+                        </ul>
+                    </details>
+                    
+                    <hr/>
+                
+                    <details>
+                        <summary>Pedagogy</summary>
+                        <ul>
+                            <li>Southwark Playhouse</li>
+                            <li>Victoria Education Centre</li>
+                            <li>Neurodivergence Faculty Support</li>
+                        </ul>
+                    </details>
+                    
+                    <hr/>
+                
+                    <details>
+                        <summary>Other Career Shit</summary>
+                        <ul>
+                            <li>Srebrenica</li>
+                            <li>AXIS Arts</li>
+                        </ul>
+                    </details>
+                </section>
+                
+                <section id="markdownImport">
+                    <h2 id="applicant-atomiser">Applicant Atomiser</h2>
+                    <code>function deconstruct(who){
+                    data = who.closet(skeletons);
+                    return data;
+                    }
+                
+                    deconstruct(jason)
+                    </code>
+                
+                    <hr />
+                
+                    <p>Five Facts</p>
+                
+                    <hr />
+                
+                    <h3 id="who-">Who?</h3>
+                    <ul>
+                        <li>Family<ul>
+                            <li>Farlen, Jared</li>
+                            <li>Guy<ul>
+                                <li>Joe</li>
+                                <li>Michelle</li>
+                                <li>Nick</li>
+                                <li>Ollie</li>
+                            </ul></li>
+                            <li>Layhe<ul>
+                                <li>Harriet</li>
+                            </ul></li>
+                            <li>Tiller, Zoe</li>
+                            <li>Warren<ul>
+                                <li>Claire</li>
+                                <li>Harry</li>
+                                <li>Kevin</li>
+                                <li>Max</li>
+                            </ul></li>
+                            <li>Young, David</li>
+                        </ul></li>
+                        <li>Not Family<ul>
+                            <li>Brooks, Andrea</li>
+                            <li>Koval, Darya</li>
+                            <li>Love, Greg</li>
+                            <li>Maine, Chris</li>
+                        </ul></li>
+                    </ul>
+                
+                    <hr />
+                
+                    <h3 id="what-">What?</h3>
+                    <h4 id="what-now-">What Now?</h4>
+                    <ul>
+                    <li>Southwark Playhouse</li>
+                    <li>Neurodivergent Artist Support<ul>
+                    <li>Student</li>
+                    <li>Faculty</li>
+                    </ul>
+                    </li>
+                    </ul>
+                
+                    <hr />
+                    
+                    <h4 id="what-the-fuck-">What the Fuck?</h4>
+                    <ul>
+                    <li>Carthage</li>
+                    <li>Fragment</li>
+                    <li>ink<ul>
+                    <li>The Ballad of the Hungry Piglet</li>
+                    <li>Prisms</li>
+                    <li>The Work</li>
+                    <li>Incredible, Yet...</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    
+                    <hr />
+                
+                    <h3 id="where-">Where?</h3>
+                    <ul>
+                    <li>The South<ul>
+                    <li>Bournemouth</li>
+                    <li>Ringwood</li>
+                    <li>Victoria Education Centre</li>
+                    </ul>
+                    </li>
+                    <li>London<ul>
+                    <li>East 15</li>
+                    <li>Southwark Playhouse</li>
+                    <li>Walthamstow</li>
+                    </ul>
+                    </li>
+                    <li>Brisbane</li>
+                    <li>Moscow</li>
+                    <li>Srebrenica</li>
+                    <li>Istanbul</li>
+                    <li>Akrotiri</li>
+                    </ul>
+                
+                    <hr />
+                
+                    <h3 id="when-">When?</h3>
+                    <ul>
+                    <li>0-19<ul>
+                    <li>6-11 St Thomas Garnet</li>
+                    <li>11-16 Bournemouth School<ul>
+                    <li>Expelled</li>
+                    </ul>
+                    </li>
+                    <li>16 Brockenhurst College</li>
+                    <li>17 Pampurred Pets</li>
+                    <li>18 Oaklands College</li>
+                    <li>19 Arts University Bournemouth</li>
+                    </ul>
+                    </li>
+                    <li>20-29<ul>
+                    <li>20 Australia</li>
+                    <li>21 Ashdown</li>
+                    <li>22-26 Victoria Education Centre<ul>
+                    <li>24-26 Greg Love</li>
+                    </ul>
+                    </li>
+                    <li>25 Anima</li>
+                    <li>26-27 East 15 MA Directing<ul>
+                    <li>Moscow</li>
+                    <li>MA Dissertation</li>
+                    </ul>
+                    </li>
+                    <li>27-30 AXIS Arts<ul>
+                    <li>Season 1<ul>
+                    <li>#MSND</li>
+                    </ul>
+                    </li>
+                    <li>Season 2</li>
+                    <li>28 Two Girls</li>
+                    </ul>
+                    </li>
+                    <li>29 East 15 MA Acting</li>
+                    </ul>
+                    </li>
+                    <li>30-Now<ul>
+                    <li>Srebrenica</li>
+                    <li>East 15 BA Physical Theatre</li>
+                    <li>Creating Worlds</li>
+                    <li>Southwark Playhouse</li>
+                    </ul>
+                    </li>
+                    </ul>
+                
+                    <hr />
+                
+                    
+                    <h3 id="how">How</h3>
+                    <ul>
+                    <li>Neurodivergent Pedagogy</li>
+                    </ul>
+                
+                    <h3 id="why-">Why?</h3>
+                    <blockquote><p>Kill All Normies</p></blockquote>
+                    <ul>
+                    <li>AnarchoSocialist as fuck</li>
+                    <li>ADHD as Fuck</li>
+                    <li>Probably Autistic</li>
+                    <li>Only feminism can save men</li>
+                    <li>Anger is an energy</li>
+                    <li>Disability Provision Should be Mandatory, Enabling All Strengthens All</li>
+                    <li>Healthcare Must Be Free for All at the Point of Access</li>
+                    <li>Illiterate then Not</li>
+                    <li>Neurodivergence<ul>
+                    <li>Screenings for All Students at All Major Transitions with Considerations for Other Identities</li>
+                    </ul>
+                    </li>
+                    <li>Private &amp; Selective Education Should Be Dismantled<ul>
+                    <li>I went to a selective state school.</li>
+                    <li>Two of my half-brothers went to private schools</li>
+                    </ul>
+                    </li>
+                    <li>Trans rights are human rights</li>
+                    <li>No role models for me</li>
+                    <li>A* &amp; U ain&#39;t normal</li>
+                    </ul>
+                    <blockquote><p>Fuck Small Talk</p></blockquote>
+                </section>
+            </div>
+            
+            <div id="vault" class="showNo">
+                <h2>STUFF I'VE DONE</h2>
+                <section id="biogCareer" class="gallGen">
+                    <section id="immersiveTheatre" class="textCard">
+                        <h4>INTERACTIVE THEATRE</h4>
+                        <p>I WROTED A BOOK</p>
+                        <ul>
+                            <li><a href="https://www.amazon.co.uk/Creating-Worlds-Immersive-Theatre-Making/dp/1848424450">IT'S ON AMAZON FOR I HAVE NO SOUL</a></li>
+                            <br />
+                            <li><a href="https://www.nickhernbooks.co.uk/creating-worlds">THESE FOOLS PUBLISHED ME</a></li>
+                        </ul>
+                    </section>
+                    
+                    <section id="neurodivergence" class="textCard">
+                        <h4>NEURODIVERGENCE</h4>
+                        <p>I WORK WITH NEURODIVERGENT WEIRDBRAINS LIKE ME</p>
+                    </section>
+
+                    <section id="actorTraining" class="textCard">
+                        <h4>ACTOR TRAINING</h4>
+                        <p>I TRAIN ACTORS AND HAVE DESIGNED DEGREE COURSES BUT I NEVER GET A FACULTY ROLE BECAUSE THE DRAMA SCHOOLS DON'T LIKE IT WHEN I ASK THEM TO MAYBE NOT BE WEIRD ABUSIVE CULT LEADERS</p>
+                    </section>
+
+                    <section id="disability" class="textCard">
+                        <h4>PEDAGOGY</h4>
+                        <p>I'VE SPENT A LONG TIME DEVELOPING A PEDAGOGY THAT CELEBRATES & CENTRES DISABILITY RATHER THAN JUST ACCOMODATING IT. IT'S VERY FUN. ALSO I CAN'T PAY MY BILLS.</p>
+                    </section>
+
+                    <section id="activism" class="textCard">
+                        <h4>SOME OTHER COOL SHIT I'VE DONE</h4>
+                        <section id="srebrenica">
+                            <h5>SREBRENICA</h5>
+                            <p>I WENT TO SREBRENICA AND WORKED WITH THE SURVIVORS OF THE GENOCIDE THERE. IT WAS UNEXPECTEDLY LOLS.</p>
+                            <section id="srebrenicaPics">
+                                <p>Srebrenica Pics</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section>
+                    <h2 id="teaching">Teaching</h2>
+                        <ul>
+                            <li>give examples of student journeys</li>
+                            <li>Testimonials</li>
+                        </ul>
+                    <h2 id="creating-worlds">Creating Worlds</h2>
+                        <ul>
+                            <li>Links</li>
+                            <li>Reviews</li>
+                        </ul>
+                    <h2 id="soup">SouP</h2>
+                        <ul>
+                            <li>Journeys</li>
+                            <li>Felix</li>
+                        </ul>
+                </section>
+            </div>
+            
+            <div id="sparks" class="showNo">
+                <h3>WHAT ME LIKEY</h3>
+
+                <p>Podcasts, Books, Sake, maybe jam some APIs in there</p>
+
+                <section id="pigLikes" class="gallGen">
+                    <section id="pigLikes1" class="textCard">
+                        <h4>ME LIKEY 1</h4>
+                        <p>A PODCAST</p>
+                    </section>
+                    <section id="pigLikes2" class="textCard">
+                        <h4>ME LIKEY 2</h4>
+                        <p>A NOT PODCAST</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h2 id="books">Books</h2>
+                    <h3 id="books-fiction">Books: Fiction</h3>
+                    <ul>
+                    <li>Anathem</li>
+                    </ul>
+                    <h3 id="books-non-fiction">Books: Non-Fiction</h3>
+                    <h4 id="books-history">Books: History</h4>
+                    <ul>
+                    <li>Fifth Sun</li>
+                    <li>Origins of the Anglo-Saxons, The</li>
+                    </ul>
+                    <h2 id="analogue-games-game-design">Analogue Games &amp; Game Design</h2>
+                    <h3 id="analogue-game-design-concepts">Analogue Game Design Concepts</h3>
+                    <ul>
+                    <li>Legacy Games</li>
+                    </ul>
+                    <h3 id="analogue-games-makers">Analogue Games &amp; Makers</h3>
+                    <h4 id="tabletop-rpgs">Tabletop RPGs</h4>
+                    <ul>
+                    <li>Burning Wheel</li>
+                    </ul>
+                    <h2 id="history">History</h2>
+                    <h3 id="eurasia-west-africa-north-">Eurasia (West) &amp; Africa (North)</h3>
+                    <ul>
+                    <li><a href="https://www.thearchaeologist.org/blog/kingdom-of-armenia-between-rome-amp-parthia-ancient-history-documentary">Armenia (Kingdom of)</a></li>
+                    </ul>
+                    <h4 id="ancient">Ancient</h4>
+                    <h5 id="ancient-bronze-">Ancient (Bronze)</h5>
+                    <ul>
+                    <li>Akrotiri</li>
+                    </ul>
+                    <h5 id="ancient-collapse-">Ancient (Collapse)</h5>
+                    <ul>
+                    <li>Hittites, Fall of the</li>
+                    <li>Sea Peoples</li>
+                    </ul>
+                    <h5 id="ancient-iron-age-">Ancient (Iron Age)</h5>
+                    <ul>
+                    <li>Building of Greece</li>
+                    <li>Persia</li>
+                    </ul>
+                    <h4 id="classical">Classical</h4>
+                    <h5 id="early-classical">Early Classical</h5>
+                    <ul>
+                    <li>Post-Alexandrian World</li>
+                    </ul>
+                    <h5 id="high-classical">High Classical</h5>
+                    <ul>
+                    <li>Punic Wars</li>
+                    <li>Populism, Triumvirates &amp; Fall of the Roman Republic</li>
+                    </ul>
+                    <h5 id="late-classical">Late Classical</h5>
+                    <ul>
+                    <li>Aurelian</li>
+                    </ul>
+                    <h4 id="medieval">Medieval</h4>
+                    <h5 id="early-medieval">Early Medieval</h5>
+                    <ul>
+                    <li>England: Heptarchy</li>
+                    </ul>
+                    <h3 id="americas">Americas</h3>
+                    <h4 id="north-america">North America</h4>
+                    <h5 id="pre-colonial">Pre-Colonial</h5>
+                    <ul>
+                    <li>Vinland</li>
+                    </ul>
+                    <h5 id="conquest-direct-colonial">Conquest &amp; Direct Colonial</h5>
+                    <ul>
+                    <li>Pre-Revolutionary American Identity</li>
+                    </ul>
+                    <h4 id="meso-america">Meso-America</h4>
+                    <ul>
+                    <li>Mayan Culture</li>
+                    </ul>
+                    <h5 id="pre-colonial">Pre-Colonial</h5>
+                    <ul>
+                    <li>Mayan Civilization <ul>
+                    <li>History<ul>
+                    <li>Pre-Collapse</li>
+                    <li>Collapse</li>
+                    </ul>
+                    </li>
+                    <li>Chichen Itza</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="caribbean">Caribbean</h4>
+                    <h5 id="pre-colonial">Pre-Colonial</h5>
+                    <ul>
+                    <li>Island Polities</li>
+                    </ul>
+                    <h4 id="south-america">South America</h4>
+                    <h5 id="pre-colonial">Pre-Colonial</h5>
+                    <ul>
+                    <li>Incan Empire/Hegemony</li>
+                    </ul>
+                    <h2 id="linguistics">Linguistics</h2>
+                    <ul>
+                    <li>The story of words, place names, class etc</li>
+                    </ul>
+                    <h3 id="languages">Languages</h3>
+                    <ul>
+                    <li>Eurasian<ul>
+                    <li>Finno-Ugric</li>
+                    <li>Indo-European<ul>
+                    <li>Proto-Indo-European</li>
+                    <li>Romance Languages</li>
+                    </ul>
+                    </li>
+                    <li>Isolates<ul>
+                    <li>Basque</li>
+                    <li>Sumerian</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    </li>
+                    <li>American<ul>
+                    <li>Mayan</li>
+                    <li>Nahuatl</li>
+                    <li>Quechua</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h3 id="orthography">Orthography</h3>
+                    <ul>
+                    <li>Alphabets<ul>
+                    <li>Cyrillic</li>
+                    <li>Latin Variants</li>
+                    <li>Phonecian</li>
+                    </ul>
+                    </li>
+                    <li>Cuneiform</li>
+                    <li>Hangul</li>
+                    <li>Hiragana</li>
+                    <li>Ogham</li>
+                    </ul>
+                    <h2 id="music">Music</h2>
+                    <h3 id="music-by-artist">Music By Artist</h3>
+                    <h4 id="eels">Eels</h4>
+                    <ul>
+                    <li>Beautiful Freak</li>
+                    <li>Electro-Shock Blues</li>
+                    <li>Daisies of the Galaxy</li>
+                    <li>Souljacker</li>
+                    <li>Blinking Lights &amp; Other Revelations</li>
+                    <li>End Times</li>
+                    <li>The Deconstruction</li>
+                    </ul>
+                    <h4 id="future-of-the-left-et-al">Future of the Left et al</h4>
+                    <ul>
+                    <li>McLusky<ul>
+                    <li>My Pain &amp; Sadness is More Sad &amp; Painful Than Yours</li>
+                    </ul>
+                    </li>
+                    <li>Future of the Left<ul>
+                    <li>Travels with Myself &amp; Another</li>
+                    <li>How to Stop Your Brain in an Accident</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="manic-street-preachers-et-al">Manic Street Preachers et al</h4>
+                    <ul>
+                    <li>Manic Street Preachers<ul>
+                    <li>1991 Motown Junk</li>
+                    <li>1992 Generation Terrorists</li>
+                    <li>1993 Gold Against the Soul</li>
+                    <li>1994 The Holy Bible</li>
+                    <li>1996 Everything Must Go</li>
+                    <li>2001 Know Your Enemy</li>
+                    <li>2007 Journal for Plague Lovers</li>
+                    <li>Rewind the Film</li>
+                    <li>Futurology</li>
+                    <li>Resistance is Futile</li>
+                    </ul>
+                    </li>
+                    <li>Nicky Wire<ul>
+                    <li>I Killed the Zeitgeist</li>
+                    <li><a href="https://nickywire.bandcamp.com/track/contact-sheets">Contact Sheets</a></li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h3 id="music-by-decade">Music By Decade</h3>
+                    <h4 id="1970s">1970s</h4>
+                    <ul>
+                    <li>David Bowie<ul>
+                    <li>Heroes</li>
+                    <li>Low</li>
+                    </ul>
+                    </li>
+                    <li>Gang of Four<ul>
+                    <li>Entertainment!</li>
+                    </ul>
+                    </li>
+                    <li>Wire<ul>
+                    <li>154</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="1980s">1980s</h4>
+                    <ul>
+                    <li>A cultural wasteland</li>
+                    </ul>
+                    <h4 id="1990s">1990s</h4>
+                    <ul>
+                    <li>Manic Street Preachers<ul>
+                    <li>See Above</li>
+                    </ul>
+                    </li>
+                    <li>Nirvana<ul>
+                    <li>In Utero</li>
+                    <li>You Know You&#39;re Right</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="2000s">2000s</h4>
+                    <ul>
+                    <li>Manic Street Preachers<ul>
+                    <li>See Above</li>
+                    </ul>
+                    </li>
+                    <li>McLusky<ul>
+                    <li>See Above</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="2010s">2010s</h4>
+                    <ul>
+                    <li>Future of the Left<ul>
+                    <li>See Above</li>
+                    </ul>
+                    </li>
+                    <li>Manic Street Preachers<ul>
+                    <li>See Above</li>
+                    </ul>
+                    </li>
+                    <li>Mongol Horde<ul>
+                    <li>Mongol Horde</li>
+                    </ul>
+                    </li>
+                    <li>Salem<ul>
+                    <li>King Night</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h4 id="2020s">2020s</h4>
+                    <ul>
+                    <li>We&#39;ll see...</li>
+                    </ul>
+                    <h2 id="mythology-religion">Mythology &amp; Religion</h2>
+                    <ul>
+                    <li>Comparative Mythology<ul>
+                    <li>Indo-European Equivalents (Deus, Jupiter, Zeus)</li>
+                    <li>Woman as Destroyer &amp; Rebel (Kali &amp; Lillith)</li>
+                    </ul>
+                    </li>
+                    <li>Evolution of Religions<ul>
+                    <li>Documentary Hypothesis</li>
+                    <li>Differentiation/Development of Abrahamic Faiths</li>
+                    </ul>
+                    </li>
+                    <li>Religion as Folk Memory<ul>
+                    <li>Exodus</li>
+                    <li>Iliad</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h2 id="people">People</h2>
+                    <h3 id="authors-playwrights-poets">Authors, Playwrights &amp; Poets</h3>
+                    <ul>
+                    <li>Camus, Albert<ul>
+                    <li>Caligula</li>
+                    <li>Peste, La</li>
+                    </ul>
+                    </li>
+                    <li>Chekhov, Anton<ul>
+                    <li>The Cherry Orchard</li>
+                    </ul>
+                    </li>
+                    <li>Huxley, Aldous</li>
+                    <li>Mieville, China</li>
+                    <li>Orwell, George</li>
+                    </ul>
+                    <h3 id="thinkers">Thinkers</h3>
+                    <ul>
+                    <li>Bakhunin, Mikhail</li>
+                    </ul>
+                    <h3 id="theatre-practitioners">Theatre Practitioners</h3>
+                    <ul>
+                    <li>Boal, Augusto</li>
+                    <li>Chekhov, Mikhail</li>
+                    <li>Grotowski, Jerzy</li>
+                    <li>Meyerhold</li>
+                    <li>Young, David</li>
+                    </ul>
+                    <h3 id="other">Other</h3>
+                    <ul>
+                    <li>Love, Greg</li>
+                    </ul>
+                    <h2 id="podcasts">Podcasts</h2>
+                    <h2 id="subcultures-movements">Subcultures &amp; Movements</h2>
+                    <ul>
+                    <li>Proto-Punk</li>
+                    <li>Early Punk</li>
+                    <li>Vaporwave</li>
+                    <li>Witch House &amp; Darkwave</li>
+                    </ul>
+                    <h2 id="tv-film">TV &amp; Film</h2>
+                    <ul>
+                    <li>Satire<ul>
+                    <li>Ianucci, Armando<ul>
+                    <li>Brass Eye</li>
+                    <li>Thick of It, The</li>
+                    </ul>
+                    </li>
+                    <li>Morris, Chris<ul>
+                    <li>Brass Eye</li>
+                    </ul>
+                    </li>
+                    <li>Serafinovicz, Peter<ul>
+                    <li>Look Around You</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <h2 id="weird-shit">Weird Shit</h2>
+                    <ul>
+                    <li>Fractals</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div id="portfolio" class="showNo">
+                <h2>Portfolio</h2>
+                <div class="gallery1_row">
+                    <div id="projectPigpen" class="cardProject">
+                        <h3>Rupert's Pigpen</h3>
+
+                        <a href="https://jasonwarrenuk.github.io/fcApp1_hobbySite"><img src="/siteImages/piglet.jpg" class="cardImage" title="Rupert's Pigpen'" alt="Piglet"></a>
+                        
+                        <p><a href="https://github.com/jasonwarrenuk/fcApp1_hobbySite">Repo</a></p>
+                        <p>Designing a website using HTML, CSS & the tiniest bit of JavaScript. Also trying not to give into gnawing despair as I realise I am recreating the ugliest designs of the late '90s.</p>
+                    </div>
+
+                    <div id="projectGame" class="cardProject">
+                        <h4>HOW TO FUCK THE WORLD UP</h4>
+                        <p>I MADE A FUCKING GAME INNIT</p>
+                    </div>
+                </div>
+
+                <h2>Some Other Bullshit I Made</h2>
+                <div class="gallery1_row">
+                    <section id="nonsenseOracle" class="cardProject">
+                        <h4><a href="/experiments/device.html">The Device Oracle</a></h4>
+                        <img src="/siteImages/box.jpg" class="projImage" title="Picture Coming Soon" alt="Cardboard Box">
+                        <p>Can I successfully identify what device you're viewing this page on? Let's find out!<br>
+                            <br>
+                            This is basically an attempt to learn how to use the &lt;picture&gt; attribute.
+                        </p>
+                    </section>
+
+                    <section id="nonsenseNull" class="cardProject">
+                        <h4>OTHER EXPERIMENT</h4>
+                        ANOTHER PROJECT INNIT
+                    </section>
+                    
+                    <section id="nonsenseItch" class="cardProject">
+                        <h4>A Game I Coded: <a href="https://jasonwarrenuk.github.io/fcApp1_hobbySite">Prisms</a></h4>
+                        <iframe frameborder="0" src="https://itch.io/embed/931034?linkback=true" width="552" height="167"><a href="https://neurosocialist.itch.io/prisms">Prisms by Neurosocialist</a></iframe>
+
+                        <p>A GAME WHAT I DID IN 48 HOURS AND I WINNEDED A TROPHY<br>
+                            <br>
+                            The theme was "A Game as a Gift" so I made this for my stepdad.<br>
+                            <br>
+                            I called it "Prisms" because "Sorry I Was a Little Shit with Undiagnosed ADHD" was a bit of a mouthful.
+                        </p>
+                    </section>
+                    <!--https://neurosocialist.itch.io/prisms-->
+                </div>
+            </div>
+
+            <div id="machine" class="showNo">
+                <h2>IS A MACHINE</h2>
+
+                <p>is ver much a machin</p>
+            </div>
+
+            <div id="cage" class="showNo">
+                <section id="whyCode">
+                    <h3>Why Code?????!?</h3>
+                
+                    <p>A load of waffle about what I want to do with code & yada yada</p>
+                    
+                    <section id="whyCodeGallery" class="gallGen">
+                        <section id="whyCode1" class="textCard">
+                            <h4>RIDICULOUS ASPIRATION 1</h4>
+                            
+                            <p>SHIT I WOULD LIKE TO DO WITH CODE</p>
+                        </section>
+                
+                        <section id="whyCode2" class="textCard">
+                            <h4>UNREALISTIC AMBITION 2</h4>
+                
+                            <p>MORE SHIT I WOULD LIKE TO DO WITH CODE likemaybe end capitalism</p>
+                        </section>
+                    </section>
+                </section>
+                
+                <section id="whatsit">
+                    <h2 id="layout">Layout</h2>
+                    
+                    <ul>
+                        <li><a href="https://sarah.dev/">This site&#39;s header</a></li>
+                    </ul>
+                
+                    <h2 id="navigation">Navigation</h2>
+                    
+                    <ul>
+                        <li><a href="https://codepen.io/agrimsrud/pen/XWNLMeW">Hakim&#39;s Progress Nav Concept</a></li>
+                    </ul>
+                
+                    <h2 id="ambitions">Ambitions</h2>
+                    
+                    <ul>
+                        <li>Ethical Typologist</li>
+                        <li>
+                            History Lens
+                            <ol>
+                                <li>Choose Circumstances</li>
+                                <li>????</li>
+                                <li>Profit!</li>
+                            </ol>
+                        </li>
+                        <li>&quot;News for Yous&quot;</li>
+                        <li>Pedagogy Sharenet</li>
+                        <li>Sound Shifter</li>
+                        <li>
+                            Sparkbrain Planner
+                            <ul>
+                                <li>FlowSavvy + Goblin Tools</li>
+                                <li>
+                                    Sorting Factors
+                                    <ul>
+                                        <li>Tagging</li>
+                                        <li>
+                                            Deadlines
+                                            <ul>
+                                                <li>Date</li>
+                                                <li>Rigidity</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Priority
+                                            <ul>
+                                                <li>Desire</li>
+                                                <li>Consequence</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>NatLang Input</li>
+                            </ul>
+                        </li>
+                        <li>Self-Knowledge Tool</li>
+                        <li>[Theatre of the Oppressed] Conflict Resolution Tools</li>
+                        <li>Typological Concept Correlator</li>
+                        <li>[Variable Cues]</li>
+                        <li>
+                            Schools
+                            <ul>
+                                <li>Rights Distributor</li>
+                                <li>Info Bleed Validator</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Linguistics
+                            <ul>
+                                <li>Game (Romanian/Greek)</li>
+                            </ul>
+                        </li>
+                        <li>Pedagogy Sharenet</li>
+                    </ul>
+                
+                    <h2 id="integrations">Integrations</h2>
+                    
+                    <ul>
+                        <li>Dave Young&#39;s Speech Synthesis</li>
+                        <li>Hue</li>
+                        <li>Notion</li>
+                    </ul>
+                        
+                    <h2 id="whispers">Whispers</h2>
+                
+                    <ul>
+                        <li>Bas-Lag Internet</li>
+                        <li>Code as the visible medium, not merely the tool</li>
+                        <li>Cultural Comparator</li>
+                        <li>Language Explorer</li>
+                        <li>Neurodivergent Tech Framework</li>
+                        <li>Trope Subverter</li>
+                    </ul>
+                
+                    <h2 id="apps-websites-tech">Apps, Websites &amp; Tech</h2>
+                
+                    <ul>
+                        <li>Etymology Explorer</li>
+                        <li>Goblin Tools</li>
+                        <li>ReacTable</li>
+                        <li>Zompist</li>
+                    </ul>
+                
+                    <h2 id="digital-games-game-design">Digital Games &amp; Game Design</h2>
+                
+                    <h3 id="digital-game-design-concepts">Digital Game Design Concepts</h3>
+                
+                    <ul>
+                        <li>Emergent Narrative</li>
+                        <li>Emergent Gameplay</li>
+                        <li>Procedural Narrative</li>
+                    </ul>
+                
+                    <h3 id="digital-game-design-tools">Digital Game Design Tools</h3>
+                
+                    <ul>
+                        <li>ink &amp; Inky</li>
+                        <li>Tracery</li>
+                    </ul>
+                
+                    <h3 id="digital-games-makers">Digital Games &amp; Makers</h3>
+                
+                    <h4 id="black-isle-obsidian">Black Isle &amp; Obsidian</h4>
+                
+                    <ul>
+                        <li>Planescape: Torment</li>
+                        <li>Baldur&#39;s Gate 2</li>
+                        <li>Pillars of Eternity 2</li>
+                    </ul>
+                
+                    <h4 id="emily-short">Emily Short</h4>
+                
+                    <ul>
+                        <li>Counterfeit Monkey</li>
+                        <li>First Draft of the Revolution</li>
+                    </ul>
+                
+                    <h4 id="inkle">Inkle</h4>
+                
+                    <ul>
+                        <li>80 Days</li>
+                        <li>Sorcery!</li>
+                        <li>Heaven&#39;s Vault</li>
+                        <li>Pendragon</li>
+                        <li>Overboard!</li>
+                        <li>A Highland Song</li>
+                    </ul>
+                
+                    <h4 id="owlcat-games">Owlcat Games</h4>
+                
+                    <ul>
+                        <li>Pathfinder: Kingmaker</li>
+                        <li>Pathfinder: Wrath of the Righteous</li>
+                    </ul>
+                
+                    <h4 id="other-digital-games">Other Digital Games</h4>
+                
+                    <ul>
+                        <li>Caves of Qud</li>
+                        <li>Disco Elysium</li>
+                        <li>Dwarf Fortress</li>
+                        <li>Hadean Lands</li>
+                        <li>Rimworld</li>
+                    </ul>
+                </section>
             </div>
         </section>
 
