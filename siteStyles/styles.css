@@ -2,16 +2,16 @@
 /*#               LIGHTS UP!!                    #*/
 /*################################################*/
 
-body {
-    font-size: large;
-    font-family: sans-serif;
-}
-header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
-header, footer, section, nav, aside, article {
-    margin: 1em;
-    padding: 1em;
-}
-footer {border: 1px dashed limegreen;}
+    body {
+        font-size: large;
+        font-family: sans-serif;
+    }
+    header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
+    header, footer, section, nav, aside, article {
+        margin: 1em;
+        padding: 1em;
+    }
+    footer {border: 1px dashed limegreen;}
 
 /*|| FORMATTING ||*/
     /*Headers*/
@@ -22,13 +22,13 @@ footer {border: 1px dashed limegreen;}
 
     /*Text*/
         p {line-height: 1.2em;}
-        /*code {}*/
+        code {font-family: monospace;}
         pre {font-family: cursive;}
-        summary del {color: #aa0000;} /*strikethru details*/
+        summary del {color: #aa0000;}
 
     /*Links*/
         a:link {font-weight: bold;}
-        /*a:hover, a:active {color: #ffffff;} LOL*/
+        a:hover, a:active {color: #aaaaaa;}
         a:visited {font-style: italic;}
 
     /*Lists*/
@@ -39,13 +39,13 @@ footer {border: 1px dashed limegreen;}
 
 
 /*################################################*/
-/*################  ############  ################*/
+/*###  ######################################  ###*/
 /*####   ######        ######        ######   ####*/
-/*#####   ###                          ###   #####*/
-/*#######      NOW, LET US GET FUNKY!      #######*/
-/*#####   ###                          ###   #####*/
+/*#####   ###            ##            ###   #####*/
+/*######  • •  NOW - LET US GET FUNKY  • •  ######*/
+/*#####   ###            ##            ###   #####*/
 /*####   ######        ######        ######   ####*/
-/*################  ############  ################*/
+/*###  ######################################  ###*/
 /*################################################*/
 
 /*################################################*/
@@ -133,9 +133,17 @@ footer {border: 1px dashed limegreen;}
             #left li {list-style-type: none;} /*no bullet in nav*/
 
     /*Middle Section*/
-        /*Classes*/
-            .showYes {display:block}
-            .showNo {display: none;}
+        /*Content Classes*/
+            
+            
+            /*Type Classes*/
+                .typeContent {border-style:solid}
+                .typeImage {border-style: inset;}
+                .typeModal {border-style: double;}
+                .typeModalLink {border-radius: 50px;}
+                .typeQuote {background-color: #9999aa;}
+                .typeText {border-style: dotted;}
+                .typeTitle {font-family: serif;}
 
     /*Right Section*/
         /*Formatting*/
@@ -236,3 +244,8 @@ footer {border: 1px dashed limegreen;}
 /*################################################*/
 /*#            ~ ~ ~ ¡SILENCIO! ~ ~ ~            #*/
 /*################################################*/
+
+    /*Show Classes*/
+        /*.showYes {display: block;}*/
+        .showNo {display: none;}
+        .showNever {display: none;}
