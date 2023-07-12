@@ -59,3 +59,53 @@
             linkToCatBreed(event.target.value);
         }
     });
+
+/*|| WEBSITE SYMPTOMS ||*/
+    //Symptoms
+    function Symptom(sPriority, sName, sOn, sContent, sFeature, sStyle){
+        //num, string, bool, array, array, array
+        this.priority = sPriority;
+        this.name = sName;
+        this.on = sOn;
+        this.content = sContent;
+        this.feature = sFeature;
+        this.styles = sStyle;
+      }
+    
+    //Hyperfocus
+      var symptomHyperfocus = new Symptom(1, "Hyperfocus", true, ["nodeWeb"], ["navInput"], [""]);
+
+  /*|| WEBSITE NEUROTYPE ||*/
+    var neurotype = {
+      //Passed
+      symptomNames: [""],
+      contents: [""],
+      features: [""],
+      styles: [""],
+      //Calculated
+      spiceLevel: this.symptomNames.length
+    }
+
+    //Symptom Switcher
+      function symptomSwitch(symptom){
+        //pass symptom to addSpice or goBeige
+        symptom.on == true ? addSpice(symptom) : goBeige(symptom);
+      }
+      
+      function addSpice(symptom){
+        // add symptom
+        neurotype.symptomNames += symptom.sName;
+        neurotype.spiceLevel = neurotype.symptomNames.length;
+    
+        neurotype.contents += "a";
+        neurotype.features += "a";
+        neurotype.styles += "a";
+      }
+      
+      function goBeige(symptom){
+        // remove symptom
+        // check to see if they're now symptom-free, then show them...
+          if(spiceLevel = 0){alert("You're a normie, pick yourself some interesting symptoms.")};
+      }
+
+      addEventListener.getElementById("symptom")("click", symptomSwitch(Symptom));

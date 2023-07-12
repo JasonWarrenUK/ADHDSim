@@ -120,6 +120,7 @@
 
     /*Left Section*/
         /*Formatting*/
+            #left {text-align: center;}
             #left details {/*menus in nav*/
                 padding: 0px 20px;
                 line-height: 1.5em;
@@ -131,19 +132,34 @@
                 padding: 10px;
             }
             #left li {list-style-type: none;} /*no bullet in nav*/
+    
+        /*Buttons*/
+            #left button {
+                /* margin: 10px auto; */
+                border: 5px double #000000;
+                border-radius: 5px;
+                background-color: #fefeee;
+                padding: 5px 10px;
+                /* font-weight: lighter; */
+            }
+            #left button:hover {
+                text-decoration-line: underline;
+                background-color:#9999aa;
+                color: yellow;
+                text-transform: uppercase;
+                font-weight:bolder
+            }
+        
 
     /*Middle Section*/
-        /*Content Classes*/
-            
-            
-            /*Type Classes*/
-                .typeContent {border-style:solid}
-                .typeImage {border-style: inset;}
-                .typeModal {border-style: double;}
-                .typeModalLink {border-radius: 50px;}
-                .typeQuote {background-color: #9999aa;}
-                .typeText {border-style: dotted;}
-                .typeTitle {font-family: serif;}
+        /*Type Classes*/
+            .typeContent {border-style:solid}
+            .typeImage {border-style: inset;}
+            .typeModal {border-style: double;}
+            .typeModalLink {border-radius: 50px;}
+            .typeQuote {background-color: #9999aa;}
+            .typeText {border-style: dotted;}
+            .typeTitle {font-family: serif;}
 
     /*Right Section*/
         /*Formatting*/
@@ -218,7 +234,7 @@
             padding: 1em 0 0 0;
         }
         .cardLayout ol {list-style-type: georgian;}
-        .cardLayout > *:last-child {padding-bottom: 1em;}
+        /* .cardLayout > *:last-child {padding-bottom: 1em;} */
 
     /*Project Cards*/
         .cardProject img {
