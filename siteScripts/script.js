@@ -1,12 +1,38 @@
 /*|| CONVENTIONS ||*/
   //Use single quotes in JS, so can paste HTML easily
 
+/* || INITIALISE PAGE CONTENT || */
+  let showFirst = document.querySelectorAll('[data-pages="home"]');
+  for (const showThis of showFirst) {
+    showThis.style.display = 'block';
+  }
+
 /* || NAVIGATION/CONTENT SWITCHER || */
-  let visibleNow = document.querySelectorAll('[data-pages="home"]');
+  const showAll = document.getElementById('showAll');
+    showAll.addEventListener('click', function() {
+      visibleNow = document.querySelectorAll('[data-pages]');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+    
+  const showDebug = document.getElementById('showDebug');
+    showDebug.addEventListener('click', function() {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      visibleNow = document.querySelectorAll('[data-pages="none"]');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
 
   const showHome = document.getElementById('showHome');
     showHome.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -18,7 +44,8 @@
     
   const showDeconstructor = document.getElementById('showDeconstructor');
     showDeconstructor.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -30,7 +57,8 @@
 
   const showVault = document.getElementById('showVault');
     showVault.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -42,7 +70,8 @@
 
   const showSparks = document.getElementById('showSparks');
     showSparks.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -54,7 +83,8 @@
 
   const showPortfolio = document.getElementById('showPortfolio');
     showPortfolio.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -66,7 +96,8 @@
 
   const showMachine = document.getElementById('showMachine');
     showMachine.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       
@@ -78,7 +109,8 @@
 
   const showCage = document.getElementById('showCage');
     showCage.addEventListener('click', function() {
-      for (const hideThis of visibleNow) {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
         hideThis.style.display = 'none';
       }
       

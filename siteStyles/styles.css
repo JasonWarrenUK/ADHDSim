@@ -7,11 +7,15 @@
         font-family: sans-serif;
     }
     header, footer, section, nav, aside, article, main, div {border-radius: 12px;}
-    header, footer, section, nav, aside, article {
-        margin: 1em;
-        padding: 1em;
-    }
-    footer {border: 1px dashed limegreen;}
+    header, footer, section, nav, aside, article {margin: 1em}
+    main {margin: 0 1em;}
+    header, footer, section, article {padding: 1em;}
+    nav {margin-left: 0; padding: 0;}
+    aside {margin-right: 0; padding: 0;}
+    
+    header {border: 2px dashed green;}
+    main {border: 2px dashed purple;}
+    footer {border: 2px dashed orange;}
 
 /*|| FORMATTING ||*/
     /*Headers*/
@@ -62,7 +66,6 @@
             align-content: center;
 
             max-height: 15vh;
-            border: 1px dashed darkcyan;
             padding: 0 auto;
         }
         .gallery0_main {
@@ -78,14 +81,28 @@
             align-content: center;
 
             max-height: 10vh;
-            border: 1px dashed darkcyan;
             padding: 0 auto;
         }
     
     /*Left to Right*/
-        #left {order: -99; flex: 0 1 15%;}
-        #middle {order: 0; flex: 1 1 70%;}
-        #right {order: 99; flex: 0 1 15%;}
+        .left {
+            order: -99;
+            flex: 0 1 15%;
+            border: 2px dashed mediumpurple;
+        }
+        .middle {
+            order: 0;
+            flex: 1 1 65%;
+            
+            margin-left: 0;
+            margin-right: 0;
+            border: 2px dashed mediumorchid;
+        }
+        .right {
+            order: 99;
+            flex: 0 1 20%;
+            border: 2px dashed blueviolet;
+        }
 
 
 /*################################################*/
@@ -102,84 +119,83 @@
             justify-content: start;
             align-items: stretch;
             align-content: stretch;
-
-            border: 1px dashed darkkhaki;
         }
         .gallery1_row {
             flex: 0;
 
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
-            align-items: start;
-            align-content: start;
-            
-            border: 1px dashed darkcyan;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            align-content: flex-start;
             /*background-color: #777777;*/
         }
 
-    /*Left Section*/
+    /*Side Sections*/
         /*Formatting*/
-            #left {text-align: center;}
-            #left details {/*menus in nav*/
-                padding: 0px 20px;
+            .left, .right {text-align: center;}
+            .left details, .right details {/*menus in nav*/
+                padding: 5px 20px;
                 line-height: 1.5em;
             }
-            #left ul {/*ul inside details*/
+            .left ul, .right ul {
                 border: 2px outset #000000;
                 border-radius: 20px;
                 background-color: #eeeeee;
                 padding: 10px;
             }
-            #left li {list-style-type: none;} /*no bullet in nav*/
+            .left li, .right li {list-style-type: none;} /*no bullet in nav*/
     
         /*Buttons*/
-            #left button {
-                /* margin: 10px auto; */
+            .left button, .right button {
+                margin: 2px;
                 border: 5px double #000000;
                 border-radius: 5px;
                 background-color: #fefeee;
                 padding: 5px 10px;
-                /* font-weight: lighter; */
             }
-            #left button:hover {
-                text-decoration-line: underline;
+            .left button:hover, .right button:hover {
                 background-color:#9999aa;
                 color: yellow;
-                text-transform: uppercase;
-                font-weight:bolder
             }
-        
 
     /*Middle Section*/
         /*Type Classes*/
-            .typeContent {border-style:solid}
-            .typeImage {border-style: inset;}
-            .typeModal {border-style: double;}
-            .typeModalLink {border-radius: 50px;}
-            .typeQuote {background-color: #9999aa;}
-            .typeText {border-style: dotted;}
-            .typeTitle {font-family: serif;}
+            .type {flex: 1 1 30%;
+                display: none;
+                max-width: fit-content;
+                
+                margin: 5px;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 12px;
+                padding: 5px;
 
-    /*Right Section*/
-        /*Formatting*/
-            #right {text-align: center;}
-        /*Buttons*/
-            #right button {
-                margin: 10px auto;
-                border: 5px double #000000;
-                border-radius: 5px;
-                background-color: #fefeee;
-                padding: 5px 10px;
-                font-weight: lighter;
-            }
-            #right button:hover {
-                text-decoration-line: underline;
-                background-color:#9999aa;
-                color: yellow;
-                text-transform: uppercase;
-                font-weight:bolder
-            }
+                text-align: center;}
+
+            .typeTitle {order: -100;
+                border-style: outset;
+                font-family: serif;}
+
+            .typeContent {order: 0;
+                border-style: outset;}
+            .typeImage {order: 0;
+                border-style: inset;}
+            .typeLink {order: 0;
+                border-style: outset; border-radius: 50px;}
+            .typeModal {order: 0;
+                border-style: double;}
+            .typeQuote {order: 0;
+                border-style: outset;
+                background-color: #9999aa;}
+            .typeText {order: 0;
+                border-style: dotted;}
+            .typeTextIntro {order: 0;
+                border-style: none;}
+
+            .typeNone {order: 100;
+                background-color: rgba(246, 4, 4, 0.2);}
+
+    
 
 
 /*################################################*/
@@ -190,18 +206,20 @@
     .cardSite {
         flex: 1 1 auto;
         margin: 1em 0;
+        border: 2px dashed seagreen;
         max-width: 50%;
     }
     .cardPage {
         flex: 1 1 auto;
         margin: auto 0;
+        border: 2px dashed lawngreen;
         max-width: 30%;
     }
     .cardLayout {
         flex: 0 1 auto;
         margin: 5px;
         
-        max-width: 80%;
+        /* max-width: 80%; */
         border: 2px outset #000000;
         border-radius: 12px;
         padding: 10px;
@@ -261,7 +279,4 @@
 /*#            ~ ~ ~ ¡SILENCIO! ~ ~ ~            #*/
 /*################################################*/
 
-    /*Show Classes*/
-        /*.showYes {display: block;}*/
-        .showNo {display: none;}
-        .showNever {display: none;}
+    .showNo {display: none;}
