@@ -1,6 +1,6 @@
-/*################################################*/
-/*#               LIGHTS UP!!                    #*/
-/*################################################*/
+/*#####################################*/
+/*#            LIGHTS UP!             #*/
+/*#####################################*/
 
     body {
         font-size: large;
@@ -42,19 +42,19 @@
         dd {padding: 0, 0, 0.5em, 0;}
 
 
-/*################################################*/
-/*###  ######################################  ###*/
-/*####   ######        ######        ######   ####*/
-/*#####   ###            ##            ###   #####*/
-/*######  • •  NOW - LET US GET FUNKY  • •  ######*/
-/*#####   ###            ##            ###   #####*/
-/*####   ######        ######        ######   ####*/
-/*###  ######################################  ###*/
-/*################################################*/
+/*#####################################*/
+/*##    #########################    ##*/
+/*###    ####    #######    ####    ###*/
+/*####                             ####*/
+/*#####•••NOW: LET US GET FUNKY•••#####*/
+/*####                             ####*/
+/*###    ####    #######    ####    ###*/
+/*##    #########################    ##*/
+/*#####################################*/
 
-/*################################################*/
-/*#                 L A Y O U T                  #*/
-/*################################################*/
+/*#####################################*/
+/*#           L A Y O U T ?           #*/
+/*#####################################*/
 
 /*|| LEVEL 0: PAGE STRUCTURE ||*/
     /*Top to Tail*/
@@ -105,9 +105,10 @@
         }
 
 
-/*################################################*/
-/*#                   SECTIONS                   #*/
-/*################################################*/
+/*#####################################*/
+/*#        SECTIONS?                  #*/
+/*#                  SECTIONS!        #*/
+/*#####################################*/
 
 /*|| LEVEL 1: SECTION STRUCTURE ||*/
     /*Any Section*/
@@ -170,37 +171,57 @@
                 border-radius: 12px;
                 padding: 5px;
 
-                text-align: center;}
+                text-align: center;
+            }
 
             .typeTitle {order: -100;
                 border-style: outset;
-                font-family: serif;}
+                font-family: display;
+            }
 
             .typeContent {order: 0;
-                border-style: outset;}
+                border-style: outset;
+            }
+
             .typeImage {order: 0;
-                border-style: inset;}
+                border-style: inset;
+            }
+
             .typeLink {order: 0;
-                border-style: outset; border-radius: 50px;}
+                border-style: outset;
+                border-radius: 50px;
+                padding: 10px;
+                font-family: monospace;
+            }
+
             .typeModal {order: 0;
-                border-style: double;}
+                border-style: double;
+            }
+
             .typeQuote {order: 0;
                 border-style: outset;
-                background-color: #9999aa;}
+                background-color: #9999aa;
+                font-family: serif;
+            }
+
             .typeText {order: 0;
-                border-style: dotted;}
+                border-style: dotted;
+            }
+
             .typeTextIntro {order: 0;
-                border-style: none;}
+                border-style: none;
+            }
 
             .typeNone {order: 100;
-                background-color: rgba(246, 4, 4, 0.2);}
+                background-color: rgba(246, 4, 4, 0.2);
+            }
 
     
 
 
-/*################################################*/
-/*#                   C A R D S                  #*/
-/*################################################*/
+/*#####################################*/
+/*#              C A R D              #*/
+/*#####################################*/
 
 /*|| CARD TYPES ||*/
     .cardSite {
@@ -224,17 +245,6 @@
         border-radius: 12px;
         padding: 10px;
     }
-    .cardProject {
-        flex: 1 1 30%;
-        margin: 5px;
-        
-        max-width: 80%;
-        border: 2px outset #000000;
-        border-radius: 12px;
-        padding: 10px;
-
-        text-align: center;
-    }
     .cardGhost {
         flex: 0 1 auto;
         margin: 1em;
@@ -255,7 +265,7 @@
         /* .cardLayout > *:last-child {padding-bottom: 1em;} */
 
     /*Project Cards*/
-        .cardProject img {
+        .type img {
             margin: auto;
             max-width: 60%;
             border: 1px solid black;
@@ -263,9 +273,9 @@
         }
 
 
-/*################################################*/
-/*#                   T R A S H                  #*/
-/*################################################*/
+/*#####################################*/
+/*#               TRASH               #*/
+/*#####################################*/
     /*Images*/
         .linkImage, .defaImage {
             padding: 5px;
@@ -275,8 +285,8 @@
         }
     
 
-/*################################################*/
-/*#            ~ ~ ~ ¡SILENCIO! ~ ~ ~            #*/
-/*################################################*/
+/*#####################################*/
+/*#        ~ ~ ¡SILENCIO! ~ ~         #*/
+/*#####################################*/
 
     .showNo {display: none;}
