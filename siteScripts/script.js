@@ -2,7 +2,7 @@
   //Use single quotes in JS, so can paste HTML easily
 
 /* || INITIALISE PAGE CONTENT || */
-  let showFirst = document.querySelectorAll('[data-pages="home"]');
+  let showFirst = document.querySelectorAll(/* '[data-pages="home"]' */'[data-pages]');
   for (const showThis of showFirst) {
     showThis.style.display = 'block';
   }
@@ -120,6 +120,26 @@
       }
     });
 
-/* || CONTENT CARDS|| */
-    /* | Modal Links | */
-      document.getElementById("myDialog").showModal()
+/* || CONTENT CARDS || */
+    /* | Modals | */
+      /* Template */
+        const modal = document.getElementById('templateModal');
+        const modalButton = document.getElementById('templateModalButton');
+        modalButton.addEventListener('click', (event) => {modal.showModal();});
+      
+    /* | Links | */
+      /* Template */
+        const link = document.getElementById('templateLink');
+        const linkButton = document.getElementById('templateLinkButton');
+        linkButton.addEventListener('click', (event) => {link.showModal();});
+
+/* || THEME UNLOCKS || */
+  const themeGates = document.querySelectorAll('[data-unlocks]');
+  for (const trackThis of themeGates) {
+    trackThis.addEventListener('click', function() {
+      /* visibleNow = document.querySelectorAll('[data-pages]');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      } */
+    });
+  }

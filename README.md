@@ -26,3 +26,18 @@ ReadMe coming soon.
 * [AI Chat Log](documents/logAI/hub.md)
 * [Dev Log](documents/logDev/hub.md)
 * [Learning Log](documents/logLearn.md)
+
+## Resources I Used
+
+### Learning Resources
+
+* [web.dev](https://web.dev/learn/html/dialog/)
+* [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+  * Specifically the video on [Modals](https://youtu.be/ywtkJkxJsdg)
+
+### Tools
+
+* [CSS Portal](https://www.cssportal.com/)
+  * Box Shadows
+  * [Neuroswitches](https://www.cssportal.com/css3-flip-switch/)
+* [Generative Placeholders](https://generative-placeholders.glitch.me/)
