@@ -2,15 +2,15 @@
   //Use single quotes in JS, so can paste HTML easily
 
 /* || INITIALISE PAGE CONTENT || */
-  let showFirst = document.querySelectorAll(/* '[data-pages="home"]' */'[data-pages]');
+  let showFirst = document.querySelectorAll('[data-pages="home"]');
   for (const showThis of showFirst) {
     showThis.style.display = 'block';
   }
 
-/* || NAVIGATION/CONTENT SWITCHER || */
+/* || PAGE SWITCHER || */
   const showAll = document.getElementById('showAll');
     showAll.addEventListener('click', function() {
-      visibleNow = document.querySelectorAll('[data-pages]');
+      let visibleNow = document.querySelectorAll('[data-pages]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -23,7 +23,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="none"]');
+      let visibleNow = document.querySelectorAll('[data-pages="none"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -36,7 +36,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="home"]');
+      let visibleNow = document.querySelectorAll('[data-pages="home"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -49,7 +49,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="deconstructor"]');
+      let visibleNow = document.querySelectorAll('[data-pages="deconstructor"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -62,7 +62,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="vault"]');
+      let visibleNow = document.querySelectorAll('[data-pages="vault"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -75,7 +75,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="sparks"]');
+      let visibleNow = document.querySelectorAll('[data-pages="sparks"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -88,7 +88,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="portfolio"]');
+      let visibleNow = document.querySelectorAll('[data-pages="portfolio"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -101,7 +101,7 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="machine"]');
+      let visibleNow = document.querySelectorAll('[data-pages="machine"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
@@ -114,11 +114,181 @@
         hideThis.style.display = 'none';
       }
       
-      visibleNow = document.querySelectorAll('[data-pages="cage"]');
+      let visibleNow = document.querySelectorAll('[data-pages="cage"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
     });
+
+/* || THEME SWITCHER || */
+  const showThemeBasic = document.getElementById('showThemeBasic');
+    showThemeBasic.addEventListener('click', function() {
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      let visibleNow = document.querySelectorAll('.themeBasic');
+      for(let i = 0; i < visibleNow.length; i++){
+          visibleNow[i].style.display = 'block';
+      }
+    });
+
+    /*
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    });
+
+    const show• = document.getElementById('show•');
+    show•.addEventListener('click', function() {
+      const hideThese = document.getElementsByClassName('.type');
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
+      
+      let visibleNow = document.getElementsByClassName('.theme•');
+      for (const showThis of visibleNow) {
+        showThis.style.display = 'block';
+      }
+    }); */
 
 /* || CONTENT CARDS || */
     /* | Modals | */
@@ -137,7 +307,7 @@
   const themeGates = document.querySelectorAll('[data-unlocks]');
   for (const trackThis of themeGates) {
     trackThis.addEventListener('click', function() {
-      /* visibleNow = document.querySelectorAll('[data-pages]');
+      /* let visibleNow = document.querySelectorAll('[data-pages]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       } */
