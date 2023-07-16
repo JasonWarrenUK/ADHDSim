@@ -16,7 +16,7 @@
       }
     });
     
-  const showDebug = document.getElementById('showDebug');
+  /* const showDebug = document.getElementById('showDebug');
     showDebug.addEventListener('click', function() {
       const hideThese = document.querySelectorAll('[data-pages]')
       for (const hideThis of hideThese) {
@@ -27,7 +27,7 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
-    });
+    }); */
 
   const showHome = document.getElementById('showHome');
     showHome.addEventListener('click', function() {
@@ -94,7 +94,7 @@
       }
     });
 
-  const showMachine = document.getElementById('showMachine');
+  /* const showMachine = document.getElementById('showMachine');
     showMachine.addEventListener('click', function() {
       const hideThese = document.querySelectorAll('[data-pages]')
       for (const hideThis of hideThese) {
@@ -105,7 +105,7 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
-    });
+    }); */
 
   const showCage = document.getElementById('showCage');
     showCage.addEventListener('click', function() {
@@ -169,7 +169,7 @@
     }
   });
 
-  const showThemeBelief = document.getElementById('showThemeBelief');
+  /* const showThemeBelief = document.getElementById('showThemeBelief');
   showThemeBelief.addEventListener('click', function() {
     const hideThese = document.querySelectorAll('[data-pages]')
     for (const hideThis of hideThese) {
@@ -179,7 +179,7 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
-  });
+  }); */
 
   /* const showThemePlaces = document.getElementById('showThemePlaces');
   showThemePlaces.addEventListener('click', function() {
@@ -205,7 +205,7 @@
     }
   });
 
-  const showThemeBooks = document.getElementById('showThemeBooks');
+  /* const showThemeBooks = document.getElementById('showThemeBooks');
   showThemeBooks.addEventListener('click', function() {
     const hideThese = document.querySelectorAll('[data-pages]')
     for (const hideThis of hideThese) {
@@ -215,7 +215,7 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
-  });
+  }); */
 
   const showThemeHistory = document.getElementById('showThemeHistory');
   showThemeHistory.addEventListener('click', function() {
@@ -253,7 +253,7 @@
     }
   });
 
-  const showThemeGameDesign = document.getElementById('showThemeGameDesign');
+  /* const showThemeGameDesign = document.getElementById('showThemeGameDesign');
   showThemeGameDesign.addEventListener('click', function() {
     const hideThese = document.querySelectorAll('[data-pages]')
     for (const hideThis of hideThese) {
@@ -263,9 +263,9 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
-  });
+  }); */
 
-  const showThemeMusic = document.getElementById('showThemeMusic');
+  /* const showThemeMusic = document.getElementById('showThemeMusic');
   showThemeMusic.addEventListener('click', function() {
     const hideThese = document.querySelectorAll('[data-pages]')
     for (const hideThis of hideThese) {
@@ -275,28 +275,72 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
-  });
+  }); */
+
+/* | NEUROSWITCHER | */
+let hasADHD = false;
+const buttonADHDOn = document.getElementById('buttonADHDOn');
+const buttonADHDOff = document.getElementById('buttonADHDOff');
+
+
+buttonADHDOn.addEventListener('click', function() {
+  hasADHD = true;
+  /* const menuADHD = document.getElementById('naviDev');
+  menuADHD.style.display = "block"; */
+
+  const menuPages = document.getElementById('naviPages');
+  const menuThemes = document.getElementById('naviThemes');
+  menuPages.style.display = "none";
+  menuThemes.style.display = "none";
+
+  const stuff = document.querySelectorAll('.type');
+    for (const thing of stuff) {
+      thing.style.display = 'block';
+    }
+});
+
+buttonADHDOff.addEventListener('click', function() {
+  hasADHD = false;
+  /* const menuADHD = document.getElementById('naviDev');
+  menuADHD.style.display = "none"; */
+
+  const menuPages = document.getElementById('naviPages');
+  const menuThemes = document.getElementById('naviThemes');
+  menuPages.style.display = "block";
+  menuThemes.style.display = "block";
+
+  const blurts = document.querySelectorAll('.type');
+  for (const blurt of blurts) {
+    blurt.style.display = 'none';
+  }
+
+  let showFirst = document.querySelectorAll('[data-pages="home"]');
+  for (const showThis of showFirst) {
+    showThis.style.display = 'block';
+  }
+});
 
 /* || CONTENT CARDS || */
     /* | Modals | */
       /* Template */
-        const modal = document.getElementById('templateModal');
-        const modalButton = document.getElementById('templateModalButton');
-        modalButton.addEventListener('click', (event) => {modal.showModal();});
+        // const modal = document.getElementById('templateModal');
+        // const modalButton = document.getElementById('templateModalButton');
+        // modalButton.addEventListener('click', (event) => {modal.showModal();});
       
     /* | Links | */
       /* Template */
-        const link = document.getElementById('templateLink');
-        const linkButton = document.getElementById('templateLinkButton');
-        linkButton.addEventListener('click', (event) => {link.showModal();});
+        // const link = document.getElementById('templateLink');
+        // const linkButton = document.getElementById('templateLinkButton');
+        // linkButton.addEventListener('click', (event) => {link.showModal();});
 
 /* || THEME UNLOCKS || */
-  const themeGates = document.querySelectorAll('[data-unlocks]');
+  /* const themeGates = document.querySelectorAll('[data-unlocks]');
   for (const trackThis of themeGates) {
     trackThis.addEventListener('click', function() {
-      /* let visibleNow = document.querySelectorAll('[data-pages]');
+      let visibleNow = document.querySelectorAll('[data-pages]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
-      } */
+      }
     });
-  }
+  } */
+

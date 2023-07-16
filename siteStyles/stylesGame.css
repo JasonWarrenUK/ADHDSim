@@ -1,0 +1,55 @@
+.gridContainer {
+    display: grid;
+    grid: auto / auto auto auto;
+    gap: 10px 10px;
+}
+
+.dud {border: dotted; background-color: beige;}
+.dud1-1 {grid-area: 1 / 1 / span 1 / span 2;}
+.dud1-10 {grid-area: 1 / 10 / span 1 / span 2;}
+.dud2-1 {grid-area: 2 / 1 / span 2 / span 4;}
+.dud2-5 {grid-area: 2 / 5 / span 1 / span 3;}
+.dud2-8 {grid-area: 2 / 8 / span 2 / span 4;}
+.dud4-4 {grid-area: 4 / 4 / span 3 / span 1;}
+.dud4-8 {grid-area: 4 / 8 / span 3 / span 1;}
+.dud7-1 {grid-area: 7 / 1 / span 2 / span 4;}
+.dud7-8 {grid-area: 7 / 8 / span 2 / span 4;}
+.dud8-5 {grid-area: 8 / 5 / span 1 / span 3;}
+.dud9-1 {grid-area: 9 / 1 / span 2 / span 1;}
+.dud9-6 {grid-area: 9 / 6 / span 2 / span 1;}
+.dud9-11 {grid-area: 9 / 11 / span 2 / span 1;}
+
+.box {
+    border: solid;
+    background-color: skyblue;
+}
+
+.winState {grid-area: 1 / 3 / span 1 / span 7;}
+.story {grid-area: 3 / 5 / span 5 / span 3;
+    text-align: center;
+}
+.choice1 {grid-area: 4 / 1 / span 3 / span 3;}
+.choice2 {grid-area: 4 / 9 / span 3 / span 3;}
+.statsPlayer {grid-area: 9 / 2 / span 2 / span 4;}
+.statsWorld {grid-area: 9 / 7 / span 2 / span 4;}
+
+.winState :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+.story :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+.choice1 :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+.choice2 :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+.statsPlayer :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+.statsWorld :is(h1, h2, h3, h4, h5, h6) {text-align: center;}
+
+/*
+    + 1 2 3 4 5 6 7 8 9 0 1
+    1 - - X X X X X X X - -
+    2 - - - - - - - - - - -
+    3 - - - - X X X - - - -
+    4 X X X - X X X - X X X
+    5 X X X - X X X - X X X
+    6 X X X - X X X - X X X
+    7 - - - - X X X - - - -
+    8 - - - - - - - - - - -
+    9 - X X X X - X X X X -
+    0 - X X X X - X X X X -
+*/

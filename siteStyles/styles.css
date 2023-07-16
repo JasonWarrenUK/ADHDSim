@@ -16,6 +16,7 @@ main {margin: 0 1em;}
 header, footer, section, article {padding: 1em;}
 nav {margin-left: 0; padding: 0;}
 aside {margin-right: 0; padding: 0;}
+footer {text-align: center;}
 
 /*|| FORMATTING ||*/
     h1, h2, h3, h4, h5, h6 {
@@ -27,9 +28,17 @@ aside {margin-right: 0; padding: 0;}
     code {font-family: monospace;}
     pre {font-family: cursive;}
     summary del {color: #aa0000;}
-    del {font-weight: 10;}
+    del {
+        color: #777777;
+        font-weight: 10;
+    }
     ins{font-size: xx-small ; text-decoration-line: none;}
     ins:hover {font-weight: 900; font-size: larger;}
+    blockquote {
+        margin: auto 0;
+        color: #777777;
+        font-style: italic;
+    }
 
     a:link {font-weight: bold;}
     a:hover, a:active {color: #aaaaaa;}
@@ -39,6 +48,19 @@ aside {margin-right: 0; padding: 0;}
     li {margin: 0.5em;}
     dt {font-weight: bold;}
     dd {padding: 0, 0, 0.5em, 0;}
+
+    details {/*menus in nav*/
+        border-radius: 20px;
+        background-color: #dadada;
+        padding: 5px 20px;
+        line-height: 1.5em;
+    }
+    details > p {
+        font-size: smaller;
+        text-align: left;
+    }
+    details p:last-child {margin-bottom: 1em;}
+    
 
     button {
         margin: 2px;
@@ -50,6 +72,12 @@ aside {margin-right: 0; padding: 0;}
     button:hover {
         background-color:#9999aa;
         color: yellow;
+    }
+
+    .tooltip {
+        font-weight: 700;
+        font-variant-caps: all-small-caps;
+        color: #ff6f00;
     }
 
 /*#####################################*/
@@ -119,23 +147,18 @@ aside {margin-right: 0; padding: 0;}
     padding: 5px;
     text-align: center;
 }
-.left details, .right details {/*menus in nav*/
-    border-radius: 20px;
-    background-color: #dadada;
-    padding: 5px 20px;
-    line-height: 1.5em;
-}
+
 .left ul, .right ul {
     border: 2px outset #000000;
     border-radius: 20px;
-    background-color: #eeeeee;
+    background-color: #ffbc81;
     padding: 10px;
 }
 .left li, .right li {list-style-type: none;} /*no bullet in nav*/
 
 .leftTitle {
     width: 80%;
-    background-color: #dadada;
+    background-color: #f9cca5;
     margin: auto;
 }
 .leftTitle h5 {margin: auto;}
@@ -176,6 +199,19 @@ aside {margin-right: 0; padding: 0;}
 .themeMusic {order: 120;}
 .themeOther {order: 130;}
 
+.buttonModal {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: violet;
+}
+.buttonModalImage {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: violet;
+}
+.buttonModalLink {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blueviolet;
+}
+
 .type {flex: 1 1 25%;
     display: none;
     max-width: 30%;   
@@ -183,7 +219,7 @@ aside {margin-right: 0; padding: 0;}
     box-shadow: 5px 5px 12px 2px rgba(0, 0, 0, 0.5);
     border: 3px solid rgb(0, 0, 0);
     border-radius: 20px;
-    background-color: #ebebeb;
+    background-color: #f9cca5;
     padding: 5px;
     text-align: center;
 }
@@ -201,14 +237,14 @@ aside {margin-right: 0; padding: 0;}
     /* max-width: 45%; */
     box-shadow: none;
     /* margin: 10px 30px; */
-    border-style: none;
+    border-style: double;
 }
 .typeIntro1 {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
     max-width: 100%;
     box-shadow: none;
-    margin: 10px 30px;
-    border-style: dotted;
+    /* margin: 10px 30px; */
+    border-style: dashed;
 }
 .typeTitle2 {
     border-style: ridge;
@@ -218,50 +254,38 @@ aside {margin-right: 0; padding: 0;}
 }
 .typeStrap2 {
     max-width: 50%;
-    margin: 10px 30px;
+    /* margin: 10px 30px; */
     box-shadow: none;
     border-style: none;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 .typeIntro2 {
     flex-basis: 30%;
     max-width: 50%;
     box-shadow: none;
     border-style: dotted;
-    margin: auto 30px;
+    /* margin: auto 30px; */
 }
 .typeContent {
     max-width: 30%;
     border-style: outset;
     /* padding: auto; */
 }
-.buttonModal {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: violet;
-}
 .typeModal {
-    margin: auto;
+    /* margin: auto; */
     border-style: none;
     background-color: coral;
     padding: auto;
 }
-.buttonModalImage {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: violet;
-}
 .typeModalImage {
     /* flex-grow: 1; */
-    margin: auto;
+    /* margin: auto; */
     width: 300px;
     border-style: none;
     padding: auto;
 }
-.buttonModalLink {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: blueviolet;
-}
 .typeModalLink {
-    margin: auto;
+    /* margin: auto; */
     border-style: none;
     background-color: skyblue;
     padding: auto;
@@ -283,12 +307,12 @@ aside {margin-right: 0; padding: 0;}
 }
 .typeThought {
     border-width: 1px 0;
-    background-color: #f8f8dc;
+    background-color: #bdb5f6;
     font-family: serif;
 }
 .typeQuote {
     border-style: outset;
-    background-color: #9999aa;
+    background-color: #695442;
     font-family: serif;
 }
 .typeCode {
@@ -297,10 +321,12 @@ aside {margin-right: 0; padding: 0;}
     font-family: monospace;
 }
 .typeBlurt {
+    display: none;
     border-width: 10px 0;
     border-style: double;
     border-radius: 0;
-    background-color: #ffbc81;
+    background-color: #d400ff;
+    color: rgb(164, 164, 2);
     font-family: sans-serif;
 }
 .typeOutro {
@@ -323,14 +349,19 @@ aside {margin-right: 0; padding: 0;}
     border: 1px solid black;
     padding: 0;
 }
-.type .box {border: 1px dashed;}
+.type > :is(ol, ul) {text-align: left;}
+.type .box {
+    border: 1px dashed;
+    background-color: #f9cca5;
+}
 
 .typeBlurt p {margin: 10px 15px;}
 
-.typeContent p, .typeContent li, .typeContent :is(h2, h3, h4, h5, h6) {
-    background-color: rgba(235, 235, 235, 0.8);}
+.typeContent > p, .typeContent > li, .typeContent :is(h2, h3, h4, h5, h6) {
+    background-color: rgba(249, 204, 165, 0.8);
+}
 
-.typeContent p, .typeContent li {
+.typeContent > p, .typeContent > li {
     border-radius: 20px;
     font-size: smaller;
 }
@@ -348,13 +379,21 @@ aside {margin-right: 0; padding: 0;}
     background: #eeeeee;
     line-height: 2em;
 }
+.typeImageCategory > p {
+    background-color: rgba(235, 235, 235, 0.8);
+}
 .typeImageCategory button {
     width: 60%;
     /* margin: 10% auto; */
     font-weight: 700;
 }
-.typeImageCategory li {list-style: none outside;}
-.typeImageCategory :is(ol, ul) {margin: 0; padding: 0 0 ;}
+.typeImageCategory :is(ol, ul) {
+    margin: 0;
+    padding: 0 0;
+    text-align: center;
+}
+
+.liVanish {list-style: none outside;}
 
 .typeModal button {
     min-width: 80%;
@@ -363,6 +402,10 @@ aside {margin-right: 0; padding: 0;}
     padding: 10%;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+.nope {
+    list-style: none outside;
 }
 
   /*#################################*/
@@ -479,6 +522,8 @@ right: 0;
     max-width: 80%;
     padding: 1em 0 0 0;
 }
+
+.right .cardLayout {background-color: #dadada;}
 
   /*#################################*/
   /*##            TRASH            ##*/
