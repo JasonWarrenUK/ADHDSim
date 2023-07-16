@@ -122,173 +122,160 @@
 
 /* || THEME SWITCHER || */
   const showThemeBasic = document.getElementById('showThemeBasic');
-    showThemeBasic.addEventListener('click', function() {
-      const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      let visibleNow = document.querySelectorAll('.themeBasic');
-      for(let i = 0; i < visibleNow.length; i++){
-          visibleNow[i].style.display = 'block';
-      }
-    });
+  showThemeBasic.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeBasic');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    /*
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeCV = document.getElementById('showThemeCV');
+  showThemeCV.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeCV');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeNeuro = document.getElementById('showThemeNeuro');
+  showThemeNeuro.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeNeuro');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeTeaching = document.getElementById('showThemeTeaching');
+  showThemeTeaching.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeTeaching');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeBelief = document.getElementById('showThemeBelief');
+  showThemeBelief.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeBelief');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  /* const showThemePlaces = document.getElementById('showThemePlaces');
+  showThemePlaces.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themePlaces');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  }); */
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemePeople = document.getElementById('showThemePeople');
+  showThemePeople.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themePeople');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeBooks = document.getElementById('showThemeBooks');
+  showThemeBooks.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeBooks');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeHistory = document.getElementById('showThemeHistory');
+  showThemeHistory.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeHistory');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeLinguistics = document.getElementById('showThemeLinguistics');
+  showThemeLinguistics.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeLinguistics');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeIdea = document.getElementById('showThemeIdea');
+  showThemeIdea.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeIdea');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    });
+  const showThemeGameDesign = document.getElementById('showThemeGameDesign');
+  showThemeGameDesign.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeGameDesign');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
-    const show• = document.getElementById('show•');
-    show•.addEventListener('click', function() {
-      const hideThese = document.getElementsByClassName('.type');
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
-      
-      let visibleNow = document.getElementsByClassName('.theme•');
-      for (const showThis of visibleNow) {
-        showThis.style.display = 'block';
-      }
-    }); */
+  const showThemeMusic = document.getElementById('showThemeMusic');
+  showThemeMusic.addEventListener('click', function() {
+    const hideThese = document.querySelectorAll('[data-pages]')
+    for (const hideThis of hideThese) {
+      hideThis.style.display = 'none';
+    }
+    let visibleNow = document.querySelectorAll('.themeMusic');
+    for(let i = 0; i < visibleNow.length; i++){
+        visibleNow[i].style.display = 'block';
+    }
+  });
 
 /* || CONTENT CARDS || */
     /* | Modals | */

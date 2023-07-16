@@ -27,6 +27,9 @@ aside {margin-right: 0; padding: 0;}
     code {font-family: monospace;}
     pre {font-family: cursive;}
     summary del {color: #aa0000;}
+    del {font-weight: 10;}
+    ins{font-size: xx-small ; text-decoration-line: none;}
+    ins:hover {font-weight: 900; font-size: larger;}
 
     a:link {font-weight: bold;}
     a:hover, a:active {color: #aaaaaa;}
@@ -185,19 +188,19 @@ aside {margin-right: 0; padding: 0;}
     text-align: center;
 }
 .typeTitle1 {
-    flex: 1 0 40%;
-    min-width: 35%;
-    margin: 0;
+    /* flex: 1 0 40%; */
+    /* min-width: 35%; */
+    /* margin: 0; */
     border-style: ridge;
     border-radius: 0px;
     padding: 10px 0px;
     font-family: serif;
 }
 .typeStrap1 {
-    flex-basis: 50%;
-    max-width: 45%;
+    /* flex-basis: 50%; */
+    /* max-width: 45%; */
     box-shadow: none;
-    margin: 10px 30px;
+    /* margin: 10px 30px; */
     border-style: none;
 }
 .typeIntro1 {
@@ -230,6 +233,7 @@ aside {margin-right: 0; padding: 0;}
 .typeContent {
     max-width: 30%;
     border-style: outset;
+    /* padding: auto; */
 }
 .buttonModal {
     border: 1px solid rgb(0, 0, 0);
@@ -322,6 +326,14 @@ aside {margin-right: 0; padding: 0;}
 .type .box {border: 1px dashed;}
 
 .typeBlurt p {margin: 10px 15px;}
+
+.typeContent p, .typeContent li, .typeContent :is(h2, h3, h4, h5, h6) {
+    background-color: rgba(235, 235, 235, 0.8);}
+
+.typeContent p, .typeContent li {
+    border-radius: 20px;
+    font-size: smaller;
+}
 
 .typeImage :is(h2, h3, h4, h5, h6) {
     margin: 10% 10%;

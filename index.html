@@ -27,6 +27,14 @@
 <main class="gallery0_main">
     <nav class="left ">
         <div class="gallery1_column">
+            <!-- <details id="naviDev" class="cardLayout"> -->
+                <!-- <summary><b>Dev</b></summary> -->
+                <ul id="showDev">
+                    <button id="showAll">All</button>
+                    <button id="showDebug">Debug</button>
+                </ul>
+            <!-- </details> -->
+
             <details id="naviPages" class="cardLayout">
                 <summary><b>Pages</b></summary>
                 <ul id="showPage">
@@ -43,12 +51,12 @@
             <details id="naviTheme" class="cardLayout">
                 <summary><b>Themes</b></summary>
                 <ul id="showTheme">
-                    <button id="showThemeBasic">Basic</button>
-                    <button id="showThemeCV">CV</button>
+                    <button id="showThemeBasic">About Jason</button>
+                    <button id="showThemeCV">Jason's Work</button>
                     <button id="showThemeNeuro">Neurodivergence</button>
                     <button id="showThemeTeaching">Teaching</button>
                     <button id="showThemeBelief">Beliefs</button>
-                    <button id="showThemePlaces">Places</button>
+                    <!-- <button id="showThemePlaces">Places</button> -->
                     <button id="showThemePeople">People</button>
                     <button id="showThemeBooks">Books</button>
                     <button id="showThemeHistory">History</button>
@@ -70,14 +78,6 @@
                     </a>
                 </ul>
             </details>
-            
-            <details id="naviDev" class="cardLayout">
-                <summary><b>Dev</b></summary>
-                <ul id="showDev">
-                    <button id="showAll">All</button>
-                    <button id="showDebug">Debug</button>
-                </ul>
-        </details>
         </div>
     </nav>
 
@@ -85,21 +85,40 @@
     <section class="middle">
         <div id="content" class="gallery1_row">
             <!--Title 1 -->
+                <div id="deconstructor" class="theme1 type typeTitle1" data-pages="deconstructor">
+                    <h2>Deconstructor</h2>
+                </div>
+                <div id="vault" class="theme1 type typeTitle1" data-pages="vault">
+                    <h2>Vault</h2>
+                </div>
                 <div id="sparks" class="theme1 type typeTitle1" data-pages="sparks">
                     <h2>Sparks</h2>
                 </div>
-                <div id="cage" class="theme1 type typeTitle1" data-pages="cage">
-                    <h2>The Cage</h2>
+                <div id="portfolio" class="theme1 type typeTitle1" data-pages="portfolio">
+                    <h2>Portfolio</h2>
                 </div>
-                <div id="deconstructor" class="theme1 type typeTitle1" data-pages="deconstructor">
-                    <h2>Deconstructor</h2>
-                    <hr/>
-                    <h5>Applicant Atomisation Services</h5>
+                <div id="machine" class="theme1 type typeTitle1" data-pages="machine">
+                    <h2>The Machine</h2>
+                </div>
+                <div id="cage" class="theme1 type typeTitle1" data-pages="cage">
+                    <h2>Impulse Cage</h2>
                 </div>
 
             <!--Strap 1-->
+                <div id="deconstructorStrap" class="theme1 type typeStrap1" data-pages="deconstructor">
+                    <h4>Applicant Atomisation Services</h4>
+                </div>
+                <div id="vaultStrap" class="theme1 type typeStrap1" data-pages="vault">
+                    <h4>A Selection of Possibly True Facts About Jason Warren</h4>
+                </div>
                 <div id="sparksStrap" class="theme1 type typeStrap1" data-pages="sparks">
-                    <h5>Podcasts, Books, Sake, maybe jam some APIs in there</h5>
+                    <h4>What Happens When You Give Someone with a Head Full of Useless Trivia a Digital Platform?</h4>
+                </div>
+                <div id="portfolioStrap" class="theme1 type typeStrap1" data-pages="portfolio">
+                    <h4>Things What I Did Making Of</h4>
+                </div>
+                <div id="machineStrap" class="theme1 type typeStrap1" data-pages="machine">
+                    <h4>What On Earth is Going On Here?</h4>
                 </div>
                 <div id="cageStrap" class="theme1 type typeStrap1" data-pages="cage">
                     <h4>A Place for All the Ideas I Had to Remind Myself Weren't Appropriate for My First Ever Coding Project</h4>
@@ -107,61 +126,75 @@
 
             <!--Intro 1-->
                 <div id="homeIntro" class="theme1 type typeIntro1" data-pages="home">
-                    <p>This is totally just a placeholder right now, but one day, ONE DAY, it will be an ætheric guide connecting you to my achievements throughout the digital world.</p>
-                    <p>A glowing beacon, some would say, of what humanity could be.</p>
-                    <p>When humanity finally finishes this grand collective experiment in Dadaist art (destroying the planet), this page will stand as our epitaph.</p>
+                    <del><p>This is totally just a placeholder right now, but one day, ONE DAY, it will be an ætheric guide connecting you to my achievements throughout the digital world.</p></del>
+                    <ins><p>Welcome to My Website</p></ins>
+                    <del><p>When humanity finally finishes this grand collective experiment in Dadaist art (destroying the planet), this page will stand as our epitaph.</p></del>
+                </div>
+                <div id="deconstructorIntro" class="theme1 type typeIntro1" data-pages="deconstructor">
+                    <p>Who Is Jason? What Does He Want? How Can We Stop Him?</p>
+                </div>
+                <div id="vaultIntro" class="theme1 type typeIntro1" data-pages="vault">
+                    <p>A smorgasbord of my work, my achievements & my "achievements".</p>
                 </div>
                 <div id="sparksIntro" class="theme1 type typeIntro1" data-pages="sparks">
-                    <p>Podcasts, Books, Sake, maybe jam some APIs in there</p>
+                    <p>Irrelevant interests that may well make you regret sayng "We want to see your personality".</p>
+                </div>
+                <div id="portfolioIntro" class="theme1 type typeIntro1" data-pages="portfolio">
+                    <p>Coding-specific information & links to my projects.</p>
+                </div>
+                <div id="machineIntro" class="theme1 type typeIntro1" data-pages="machine">
+                    <p>A guide to how this website works, and some explanations about why it doesn't.</p>
+                </div>
+                <div id="cageIntro" class="theme1 type typeIntro1" data-pages="cage">
+                    <p>I have a tendency to be a bit over-ambitious. This page is to capture those ideas I would love to develop as I develop the relevant skills.</p>
                 </div>
 
             <!--Title 2-->
-                <button id="actorTraining" class="themeTeaching type typeTitle2" data-pages="vault">
-                    <h2>Actor Training</h2>
-                </button>
-                <button id="beliefs" class="themeBelief type typeTitle2" data-pages="deconstructor">
-                    <h2>Beliefs</h2>
-                </button>
-                <button id="books" class="themeBooks type typeTitle2" data-pages="sparks"books likes">
-                    <h2>Books</h2>
-                </button>
-                <button id="career" class="themeCV type typeTitle2" data-pages="vault">
+                <div id="education" class="themeTeaching type typeTitle2" data-pages="none">
+                    <h3>Pedagogy</h3>
+                </div>
+                <div id="beliefs" class="themeBelief type typeTitle2" data-pages="none">
+                    <h3>Beliefs</h3>
+                </div>
+                <div id="books" class="themeBooks type typeTitle2" data-pages="none">
+                    <h3>Books</h3>
+                </div>
+                <div id="career" class="themeCV type typeTitle2" data-pages="none">
                     <h3>Career</h3>
-                </button>
-                <button id="gameAnalogue" class="themeGameDesign type typeTitle2" data-pages="cage">
-                    <h2>Game Design Concepts</h2>
-                </button>
-                <button id="gamesDigital" class="themeGameDesign type typeTitle2" data-pages="sparks">
-                    <h2>Video Games</h2>
-                </button>
-                <button id="history" class="themeHistory type typeTitle2" data-pages="sparks">
-                    <h3 id="history">History</h3>
-                </button>
-                <button id="linguistics" class="themeLinguistics type typeTitle2" data-pages="sparks">
+                </div>
+                <div id="gameAnalogue" class="themeGameDesign type typeTitle2" data-pages="none">
+                    <h3>Game Design Concepts</h3>
+                </div>
+                <div id="ideas" class="themeIdea type typeTitle2" data-pages="none">
+                    <h3>Game Design Concepts</h3>
+                </div>
+                <div id="gamesDigital" class="themeGameDesign type typeTitle2" data-pages="none">
+                    <h3>Video Games</h3>
+                </div>
+                <div id="history" class="themeHistory type typeTitle2" data-pages="none">
+                    <h3>History</h3>
+                </div>
+                <div id="linguistics" class="themeLinguistics type typeTitle2" data-pages="none">
                     <h3>Linguistics</h3>
-                </button>
-                <button id="music" class="themeMusic type typeTitle2" data-pages="sparks">
-                    <h2 id="music">Music</h2>
-                </button>
-                <button id="neurodivergence" class="themeNeuro type typeTitle2" data-pages="deconstructor">
-                    <h2>Neurodivergence</h2>
-                </button>
-                <button id="neurodivergenceStudents" class="themeCV type typeTitle2" data-pages="vault">
-                    <h4>NEURODIVERGENCE</h4>
-                    <p>I WORK WITH NEURODIVERGENT WEIRDBRAINS LIKE ME</p>
-                </button>
-                <button id="people" class="themePeople type typeTitle2" data-pages="sparks">
-                    <h2 id="people">People</h2>
-                </button>
-                <button id="places" class="themePlaces type typeTitle2" data-pages="deconstructor">
-                    <h2>Places</h2>
-                </button>
-                <button id="stats" class="themeBasic type typeTitle2" data-pages="deconstructor">
-                    <p>Who is Jason?</p>
-                </button>
+                </div>
+                <div id="music" class="themeMusic type typeTitle2" data-pages="none">
+                    <h3>Music</h3>
+                </div>
+                <div id="neurodivergence" class="themeNeuro type typeTitle2" data-pages="none">
+                    <h3>Neurodivergence</h3>
+                </div>
+                <div id="people" class="themePeople type typeTitle2" data-pages="none">
+                    <h3 id="people">People</h3>
+                </div>
+                <div id="places" class="themePlaces type typeTitle2" data-pages="none">
+                    <h3>Places</h3>
+                </div>
+                <div id="basic" class="themeBasic type typeTitle2" data-pages="none">
+                    <h3>Who is Jason?</h3>
+                </div>
 
             <!--Strap 2-->
-                <div id="actorTrainingStrap" class="themeTeaching type typeStrap2" data-pages="vault" data-unlocks="teaching theatre">
+                <div id="actorTrainingStrap" class="themeTeaching type typeStrap2" data-pages="vault">
                     <h4>A Job, But Also a Thing I Know Way Too Much About</h4>
                 </div>
                 <div id="beliefsStrap" class="themeBelief type typeStrap2" data-pages="deconstructor">
@@ -180,24 +213,57 @@
                     <h4>Are Really Goddam Cool</h4>
                 </div>
                 <div id="linguisticsStrap" class="themeLinguistics type typeStrap2" data-pages="sparks">
-                    <h4>The Science of Language of words, place names, class etc</h4>
+                    <h4>The Science of Human Language</h4>
                 </div>
                 <div id="musicStrap" class="themeMusic type typeStrap2" data-pages="sparks">
                     <h4>Settle In, You've Discovered a <a href="https://autism-advocacy.fandom.com/wiki/Special_interests">Special Interest</a></h4>
                 </div>
-                <div id="neurodivergenceStrap" class="themeNeuro type typeStrap2" data-pages="deconstructor">
+                <!-- <div id="neurodivergenceStrap" class="themeNeuro type typeStrap2" data-pages="deconstructor">
                     <h4>XXX</h4>
-                </div>
-                <div id="placesStrap" class="themePlaces type typeStrap2" data-pages="deconstructor">
+                </div> -->
+                <!-- <div id="placesStrap" class="themePlaces type typeStrap2" data-pages="deconstructor">
                     <h4>XXX</h4>
-                </div>
+                </div> -->
 
-            <!--Intro 2-->
-                <div id="gameAnalogueIntro" class="themeGameDesign type typeIntro2" data-pages="cage">
-                    <p><i>Cool ideas from physical games that I keep starting to write code for before remembering that is very much not the brief.</i></p>
+                <!--Intro 2-->    
+                <div id="basicIntro" class="themeBasic type typeIntro2" data-pages="none">
+                    <p><i>Basic information about me.</i></p>
                 </div>
-                <div id="linguisticsIntro" class="themeLinguistics type typeIntro2" data-pages="sparks">
-                    <p><i>LINGUISTICS INNIT</i></p>
+                <div id="cvIntro" class="themeCV type typeIntro2" data-pages="none">
+                    <p><i>All the things I would put on a CV, with none of the slightly oblique attempts at humour or self-deprecation.</i></p>
+                </div>
+                <div id="neuroIntro" class="themeNeuro type typeIntro2" data-pages="none">
+                    <p><i>Since being diagnosed with ADHD at 32, I've become fascinated with how different neurotypes engage with the world.</i></p>
+                </div>
+                <div id="teachingIntro" class="themeTeaching type typeIntro2" data-pages="none">
+                    <p><i>I've worked in various kinds education for over 15 years, which is ironic given I was regularly politely escorted off school premises as a kid.</i></p>
+                </div>
+                <div id="beliefIntro" class="themeBelief type typeIntro2" data-pages="none">
+                    <p><i>Just some stuff I reckon. I've had a fair amount of cause to interrogate this due to often being given power over people I teach, some of them pretty vulnerable.</i></p>
+                </div>
+                <div id="placesIntro" class="themePlaces type typeIntro2" data-pages="none">
+                    <p><i>Just some places that are significant to me.</i></p>
+                </div>
+                <div id="peopleIntro" class="themePeople type typeIntro2" data-pages="none">
+                    <p><i>Significant people mentioned on this site.</i></p>
+                </div>
+                <div id="booksIntro" class="themeBooks type typeIntro2" data-pages="none">
+                    <p><i>I'm one of those horrendous people that can drone on for years about what I've been reading.</i></p>
+                </div>
+                <div id="historyIntro" class="themeHistory type typeIntro2" data-pages="none">
+                    <p><i>Despite failing my history GCSE and having GCSE-based trauma flashbacks when someone mentions the Industrial Revolution, my father & stepfather both taught me how it can help us understand the world.</i></p>
+                </div>
+                <div id="linguisticsIntro" class="themeLinguistics type typeIntro2" data-pages="none">
+                    <p><i>The languages we speak have stories hidden within them. Discovering those stories, and how they affect us, sends me down many Wikipedia rabbitholes.</i></p>
+                </div>
+                <div id="ideasIntro" class="themeIdea type typeIntro2" data-pages="none">
+                    <p><i>Just some ideas I've had. There's a very good argument for not including this section on the site.</i></p>
+                </div>
+                <div id="gameDesignIntro" class="themeGameDesign type typeIntro2" data-pages="none">
+                    <p><i>Cool ideas from physical games that I keep starting to write code for before remembering that is very much not the brief. Also I quite like video games...</i></p>
+                </div>
+                <div id="musicIntro" class="themeMusic type typeIntro2" data-pages="none">
+                    <p><i>It is absolutely imperative that you never ask me "so what kind of music are you into" unless you want to gain an in-depth understanding of how long you can nod politely for.</i></p>
                 </div>
 
             <!--Code-->
@@ -213,68 +279,87 @@
 
             <!--Content-->
                 <div id="armenia" class="themeHistory type typeContent" data-pages="sparks">
-                    <a href="https://www.thearchaeologist.org/blog/kingdom-of-armenia-between-rome-amp-parthia-ancient-history-documentary">Kingdom of Armenia</a>
+                    <h5>Armenia</h5>
+                    <p>Armenia has been a significant political power since the time of the Roman Empire, always straddling European & Asian culture</p>
+                    <p>Also, the <a href="https://www.thearchaeologist.org/blog/kingdom-of-armenia-between-rome-amp-parthia-ancient-history-documentary">Kingdom of Armenia</a> was the first state to adopt Christianity as a religion.</p>
                 </div>
-                <div id="aurelian" class="themeHistory type typeContent" data-pages="sparks">
-                    <p>Aurelian</p>
+                <div id="aurelian" class="themeHistory type typeContent" data-pages="sparks" style="background-image: url(/siteImages/aurelian.jpg); background-size: cover; background-position: center;">
+                    <h5>Aurelian</h5>
+                    <p>In the late 200s, the Roman Empire was falling apart.</p>
+                    <p>In the space of 5 years, the Emperor <a href="https://www.wikiwand.com/en/Aurelian">Aurelian</a> reconquered more territory than pretty much every other Emperor combined, yet no one now has heard of him.</p>
+                    <p>Gutted.</p>
                 </div>
-                <div id="bakhunin" class="themeBelief type typeContent" data-pages="sparks">
-                    <p>Bakhunin, Mikhail</p>
+                <div id="bakhunin" class="themePeople type typeContent" data-pages="sparks">
+                    <h5>Mikhail Bakhunin</h5>
+                    <p>Imagine Karl Marx.</p>
+                    <p>Now imagine he doesn't know how to wash his clothes.</p>
+                    <p>Also <a href="https://www.wikiwand.com/en/Mikhail_Bakunin">he's an anarchist</a>.</p>
                 </div>
                 <div id="bronzeAgeCollapse" class="themeHistory type typeContent" data-pages="sparks">
-                    <h4>The Bronze Age Collapse</h5>
-                    <ul><li>Hittites, Fall of the</li><li>Sea Peoples</li></ul>
+                    <h5>The Bronze Age Collapse</h5>
+                    <p>In about 1200 BCE, <a href="https://www.wikiwand.com/en/Late_Bronze_Age_collapse">a wave of devastation</a> swept across the mediterranean coast. Pretty much only the Egyptian civilization survived it unscathed.</p>
+                    <p>We don't know exactly what happened, but places like Greece literally forgot how to write.</p>
                 </div>
                 <div id="brothers" class="themePeople type typeContent" data-pages="deconstructor">
-                    <h2>My Brothers</h2>
+                    <h5>My Brothers</h5>
+                    <p>I have baby four brothers. They're awesome.</p>
+                    <p>Also the youngest of them is now in their 20s, so I am stretching the definition of baby.</p>
                 </div>
                 <div id="cageIntegrations" class="themeIdea type typeContent" data-pages="cage">
-                    <h2 id="integrations">Integrations</h2>
+                    <h5>Integrations I Want to Mess With</h5>
                     <ul>
-                        <li>Dave Young&#39;s Speech Synthesis</li>
-                        <li>Hue</li>
-                        <li>Notion</li>
+                        <li>My mate Dave uses a tablet and app to speak. We have ideas...</li>
+                        <li>My Hue smart bulbs. Many lols.</li>
+                        <li>A more efficient web clipper for Notion.</li>
                     </ul>
                 </div>
                 <div id="cageWhispers" class="themeIdea type typeContent" data-pages="cage">
-                    <h2 id="whispers">Whispers</h2>
+                    <h5>Whispers</h5>
                     <ul>
                         <li>Bas-Lag Internet</li>
-                        <li>Code as the visible medium, not merely the tool</li>
+                        <li>Code as medium, not tool</li>
                         <li>Cultural Comparator</li>
-                        <li>Ethical Typologist</li>
+                        <li>Ethical Classifier</li>
                         <li>Language Explorer</li>
                         <li>Neurodivergent Tech Framework</li>
                         <li>Trope Subverter</li>
                     </ul>
                 </div>
                 <div id="disabilityPedagogy" class="themeBelief type typeContent" data-pages="vault">
-                    <h4>"Inclusive" is Bullshit</h4>
-                    <p>I'VE SPENT A LONG TIME DEVELOPING A PEDAGOGY THAT CELEBRATES & CENTRES DISABILITY RATHER THAN JUST ACCOMODATING IT. IT'S VERY FUN. ALSO I CAN'T PAY MY BILLS.</p>
+                    <h5>"Inclusive" is Bullshit</h5>
+                    <p>I've spent a long time developing an arts pedagogy that celebrates & centres disability rather than just accomodating it.</p>
+                    <p><del>Also I can't pay my bills.</del></p>
+                    <p>It is surprisingly fun.</p>
                 </div>
                 <div id="gameAnalogueLegacy" class="themeGameDesign type typeContent" data-pages="cage">
-                    <h4>Legacy Games</h4>
+                    <h5>Legacy Games</h5>
                     <p>A multiplayer game played by a small consistent group with a reactive/branching campaig designed to be played through once.</p>
                     <p>Traditionally these games involve destroying components as they are played.</p>
                 </div>
-                <div id="gameAnalogueLifepaths" class="themeGameDesign type typeContent" data-pages="cage">
-                    <h4>Lifepaths</h4>
+                <!-- <div id="gameAnalogueLifepaths" class="themeGameDesign type typeContent" data-pages="cage">
+                    <h5>Lifepaths</h5>
                     <p>The <a href="">character creation system</a> from <a href="">Burning Wheel</a></p>
-                </div>
+                </div> -->
                 <div id="historyLens" class="themeHistory type typeContent" data-pages="cage">
-                    History Lens
-                    <ol>
+                    <h5>History Lens</h5>
+                    <del><ol>
                         <li>Choose Circumstances</li>
                         <li>????</li>
                         <li>Profit!</li>
-                    </ol>
+                    </ol></del>
+                    <p>I started building an app where you pick a historical event and how old someone was during it. The app then tells you what else that person might have experienced, and at what age.</p>
+                    <p>It also tells you what they might have heard about firsthand from an elderly person.</p>
+                    <p>I stopped when I realised that encoding all of human history was a tad ambitious.</p>
                 </div>
                 <div id="inspoWeb" class="themeIdea type typeContent" data-pages="cage">
-                    <h4>Code Inspo</h4>
+                    <h5>Code Inspo</h5>
                     <p>I am unreasonably jealous of the people who made...</p>
-                    <p><a href="https://sarah.dev/">This site&#39;s header</a></p>
+                    <ul>
+                        <li><a href="https://sarah.dev/">This site&#39;s header</a></li>
+                        <li><a href="https://codepen.io/agrimsrud/pen/XWNLMeW">This Nav Concept</a></li>
+                    </ul>
                 </div>
-                <div id="music1970" class="themeMusic type typeContent" data-pages="sparks">
+                <!-- <div id="music1970" class="themeMusic type typeContent" data-pages="sparks">
                     <h4 id="1970s">1970s</h4>
                     <ul>
                         <li>David Bowie
@@ -294,48 +379,36 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <div id="mythology" class="themeHistory type typeContent" data-pages="sparks">
-                    <h2 id="mythology-religion">Mythology &amp; Religion</h2>
+                    <h5>Mythology &amp; Religion</h5>
+                    <p>The original european sky god was called <span title="Sky Father">Dyaus Pitar</span>. This name morphed over time into...
                     <ul>
-                    <li>Comparative Mythology<ul>
-                    <li>Indo-European Equivalents (Deus, Jupiter, Zeus)</li>
-                    <li>Woman as Destroyer &amp; Rebel (Kali &amp; Lillith)</li>
+                        <li>Zeus Pater</li>
+                        <li>Ju Piter</li>
+                        <li>Deus</li>
                     </ul>
-                    </li>
-                    <li>Evolution of Religions<ul>
-                    <li>Documentary Hypothesis</li>
-                    <li>Differentiation/Development of Abrahamic Faiths</li>
-                    </ul>
-                    </li>
-                    <li>Religion as Folk Memory<ul>
-                    <li>Exodus</li>
-                    <li>Iliad</li>
-                    </ul>
-                    </li>
-                    </ul>
+                    </p>
                 </div>
                 <div id="neurodivergenceFaculty" class="themeNeuro type typeContent" data-pages="vault">
-                    <li>Neurodivergence Faculty Support</li>
+                    <h5>Neurodivergence Support for HE Faculty</h5>
+                    <p>During the pandemic, I ended up running private support sessions for university faculty members that were neurodivergent.</p>
+                    <p>It always made me sad that they felt they couldn't be open about that with their peers or students.</p>
+                </div>
+                <div id="neurodivergenceStudents" class="themeCV type typeContent" data-pages="vault">
+                    <h5>How Do You Train a Neurodivergent Acting Student?</h5>
+                    <p>A question that has had literally no academic research. That makes me both an authority and deeply clueless.</p>
                 </div>
                 <div id="orthography" class="themeLinguistics type typeContent" data-pages="sparks">
-                    <h3 id="orthography">Orthography</h3>
+                    <h5>Orthography</h5>
+                    <p>Cool Writing Systems</p>
                     <ul>
-                        <li>
-                            Alphabets
-                            <ul>
-                                <li>Cyrillic</li>
-                                <li>Latin Variants</li>
-                                <li>Phonecian</li>
-                            </ul>
-                        </li>
-                        <li>Cuneiform</li>
-                        <li>Hangul</li>
-                        <li>Hiragana</li>
-                        <li>Ogham</li>
+                        <li><a href="https://www.wikiwand.com/en/Armenian_alphabet">Armenian</a></li>
+                        <li><a href="https://www.wikiwand.com/en/Hangul"></a>Hangul</li>
+                        <li><a href="https://www.wikiwand.com/en/Ogham"></a>Ogham</li>
                     </ul>
                 </div>
-                <div id="placesMe" class="themePlaces type typeContent" data-pages="deconstructor">
+                <!-- <div id="placesMe" class="themePlaces type typeContent" data-pages="deconstructor">
                     <h3 id="where-">Where?</h3>
                     <ul>
                     <li>The South<ul>
@@ -356,151 +429,118 @@
                     <li>Istanbul</li>
                     <li>Akrotiri</li>
                     </ul>
-                </div>
+                </div> -->
                 <div id="practitioners" class="themePeople type typeContent" data-pages="sparks">
-                    <h3 id="theatre-practitioners">Theatre Practitioners</h3>
+                    <h5>Theatre Practitioners</h5>
+                    <p>People Who Use Theatre for Interesting Things</p>
                     <ul>
-                    <li>Boal, Augusto</li>
-                    <li>Chekhov, Mikhail</li>
-                    <li>Grotowski, Jerzy</li>
-                    <li>Meyerhold</li>
-                    <li>Young, David</li>
+                        <li>Augusto Boal</li>
+                        <li>Mikhail Chekhov</li>
+                        <li>Jerzy Grotowski</li>
+                        <li>Vsevolod Meyerhold</li>
+                        <li>David Young</li>
                     </ul>
                 </div>
-                <div id="psychophysicality" class="themeTeaching type typeContent" data-pages="vault">
+                <!-- <div id="psychophysicality" class="themeTeaching type typeContent" data-pages="vault">
                     <p>Psychophysicality</p>
-                </div>
+                </div> -->
                 <div id="srebrenica" class="themeCV type typeContent" data-pages="vault">
-                    <h5>SREBRENICA</h5>
-                    <p>I WENT TO SREBRENICA AND WORKED WITH THE SURVIVORS OF THE GENOCIDE THERE. IT WAS UNEXPECTEDLY LOLS.</p>
+                    <h5>Srebrenica</h5>
+                    <p>Several years ago I went to work with survivors of the Srebrenica Genocide.</p>
+                    <p>The buildings still had bullet holes in the walls.</p>
+                    <p>They taught me a game they play. Find the spot where the trees no longer have red X's painted on them. Throw a stone towards the unmarked trees.</p>
+                    <p>You win if a landmine explodes.</p>
                 </div>
                 <div id="writers" class="themePeople type typeContent" data-pages="sparks">
-                    <h3 id="authors-playwrights-poets">Authors, Playwrights &amp; Poets</h3>
+                    <h5>Authors, Playwrights &amp; Poets</h5>
+                    <p>The ones I grew up loving, so... uh... I'm aware of the mostly deadwhitemen feels.</p>
                     <ul>
-                    <li>Camus, Albert<ul>
-                    <li>Caligula</li>
-                    <li>Peste, La</li>
+                        <li>Camus, Albert<ul>
+                        <li>Chekhov, Anton<ul>
+                        <li>Huxley, Aldous</li>
+                        <li>Mieville, China</li>
+                        <li>Orwell, George</li>
                     </ul>
-                    </li>
-                    <li>Chekhov, Anton<ul>
-                    <li>The Cherry Orchard</li>
-                    </ul>
-                    </li>
-                    <li>Huxley, Aldous</li>
-                    <li>Mieville, China</li>
-                    <li>Orwell, George</li>
-                    </ul>
+                    <p></p>
                 </div>
                 <div id="statsList" class="themeBasic type typeContent" data-pages="deconstructor">
-                    <li>ADHD as Fuck</li>
-                    <li>Probably Autistic</li>
-                    <li>Illiterate then Not</li>
-                    <li>No role models for me</li>
-                    <li>A* &amp; U ain&#39;t normal</li>
+                    <h5>Vital Statistics</h5>
+                    <ul>
+                        <li>Born 1985</li>
+                        <li><del>ADHD as Fuck</del></li>
+                        <li><del>probs Autistic lol</del></li>
+                        <li><ins>Neurodivergent</ins></li>
+                        <li>7 GCSE's (assuming we don't count the U I got for History)</li>
+                        <li>1 A Level (I think)</li>
+                        <li>MA (Distinction)</li>
+                    </ul>
                 </div>
                 <div id="subcultures" class="themeOther type typeContent" data-pages="sparks">
-                    <h2 id="subcultures-movements">Subcultures &amp; Movements</h2>
+                    <h5>Subcultures &amp; Movements</h5>
+                    <p>I absolutely love short-lived subcultures that are already dead long before journalists manage to name them.</p>
                     <ul>
-                    <li>Proto-Punk</li>
-                    <li>Early Punk</li>
-                    <li>Vaporwave</li>
-                    <li>Witch House &amp; Darkwave</li>
+                        <li>Proto-Punk</li>
+                        <li>Vaporwave</li>
+                        <li>Witch House</li>
                     </ul>
                 </div>
-                <div id="timeline" class="themeBasic type typeContent" data-pages="deconstructor">
-                    <h3 id="when-">When?</h3>
+                <div id="timeline1" class="themeBasic type typeContent" data-pages="deconstructor">
+                    <h5>Timeline (0-29)</h5>
+                    <p>"So what have you been up to?"</p>
                     <ul>
-                    <li>0-19<ul>
-                    <li>6-11 St Thomas Garnet</li>
-                    <li>11-16 Bournemouth School<ul>
-                    <li>Expelled</li>
-                    </ul>
-                    </li>
-                    <li>16 Brockenhurst College</li>
-                    <li>17 Pampurred Pets</li>
-                    <li>18 Oaklands College</li>
-                    <li>19 Arts University Bournemouth</li>
-                    </ul>
-                    </li>
-                    <li>20-29<ul>
-                    <li>20 Australia</li>
-                    <li>21 Ashdown</li>
-                    <li>22-26 Victoria Education Centre<ul>
-                    <li>24-26 Greg Love</li>
-                    </ul>
-                    </li>
-                    <li>25 Anima</li>
-                    <li>26-27 East 15 MA Directing<ul>
-                    <li>Moscow</li>
-                    <li>MA Dissertation</li>
-                    </ul>
-                    </li>
-                    <li>27-30 AXIS Arts<ul>
-                    <li>Season 1<ul>
-                    <li>#MSND</li>
-                    </ul>
-                    </li>
-                    <li>Season 2</li>
-                    <li>28 Two Girls</li>
-                    </ul>
-                    </li>
-                    <li>29 East 15 MA Acting</li>
-                    </ul>
-                    </li>
-                    <li>30-Now<ul>
-                    <li>Srebrenica</li>
-                    <li>East 15 BA Physical Theatre</li>
-                    <li>Creating Worlds</li>
-                    <li>Southwark Playhouse</li>
-                    </ul>
-                    </li>
+                        <li>11 Admitted to selective grammar school</li>
+                        <li>15 De-admitted from selective grammar school</li>
+                        <li>16 College (Attempt #1)</li>
+                        <li>17 College (Attempt #2)</li>
+                        <li>18 College (Attempt #3)</li>
+                        <li>19 Can't Remember</li>
+                        <li>20 In Australia(?)</li>
+                        <li>21 Started making interactive theatre</li>
+                        <li>22-26 <span title="School for Young People with Profound/Complex Disabilities">Support Assistant</span></li>
+                        <li>26-27 <span title="Mature student, so bypassed requirement for any educational qualifications">MA Directing</span>. Studied in <span title="am not a spy">Moscow</span> for a month too.</li>
+                        <li>27-30 Ran a theatre company. Started small by doing 15 productions in 2 years. Normal.</li>
+                        <li>29 Started teaching at Higher Education level</li>
                     </ul>
                 </div>
-                <div id="tvFilm" class="themeOther type typeContent" data-pages="sparks">
-                    <h2 id="tv-film">TV &amp; Film</h2>
+                <div id="timeline2" class="themeBasic type typeContent" data-pages="deconstructor">
+                    <h5>Timeline (30-Now)</h5>
+                    <p>"So what have you been up to?" Extended Edition</p>
                     <ul>
-                    <li>Satire<ul>
-                    <li>Ianucci, Armando<ul>
-                    <li>Brass Eye</li>
-                    <li>Thick of It, The</li>
-                    </ul>
-                    </li>
-                    <li>Morris, Chris<ul>
-                    <li>Brass Eye</li>
-                    </ul>
-                    </li>
-                    <li>Serafinovicz, Peter<ul>
-                    <li>Look Around You</li>
-                    </ul>
-                    </li>
-                    </ul>
-                    </li>
+                        <li>Design BA & MA modules</li>
+                        <li>Published book</li>
+                        <li>Run a company for disabled young adults at Southwark Playhouse</li>
                     </ul>
                 </div>
                 <div id="whyCode" class="themeBelief type typeContent" data-pages="deconstructor">
-                    <h3>Why Code?????!?</h3>
-                    <p>A load of waffle about what I want to do with code & yada yada</p>
+                    <h5>Why Code?????!?</h5>
+                    <p>So why am I making this change of career?</p>
+                    <p>There are two factors, one pushing me from my old career and one pulling me to coding specifically.</p>
+                    <p>The Pull: I have wanted to make software, websites and games since I was a child. I was never taught to code, and found the idea incredibly intimidating. During lockdown, I discovered that code made sense to me... partly because my ADHD diagnosis & treatment meant that I now had the ability to intentionally focus on complex detail.</p>
+                    <p>The Push: For 15 years, I have simultaneously won awards & praise whilst simultaneously struggling to pay my bills; at times, I have only survived through the generosity & love of my family. I want to work in a field where I can both create some value in the world and, just maybe, be paid a salary.</p>
                 </div>
 
             <!--Modal-->
-                <dialog id="adhdDiagnosis" class="themeNeuro type typeModal" data-pages="deconstructor">
+                <!-- <div id="adhdDiagnosis" class="themeNeuro type typeModal" data-pages="deconstructor">
                     <p>Diagnosed at 32</p>
-                </dialog>
-                <div id="akrotiri" class="themeHistory type typeModal" data-pages="sparks">
+                </div> -->
+                <!-- <div id="akrotiri" class="themeHistory type typeModal" data-pages="sparks">
                     <p>Akrotiri</p>
-                </div>
-                <dialog id="axisArts" class="themeCV type typeModal" data-pages="vault">
+                </div> -->
+                <!-- <div id="axisArts" class="themeCV type typeModal" data-pages="vault">
                     <p>AXIS Arts</p>
-                </dialog>
-                <dialog id="cageWeaver" class="themePeople type typeModal" data-pages="cage">
-                    <p>Weaver</p>
-                </dialog>
-                <dialog id="chekhovModule" class="themeTeaching type typeModal" data-pages="vault">
-                    <h4>BA PT Chekhov</h4>
-                    <p>Award</p>
-                </dialog>
-                <dialog id="dissertation" class="themeNeuro type typeModal" data-pages="deconstructor">
-                    <h4>Hyperfocus</h4>
+                </div> -->
+                <div id="cageWeaver" class="themePeople type typeModal" data-pages="cage">
+                    <h5>Weaver</h5>
+                    <p>My mother's uncle passed away with dementia a while back. I was lucky enough to talk to him a fair bit towards the end of his time.</p>
+                    <p>I discovered that he was able to have superb conversations with us, as long as I kept anchoring the topic in a detail from his deeper past.</p>
+                    <p>Weaver would be a digital tool for those with dementia and their loved ones, designed to organically create a personalised digital tool that facilitates communication between them.</p>
+                </div>
+                <div id="chekhovModule" class="themeTeaching type typeModal" data-pages="vault">
+                    <h5>BA Physical Theatre: Psychophysical Training</h5>
+                    <p>Won student's choice module of the year for four years running at University of Essex's Southend campus.</p>
+                </div>
+                <div id="dissertation" class="themeNeuro type typeModal" data-pages="deconstructor">
+                    <h5>Hyperfocus</h5>
                     <p>One of the lesser-known symptoms of ADHD is "hyperfocus".</p>
                     <p>If we find something that starts releasing dopamine in our brain, we become completely oblivious to anything else.</p>
                     <p>You can see this in someone with ADHD who plays a video game for 7 hours and doesn't realise they need the toilet until they've nearly done something socially unacceptable.</p>
@@ -512,150 +552,138 @@
                            <li>I am single-handedly responsible for that course now having a maximum word limit on dissertations</li>
                         </ol>
                     </p>
-                </dialog>     
-                <dialog id="gregLove" class="themePeople type typeModal" data-pages="vault">
+                </div>     
+                <!-- <div id="gregLove" class="themePeople type typeModal" data-pages="vault">
                     <p>Greg Love</p>
-                </dialog>
-                <dialog id="heptarchy" class="themeHistory type typeModal" data-pages="sparks">
+                </div> -->
+                <!-- <div id="heptarchy" class="themeHistory type typeModal" data-pages="sparks">
                     <h4>England: Heptarchy</h4>
-                </dialog>
-                <dialog id="inca" class="themeHistory type typeModal" data-pages="sparks">
+                </div> -->
+                <!-- <div id="inca" class="themeHistory type typeModal" data-pages="sparks">
                     <h4>Incan Empire</h4>
-                </dialog>
-                <dialog id="inspoReacTable" class="themeOther type typeModal" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles&img=02)">
+                </div> -->
+                <div id="inspoReacTable" class="themeOther type typeModal" data-pages="sparks">
                     <h5>ReacTable</h5>
-                </dialog>
-                <div id="mayans" class="themeHistory type typeModal" data-pages="sparks">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0h-RhyopUmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <!-- <div id="mayans" class="themeHistory type typeModal" data-pages="sparks">
                     <h4>Mayan Culture</h4>
                     <ul>
                         <li>Pre-Collapse</li>
                         <li>Collapse</li>
                         <li>Chichen Itza</li>
                     </ul>
-                </div>
-                <div id="persia" class="themeHistory type typeModal" data-pages="sparks">
+                </div> -->
+                <!-- <div id="persia" class="themeHistory type typeModal" data-pages="sparks">
                     <h5 id="ancient-iron-age-">Ancient (Iron Age)</h5>
                     <ul><li>Persia</li></ul>
-                </div>
+                </div> -->
                 <div id="rightsDistributor" class="themeTeaching type typeModal" data-pages="cage">
-                    <p>Rights Distributor</p>
+                    <h5>Distributor</h5>
+                    <p>An web-app for educational institutions.</p>
+                    <p>Often a student has a valid exemption from a general rule... but the educator doesn't know this. The student is forced to explain their reasons.</p>
+                    <p>Distributor would take data that has been input by Safeguarding & Administration, and output exemptions to the educators without context. I don't need to know why this person is allowed a toilet break even during their GCSE.</p>
                 </div>
-                <dialog id="schoolReports" class="themeNeuro type typeModal" data-pages="deconstructor">
+                <!-- <div id="schoolReports" class="themeNeuro type typeModal" data-pages="deconstructor">
                     <p>BSB School Reports</p>
-                </dialog>
-                <div id="soup" class="themeCV type typeModal" data-pages="vault">
+                    Find that school report that says "the only good thing to say is that it can't get any worse", it's fucking lols
+                </div> -->
+                <!-- <div id="soup" class="themeCV type typeModal" data-pages="vault">
                     <h4>SouP</h4>
                     <p>Southwark Playhouse</p>
                     <p>Felix</p>
-                </div>
+                </div> -->
                 <div id="sparkbrainPlanner" class="themeNeuro type typeModal" data-pages="cage">
-                    Sparkbrain Planner
+                    <h5>Sparkbrain Planner</h5>
+                    <p>A Planning Tool That Actually Helps ADHD Peeps</p>
                     <ul>
-                        <li>FlowSavvy + Goblin Tools</li>
-                        <li>
-                            Sorting Factors
-                            <ul>
-                                <li>Tagging</li>
-                                <li>
-                                    Deadlines
-                                    <ul>
-                                        <li>Date</li>
-                                        <li>Rigidity</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Priority
-                                    <ul>
-                                        <li>Desire</li>
-                                        <li>Consequence</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>NatLang Input</li>
+                        <li>Auto timeblocking (FlowSavvy)</li>
+                        <li>Break down tasks (Goblin Tools)</li>
+                        <li>Tagging</li>
+                        <li>Deadlines by Date & how Rigid that Deadline is</li>
+                        <li>Priority by both desire & negative consequences</li>
                     </ul>
                 </div>
-                <dialog id="srebrenicaPics" class="themeCV type typeModal" data-pages="vault">
+                <!-- <div id="srebrenicaPics" class="themeCV type typeModal" data-pages="vault">
                     <p>Srebrenica Pics</p>
-                </dialog>
-                <div id="vec" class="themeCV type typeContent" data-pages="vault">
+                </div> -->
+                <!-- <div id="vec" class="themeCV type typeContent" data-pages="vault">
                     <li>Victoria Education Centre</li>
-                </div>
-                <div id="vinland" class="themeHistory type typeModal" data-pages="sparks">
+                </div> -->
+                <!-- <div id="vinland" class="themeHistory type typeModal" data-pages="sparks">
                     <h4 id="north-america">North America</h4>
                     <h5 id="pre-colonial">Pre-Colonial</h5>
                     <ul>
                         <li>Vinland</li>
                     </ul>
-                </div>
+                </div> -->
 
             <!--Modal Image-->
-                <dialog id="chichenItza" class="themePlaces type typeModalImage" data-pages="sparks">
+                <!-- <div id="chichenItza" class="themePlaces type typeModalImage" data-pages="sparks">
                     <h4>Chichen Itza</h4>
                     <img src="https://generative-placeholders.glitch.me/image?width=600&height=300&style=cellular-automata&cells=10&img=01">Chichen Itza</img>
-                </dialog>
-                <dialog id="eelsESB" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=01)">
-                    <h5>Electro-Shock Blues</h5>
-                </dialog>
-                <dialog id="eelsBLOR" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=02)">
-                    <h5>Blinking Lights & Other Revelations</h5>
-                </dialog>
-                <dialog id="emShortCM" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=tiles&img=01)">
-                    <h5>Counterfeit Monkey</h5>
-                </dialog>
-                <dialog id="fotlHtSYB" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=03)">
-                    <h5>How to Stop Your Brain in an Accident</h5>
-                </dialog>
-                <div id="fragment" class="themeOther type typeModalImage" data-pages="deconstructor">
-                    <p>Fragment</p>
+                </div> -->
+                <div id="eelsESB" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=01)">
+                    <h5><a href="">Electro-Shock Blues</a></h5>
                 </div>
-                <dialog id="gamePST" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=02)">
+                <!-- <div id="eelsBLOR" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=02)">
+                    <h5>Blinking Lights & Other Revelations</h5>
+                </div> -->
+                <div id="emShortCM" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=tiles&img=01)">
+                    <h5><a href="">How to Stop Your Brain in an Accident</a></h5>
+                </div>
+                <div id="fotlHtSYB" class="themeMusic type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=joy-division&img=03)">
+                    <h5><a href="">How to Stop Your Brain in an Accident</a></h5>
+                </div>
+                <!-- <div id="fragment" class="themeOther type typeModalImage" data-pages="deconstructor">
+                    <p>Fragment</p>
+                </div> -->
+                <!-- <div id="gamePST" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=02)">
                     <h5>Planescape: Torment</h5>
-                </dialog>
-                <dialog id="gameBG2" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=03)">
+                </div> -->
+                <!-- <div id="gameBG2" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=03)">
                     <h5>Baldur&#39;s Gate 2</h5>
-                </dialog>
-                <dialog id="gamePoE2" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=04)">
+                </div> -->
+                <!-- <div id="gamePoE2" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=04)">
                     <h5>Pillars of Eternity 2</h5>
-                </dialog>
-                <dialog id="gamePK" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=05)">
+                </div> -->
+                <!-- <div id="gamePK" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=05)">
                     <h5>Pathfinder: Kingmaker</h5>
-                </dialog>
-                <dialog id="inkle80D" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=11)">
+                </div> -->
+                <!-- <div id="inkle80D" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=11)">
                     <h5>80 Days</h5>
-                </dialog>
-                <dialog id="inkleHV" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=12)">
-                    <h5>Heaven&#39;s Vault</h5>
-                </dialog>
-                <dialog id="inklePD" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=13)">
+                </div> -->
+                <div id="inkleHV" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=12)">
+                    <h5><a href="">Heaven's Vault</a></h5>
+                </div>
+                <!-- <div id="inklePD" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=13)">
                     <h5>Pendragon</h5>
-                </dialog>
-                <dialog id="inkleOB" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=14)">
-                    <h5>Overboard!</h5>
-                </dialog>
+                </div> -->
+                <div id="inkleOB" class="themeGameDesign type typeModalImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=14)">
+                    <h5><a href="">Overboard!</a></h5>
+                </div>
 
             <!--Modal Link-->
-                <dialog id="anathem" class="themeBooks type typeModalLink" data-pages="sparks">
+                <!-- <div id="anathem" class="themeBooks type typeModalLink" data-pages="sparks">
                     <p>Anathem</p>
-                </dialog>
-                <dialog id="brothersGame" class="themeCV type typeModalLink" data-pages="portfolio">
-                    <h4>My Brothers, Counting</h4>
-                    <iframe frameborder="0" src="https://itch.io/embed/931034?linkback=true" width="552" height="167"><a href="https://neurosocialist.itch.io/prisms">Prisms by Neurosocialist</a></iframe>
-                    <p>A GAME WHAT I DID IN 48 HOURS AND I WINNEDED A TROPHY. The theme was "A Game as a Gift" so I made this for my stepdad. I called it "Prisms" because "Sorry I Was a Little Shit with Undiagnosed ADHD" was a bit of a mouthful.</p>
-                </dialog>
-                <dialog id="carthage" class="themeMusic type typeModalLink" data-pages="vault">
+                </div> -->
+                <div id="brothersGame" class="themeCV type typeModalLink" data-pages="portfolio">
+                    <h5><a href="https://neurosocialist.itch.io/brothers-trying-to-count">My Brothers, Counting</a></h5>
+                    <p>My first attempt of any kind at coding something. Attempts to explain my younger brothers via the medium of asking them to count to five.</p>
+                </div>
+                <div id="carthage" class="themeMusic type typeModalLink" data-pages="vault">
                     <h4>Carthage</h4>
-                </dialog>
-                <dialog id="creatingWorlds" class="themeCV type typeModalLink" data-pages="vault">
+                </div>
+                <div id="creatingWorlds" class="themeCV type typeModalLink" data-pages="vault">
                     <h4>Creating Worlds</h4>
                     <p>A book what I wrote.</p>
                     <ul>
                         <li>It's real & everything. Look. <a href="https://www.amazon.co.uk/Creating-Worlds-Immersive-Theatre-Making/dp/1848424450">Proof.</a></li>
                         <li>And no, <a href="https://www.nickhernbooks.co.uk/creating-worlds">it's not self-published</a>, thankyou very much.</li>
                     </ul>
-                </dialog>
-                <dialog id="deviceOracle" class="themeOther type typeModalLink" data-pages="portfolio">
-                    <h4>The Device Oracle</h4>
+                </div>
+                <div id="deviceOracle" class="themeOther type typeModalLink" data-pages="portfolio">
+                    <h5>The Device Oracle</h5>
                     <a href="/experiments/device.html"><img src="/siteImages/box.jpg" class="projImage" title="Picture Coming Soon" alt="Cardboard Box"></a>
                     <p>Can I successfully identify what device you're viewing this page on? Let's find out!<br>
                         <br>
@@ -668,48 +696,48 @@
                             <ins>Here is some evidence of my growth through this application process.</ins>
                         </p>
                     </div>
-                </dialog>
-                <dialog id="fifthSun" class="themeBooks type typeModalLink" data-pages="sparks">
-                    <p>Fifth Sun</p>
-                </dialog>
-                <dialog id="gameNarrative" class="theme1 type typeModalLink" data-pages="portfolio">
-                    <a href="/game/gamePage.html">Nihilistic Narrative Game</a>
-                </dialog>
-                <dialog id="inkleInk" class="themeGameDesign type typeModalLink" data-pages="cage">
-                    <h5>ink</h5>
-                </dialog>
-                <dialog id="inspoGoblinTools" class="themeNeuro type typeModalLink" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles&img=01)">
-                    <h5>Goblin Tools</h5>
-                </dialog>
-                <dialog id="inspoZompist" class="themeLinguistics type typeModalLink" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles&img=03)">
-                    <h5>Zompist</h5>
-                </dialog>
-                <div id="navigation" class="themeIdea type typeModalLink" data-pages="cage">
-                    <h2 id="navigation">Navigation</h2>
-                    <ul>
-                        <li><a href="https://codepen.io/agrimsrud/pen/XWNLMeW">Hakim&#39;s Progress Nav Concept</a></li>
-                    </ul>
                 </div>
-                <dialog id="originsAngloSaxons" class="themeBooks type typeModalLink" data-pages="sparks">
+                <!-- <div id="fifthSun" class="themeBooks type typeModalLink" data-pages="sparks">
+                    <p>Fifth Sun</p>
+                </div> -->
+                <div id="gameNarrative" class="theme1 type typeModalLink" data-pages="portfolio">
+                    <a href="/game/gamePage.html">Nihilistic Narrative Game</a>
+                </div>
+                <div id="inkleInk" class="themeGameDesign type typeModalLink" data-pages="cage">
+                    <h5>ink</h5>
+                </div>
+                <div id="inspoGoblinTools" class="themeNeuro type typeModalLink" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles&img=01)">
+                    <h5>Goblin Tools</h5>
+                    <p>Best use of AI I've seen. Proof of the idea that it can benefit us.</p>
+                </div>
+                <!-- <div id="inspoZompist" class="themeLinguistics type typeModalLink" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles&img=03)">
+                    <h5>Zompist</h5>
+                </div> -->
+                
+                <!-- <div id="originsAngloSaxons" class="themeBooks type typeModalLink" data-pages="sparks">
                     <p>The Origins of the Anglo-Saxons</p>
-                </dialog>
-                <dialog id="pigpen" class="themeCV type typeModalLink" data-pages="portfolio">
-                    <h3>Rupert's Pigpen</h3>
+                </div> -->
+                <div id="pigpen" class="themeCV type typeModalLink" data-pages="portfolio">
+                    <h5>Rupert's Pigpen</h5>
                     <a href="https://jasonwarrenuk.github.io/fcApp1_hobbySite"><img src="/siteImages/piglet.jpg" class="cardImage" title="Rupert's Pigpen'" alt="Piglet"></a>
                     <p><a href="https://github.com/jasonwarrenuk/fcApp1_hobbySite">Repo</a></p>
                     <p>Designing a website using HTML, CSS & the tiniest bit of JavaScript. Also trying not to give into gnawing despair as I realise I am recreating the ugliest designs of the late '90s.</p>
-                </dialog>
-                <dialog id="prisms" class="themeNeuro type typeModalLink" data-pages="portfolio">
-                    <h4>Prisms</h4>
-                    <iframe frameborder="0" src="https://itch.io/embed/931034?linkback=true" width="552" height="167"><a href="https://neurosocialist.itch.io/prisms">Prisms by Neurosocialist</a></iframe>
-                    <p>A GAME WHAT I DID IN 48 HOURS AND I WINNEDED A TROPHY. The theme was "A Game as a Gift" so I made this for my stepdad. I called it "Prisms" because "Sorry I Was a Little Shit with Undiagnosed ADHD" was a bit of a mouthful.</p>
-                </dialog>
-                <div id="tracery" class="themeLinguistics type typeModalLink" data-pages="cage">
-                    <p><a href="">Tracery</a></p>
+                    <hr/>
+                    <p>I made this during the last application round. It's the answer to the question we've all asked: what kind of website would a piglet make if it discovered the internet?</p>
+                    <p>I still find it quite funny, but it's mostly here to show progress since then.</p>
                 </div>
+                <div id="prisms" class="themeNeuro type typeModalLink" data-pages="portfolio">
+                    <h5>Prisms</h5>
+                    <iframe src="https://itch.io/embed/931034?border_width=0" width="206" height="165" frameborder="0"><a href="https://neurosocialist.itch.io/prisms">Prisms by Neurosocialist</a></iframe>Prisms by Neurosocialist</a></iframe>
+                    <p>First thing I properly coded. Won a trophy, which slightly took me aback.</p> 
+                    <p>The theme was "A Game as a Gift" so I made this for my stepdad's birthday. I called it "Prisms" because "Sorry I Was a Little Shit with Undiagnosed ADHD" was a bit of a mouthful.</p>
+                </div>
+                <!-- <div id="tracery" class="themeLinguistics type typeModalLink" data-pages="cage">
+                    <p><a href="">Tracery</a></p>
+                </div> -->
 
             <!--Image Category-->
-                <div id="gameRPG" class="themeGameDesign type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=123&img=01)">
+                <!-- <div id="gameRPG" class="themeGameDesign type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=123&img=01)">
                     <h3>RPGs</h3>
                     <ul>
                         <li><button>Planescape: Torment</button></li>
@@ -717,8 +745,8 @@
                         <li><button>Pillars of Eternity 2</button></li>
                         <li><button>Pathfinder: Kingmaker</button></li>
                     </ul>
-                </div>
-                <div id="inkle" class="themeGameDesign type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=triangles&gap=100&img=04)">
+                </div> -->
+                <!-- <div id="inkle" class="themeGameDesign type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=triangles&gap=100&img=04)">
                     <h3 id="inkle">Inkle</h3>
                     <ul>
                         <li><button>80 Days</button></li>
@@ -726,28 +754,29 @@
                         <li><button>Pendragon</button></li>
                         <li><button>Overboard!</button></li>
                     </ul>
-                </div>
+                </div> -->
                 <div id="inspo" class="themeIdea type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=123&img=02)">
-                    <h3 id="apps-websites-tech">Cool Tech</h3>
+                    <h5 id="apps-websites-tech">Cool Tech</h5>
                     <ul>
-                        <li><button>Goblin Tools</button></li>
-                        <li><button>ReacTable</button></li>
-                        <li><button>Zompist</button></li>
+                        <li>Goblin Tools</li>
+                        <li>ReacTable</li>
+                        <li>Zompist</li>
                     </ul>
                 </div>
                 <div id="languages" class="themeLinguistics type typeImageCategory" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=cubic-disarray&img=01);">
-                    <h3 id="languages">Languages</h3>
+                    <h5 id="languages">Languages</h5>
                     <ul>
-                        <li><button>Proto-Indo-European</button></li>
-                        <li><button>Basque</button></li>
-                        <li><button>Sumerian</button></li>
-                        <li><button>Mayan</button></li>
-                        <li><button>Nahuatl</button></li>
-                        <li><button>Quechua</button></li>
+                        <li>Proto-Indo-European</li>
+                        <li>Basque</li>
+                        <li>Sumerian</li>
+                        <li>Mayan</li>
+                        <li>Nahuatl</li>
+                        <li>Quechua</li>
                     </ul>
                 </div>
                 <div id="manicsMSP" class="themeMusic type typeImageCategory" data-pages="sparks" style="background-image: url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=triangles&gap=100&img=05);">
-                    <h4>Manic Street Preachers</h4>
+                    <h5>Manic Street Preachers</h5>
+                    <p>My fave albums by my fave band.</p>
                     <ul>
                         <li><button>The Holy Bible</button></li>
                         <li><button>Everything Must Go</button></li>
@@ -759,28 +788,28 @@
 
             <!--Image-->
                 <div id="gameCoQ" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=06)">
-                    <h5>Caves of Qud</h5>
+                    <h5><a href="">Caves of Qud</a></h5>
                 </div>
                 <div id="gameDE" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=07)">
-                    <h5>Disco Elysium</h5>
+                    <h5><a href="">Disco Elysium</a></h5>
                 </div>
                 <div id="gameDF" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=08)">
-                    <h5>Dwarf Fortress</h5>
+                    <h5><a href="">Dwarf Fortress</a></h5>
                 </div>
                 <div id="gameHL" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=09)">
-                    <h5>Hadean Lands</h5>
+                    <h5><a href="">Hadean Lands</a></h5>
                 </div>
-                <div id="gameRW" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=10)">
+                <!-- <div id="gameRW" class="themeGameDesign type typeImage" data-pages="sparks" style="background-image:url(https://generative-placeholders.glitch.me/image?width=300&height=300&style=tiles&img=10)">
                     <h5>Rimworld</h5>
-                </div>
+                </div> -->
                 <div id="inUtero" class="themeMusic type typeImage" data-pages="sparks" style="background-image: url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=joy-division&img=04);">
-                    <h4>In Utero</h4>
+                    <h5><a href="">In Utero</a></h5>
                 </div>
                 <div id="kingNight" class="themeMusic type typeImage" data-pages="sparks" style="background-image: url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=joy-division&img=05);">
-                    <h4>King Night</h4>
+                    <h5><a href="">King Night</a></h5>
                 </div>
                 <div id="mongolHorde" class="themeMusic type typeImage" data-pages="sparks" style="background-image: url(https://generative-placeholders.glitch.me/image?width=250&height=250&style=joy-division&img=06);">
-                    <h4>Möngöl Hörde</h4>
+                    <h5><a href="">Möngöl Hörde</a></h5>
                 </div>
 
             <!--Thought-->
@@ -788,14 +817,16 @@
                     <p>Given that actor training is fundamentally based on the idea that our role is to help students hone their ideas & impulses into artistic forms...<br/><br/>Why is there no research whatsoever on how the ideas & impulses of neurodivergent artists require alternative training approaches?</p>
                 </div>
                 <div id="cageBoal" class="themePeople type typeThought" data-pages="cage">
+                    <h5>Pocket Boal</h5>
                     <p>Conflict Resolution Tools (Theatre of the Oppressed)</p>
                 </div>
                 <div id="cageSelf" class="themeNeuro type typeThought" data-pages="cage">
-                    <p>Self-Knowledge Tool</p>
+                    <h5>AggroGate</h5>
+                    <p>Data/Self-tracking for people who don't yet know what needs tracking.</p>
                 </div>
-                <div id="cageTypology" class="themeOther type typeThought" data-pages="cage">
+                <!-- <div id="cageTypology" class="themeOther type typeThought" data-pages="cage">
                     <p>Typological Concept Correlator</p>
-                </div>
+                </div> -->
                 <div id="disabilityProvision" class="themeBelief type typeThought" data-pages="deconstructor">
                     <p>Failing to build disability provision throughout all levels of society is both a moral failure & an economicmistake</p>
                 </div>
@@ -813,14 +844,14 @@
                 </div>
 
             <!--Quote-->
-                <div id="angerQuote" class="themeBelief type typeQuote" data-pages="sparks">
+                <!-- <div id="angerQuote" class="themeBelief type typeQuote" data-pages="sparks">
                     <p>Anger is an energy</p>
                     <p>John Lydon</p>
-                </div>
-                <div id="healthcare" class="themeBelief type typeQuote" data-pages="deconstructor">
+                </div> -->
+                <!-- <div id="healthcare" class="themeBelief type typeQuote" data-pages="deconstructor">
                     <p><blockquote>“Illness is neither an indulgence for which people have to pay, nor an offence for which they should be penalised, but a misfortune the cost of which should be shared by the community.”</blockquote></p>
                     <p><a href="">Aneurin Bevan</a></p>
-                </div>
+                </div> -->
 
             <!--Blurt-->
                 <div id="actorTrainingOops" class="themeTeaching type typeBlurt" data-pages="vault">
@@ -828,9 +859,6 @@
                 </div>
                 <div id="anarchoSocialistAF" class="themeBelief type typeBlurt" data-pages="deconstructor">
                     <p><blockquote>AnarchoSocialist as fuck</blockquote></p>
-                </div>
-                <div id="autisticLOL" class="themeNeuro type typeBlurt" data-pages="deconstructor">
-                    <p><blockquote>Probably autistic lol</blockquote></p>
                 </div>
                 <div id="educationPrivate" class="themeBelief type typeBlurt" data-pages="deconstructor">
                     <p><blockquote>Dismantle Private &amp; Selective Education</blockquote></p>
