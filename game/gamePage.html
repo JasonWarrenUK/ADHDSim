@@ -11,55 +11,44 @@
 
     <link rel="icon" type="image/x-icon" href="/image/favicon/hub.ico">
     <link rel="stylesheet" href="/siteStyles/stylesGame.css">
+    <script src="/game/nihilism.js" defer></script>
 </head>
 
 <body>
-    <header>STUFF INNIT</header>
+    <header></header>
 
-    <main id="game" class="gridContainer">
-        <div class="box winState">
-            <h3>The Goal</h3>
-        </div>
-        <div class="box win1">
-            <p>Win State Name: <span></span></p>
-        </div>
-        <div class="box win2">
-            <p>Win State Scores: <span></span></p>
-        </div>
+    <main id="game" class="game">
+        <div class="box winState"><h3>The Goal</h3></div>
+        <div class="box win1"><p id="winName"></p></div>
+        <div class="box win2"><p id="winScores"></p></div>
 
-        <div class="box storyTitle">
-            <h2>The Problem</h2>
-        </div>
-        <div class="box story">
-            <p>Text</p>
+        <div class="box storyTitle"><h2>The Problem</h2></div>
+        <div class="box storyText">
+            <span id="storyCode"><p>Text</p></span>
         </div>
 
-        <div class="box choice1Title">
-            <h3>Should You...</h3>
-        </div>
+        <div class="box choice1Title"><h3>Should You...</h3></div>
         <div class="box choice1Text">
-            <p>Text</p>
+            <span id="choice1Code"><p>Text</p></span>
         </div>
 
-        <div class="box choice2Title">
-            <h3>Or Should You...</h3>
-        </div>
+        <div class="box choice2Title"><h3>Or Should You...</h3></div>
         <div class="box choice2Text">
-            <p>Text</p>
+            <span id="choice2Code"><p>Text</p></span>
         </div>
 
         <div class="box statsPTitle">
-            <h3>The Leader</h3>
+            <h3>The<br/>Leader</h3>
         </div>
         <div class="box statsPText">
-            <p>Stats</p>
+            <p>Your Wealth: <span id="statsPWealth"></span></p>
+            <p>Your Power:  <span id="statsPPower"></span></p>
         </div>
 
-        <div class="box statsWTitle">
-            <h3>The State</h3>
-        </div>
+        <div class="box statsWTitle"><h3>The<br/>Nation</h3></div>
         <div class="box statsWText">
-            <p>Stats</p>
+            <p>National Wealth: <span id="statsNWealth"></span></p>
+            <p>National Freedom:  <span id="statsNFreedom"></span></p>
         </div>
     </main>
     

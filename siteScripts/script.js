@@ -1,10 +1,17 @@
 /*|| CONVENTIONS ||*/
   //Use single quotes in JS, so can paste HTML easily
 
-/* || INITIALISE PAGE CONTENT || */
+  
+  /* || INITIALISE PAGE CONTENT || */
   let showFirst = document.querySelectorAll('[data-pages="home"]');
   for (const showThis of showFirst) {
     showThis.style.display = 'block';
+  }
+
+  let hasADHD = false;
+  const blurts = document.querySelectorAll('.typeBlurt');
+  for (const blurt of blurts) {
+    blurt.style.display = 'none';
   }
 
 /* || PAGE SWITCHER || */
@@ -278,7 +285,7 @@
   }); */
 
 /* | NEUROSWITCHER | */
-let hasADHD = false;
+
 const buttonADHDOn = document.getElementById('buttonADHDOn');
 const buttonADHDOff = document.getElementById('buttonADHDOff');
 
