@@ -70,5 +70,5 @@ function picker() {
     return pick;
 }
 
-let seed = picker();
-seed >= 0.85 ? winGame = winPFHi : seed >= 0.75 ? winGame = winPFLo : seed >= 0.65 ? winGame = winPWHi :
+/* let seed = picker();
+seed >= 0.85 ? winGame = winPFHi : seed >= 0.75 ? winGame = winPFLo : seed >= 0.65 ? winGame = winPWHi : */

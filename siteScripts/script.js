@@ -48,6 +48,10 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
+
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
+      }
     });
     
   const showDeconstructor = document.getElementById('showDeconstructor');
@@ -77,6 +81,7 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
+      
       for (const blurt of blurts) {
         blurt.style.display = 'none';
       }
@@ -94,9 +99,8 @@
         showThis.style.display = 'block';
       }
 
-      const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
       }
     });
 
@@ -112,9 +116,8 @@
         showThis.style.display = 'block';
       }
 
-      const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
       }
     });
 
@@ -143,9 +146,8 @@
         showThis.style.display = 'block';
       }
 
-      const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
       }
     });
 
@@ -161,10 +163,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   const showThemeCV = document.getElementById('showThemeCV');
@@ -178,10 +179,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   const showThemeNeuro = document.getElementById('showThemeNeuro');
@@ -195,10 +195,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   const showThemeTeaching = document.getElementById('showThemeTeaching');
@@ -212,10 +211,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   /* const showThemeBelief = document.getElementById('showThemeBelief');
@@ -253,10 +251,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   /* const showThemeBooks = document.getElementById('showThemeBooks');
@@ -282,10 +279,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   const showThemeLinguistics = document.getElementById('showThemeLinguistics');
@@ -299,10 +295,9 @@
         visibleNow[i].style.display = 'block';
     }
 
-    const hideThese = document.querySelectorAll('[data-pages]')
-      for (const hideThis of hideThese) {
-        hideThis.style.display = 'none';
-      }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
+    }
   });
 
   const showThemeIdea = document.getElementById('showThemeIdea');
@@ -314,6 +309,9 @@
     let visibleNow = document.querySelectorAll('.themeIdea');
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
+    }
+    for (const blurt of blurts) {
+      blurt.style.display = 'none';
     }
   });
 
