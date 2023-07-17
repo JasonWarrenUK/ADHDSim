@@ -9,6 +9,7 @@
   }
 
   let hasADHD = false;
+  
   const blurts = document.querySelectorAll('.typeBlurt');
   for (const blurt of blurts) {
     blurt.style.display = 'none';
@@ -60,6 +61,9 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
+      }
     });
 
   const showVault = document.getElementById('showVault');
@@ -72,6 +76,9 @@
       let visibleNow = document.querySelectorAll('[data-pages="vault"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
+      }
+      for (const blurt of blurts) {
+        blurt.style.display = 'none';
       }
     });
 
@@ -86,6 +93,11 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
+
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
     });
 
   const showPortfolio = document.getElementById('showPortfolio');
@@ -98,6 +110,11 @@
       let visibleNow = document.querySelectorAll('[data-pages="portfolio"]');
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
+      }
+
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
       }
     });
 
@@ -125,6 +142,11 @@
       for (const showThis of visibleNow) {
         showThis.style.display = 'block';
       }
+
+      const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
     });
 
 /* || THEME SWITCHER || */
@@ -138,6 +160,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   const showThemeCV = document.getElementById('showThemeCV');
@@ -150,6 +177,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   const showThemeNeuro = document.getElementById('showThemeNeuro');
@@ -162,6 +194,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   const showThemeTeaching = document.getElementById('showThemeTeaching');
@@ -174,6 +211,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   /* const showThemeBelief = document.getElementById('showThemeBelief');
@@ -210,6 +252,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   /* const showThemeBooks = document.getElementById('showThemeBooks');
@@ -234,6 +281,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   const showThemeLinguistics = document.getElementById('showThemeLinguistics');
@@ -246,6 +298,11 @@
     for(let i = 0; i < visibleNow.length; i++){
         visibleNow[i].style.display = 'block';
     }
+
+    const hideThese = document.querySelectorAll('[data-pages]')
+      for (const hideThis of hideThese) {
+        hideThis.style.display = 'none';
+      }
   });
 
   const showThemeIdea = document.getElementById('showThemeIdea');
