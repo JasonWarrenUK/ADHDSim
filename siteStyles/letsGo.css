@@ -44,7 +44,6 @@
     #strap {grid-area: 1/11/span 2/span 2;}
     #left1 {grid-area: 2/1/span 6/span 2;}
     #middle {grid-area: 2/3/span 7/span 8;}
-    
         #boxTitle {grid-area: 1/1/span 3/span 5;}
         #boxStrap {grid-area: 3/6/span 1/span 8;}
         #boxDesc {grid-area: 4/5/span 2/span 9;}
@@ -52,7 +51,6 @@
         #boxColumn1 {grid-area: 6/5/span 7/span 2;}
         #boxBox {grid-area: 6/7/span 7/span 7;}
         /* #boxFoot {grid-area: 13/3/span 1/span 11;} */
-    
     #right {grid-area: 3/11/span 6/span 2;}
     #left2 {grid-area: 8/1/span 2/span 2;}
     #footer {grid-area: 9/3/span 1/span 10;
