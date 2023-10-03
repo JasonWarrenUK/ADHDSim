@@ -1,3 +1,5 @@
 # The Endless Tangent
 
-Working on my application projects for Founders & Coders' Autumn '23 intake
+Application project for Founders & Coders' Autumn '23 intake.
+
+Now very aware of how embarassingly janky it is.
