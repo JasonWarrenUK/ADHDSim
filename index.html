@@ -48,34 +48,87 @@
 <nav>
 	<h1>The Endless Tangent</h1>
 	
-	<ul class="navMenu">
-		<li><a href="#about" class="navLink">About</a></li>
-		<li><a href="#skills" class="navLink">Skills</a></li>
-		<li><a href="#projects" class="navLink">Projects</a></li>
-		<li><a href="#contact" class="navLink">Contact</a></li>
+	<ul class="listNav">
+		<!-- TODO: Make these expand on hover -->
+		<li><a href="#about" class="linkNav">About</a></li>
+		<li><a href="#skills" class="linkNav">Skills</a></li>
+		<li><a href="#projects" class="linkNav">Projects</a></li>
+		<li><a href="#contact" class="linkNav">Contact</a></li>
 	</ul>
 
-	<button id="navBurger" class="burgerMenu">
+	<button id="navButton" class="menuBurger">
 		<ion-icon name="menu-outline" class="bars"></ion-icon>
 	</button>
 </nav>
 
 <!-- Header/Hero -->
 <header>
-    <p><blockquote>An Assortment of Loosely Connected Meanderings Through the Dysregulated Thinknodes of Jason Warren</blockquote></p>
+	<img alt="Jason Warren" class="headerImg"
+		src="assets/images/jasonWarren.jpg"
+		loading="lazy"
+	/>
+	<div class="bio animate__animated animate__shakeX">
+		<h2 class="bioTitle">Jason Warren</h2>
+		<p class="bioText">
+			Get that nonsense across! Get that nonsense across! Get that nonsense across! Get that nonsense across! Get that nonsense across! Get that nonsense across! Get that nonsense across! Get that nonsense across!
+		</p>
+	</div>
 </header>
 
 <!-- Central Content Section -->
 <main>
-	<h2>Main Content</h2>
 	<!-- About -->
-	<section id="about">
-		<pre>About</pre>
+	<section class="contentAbout">
+		<h2>Who is this Pig?</h2>
+		
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum, autem deleniti cupiditate molestias quis unde quae totam porro dicta iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus</p>
+
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur nostrum dolor minus, libero delectus praesentium perferendis</p>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, consequuntur labore? Ea totam  voluptas amet!</p>
 	</section>
 
 	<!-- Skills -->
-	<section id="skills">
-		<pre>Skills</pre>
+	<section class="contentSkills">
+		<h2 class="skill-header">My Top Skills</h2>
+
+		<div class="skills-wrapper">
+			<div class="first-set animate__animated animate__pulse">
+				<img alt=""
+					src="assets/icons/icons8-html-5.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+				<img alt=""
+					src="assets/icons/icons8-css3.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+				<img alt=""
+					src="assets/icons/icons8-javascript.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+			</div>
+
+			<div class="second-set animate__animated animate__pulse">
+				<img alt=""
+					src="assets/icons/icons8-bootstrap.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+				<img alt=""
+					src="assets/icons/icons8-react-native.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+				<img alt=""
+					src="assets/icons/icons8-git.svg"
+					loading="lazy"
+					class="icon icon-card"
+				/>
+			</div>
+		</div>
 	</section>
 
 	<!-- Projects -->
