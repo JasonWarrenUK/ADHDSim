@@ -1,57 +1,119 @@
 ﻿<!DOCTYPE html>
 <html lang="en-UK">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
     
-    <title lang="en-UK">The Endless Tangent</title>
-    <link rel="icon" type="image/x-icon" href="/siteImages/favicon/hub.ico">
-    <meta name="author" content="Jason Warren" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="ADHD, HTML, CSS, JavaScript, JS, Neurodiverse, Neurodiversity" />
+    <title lang="en-UK">The Endless Tangent | Jason Warren</title>
 
-    <link href="/styles/styles.css" rel="stylesheet" >
-    <script src="/scripts/script.js" defer></script>
+    <meta name="author" content="Jason Warren" />
+    <meta name="description"
+			content=""
+		/>
+    <meta name="keywords"
+			content="ADHD, HTML, CSS, JavaScript, JS, Neurodiverse, Neurodiversity"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="/assets/css/reset.css"/>
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180"
+      href="assets/icons/pig-apple-touch.png"
+    />
+    <link rel="icon" sizes="16x16"
+      type="image/png"
+      href="assets/icons/pig-16x16.png"
+    />
+    <link rel="icon" sizes="32x32"
+      type="image/png"
+      href="assets/icons/pig-32x32.png"
+    />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+		<!-- JavaScript -->
+    <script src="/assets/js/script.js" defer></script>
 </head>
 
 <body>
+<!-- Nav Menu -->
+<nav>
+	<ul class="navMenu">
+		<li><a href="#about" class="navLink">About</a></li>
+		<li><a href="#skills" class="navLink">Skills</a></li>
+		<li><a href="#projects" class="navLink">Projects</a></li>
+		<li><a href="#contact" class="navLink">Contact</a></li>
+	</ul>
+
+	<button id="navBurger" class="burgerMenu">
+		<ion-icon name="menu-outline" class="bars"></ion-icon>
+	</button>
+</nav>
+
+<!-- Header/Hero -->
 <header>
     <h1>The Endless Tangent</h1>
     
 		<p><blockquote>An Assortment of Loosely Connected Meanderings Through the Dysregulated Thinknodes of Jason Warren</blockquote></p>
 </header>
 
-<nav>
-</nav>
-
+<!-- Central Content Section -->
 <main>
-	<section>
-		<h2>About</h2>
-
-		<p></p>
+	<h2>Main Content</h2>
+	<!-- About -->
+	<section id="about">
+		<pre>About</pre>
 	</section>
 
-	<hr/>
-
-	<section>
-		<h2>Projects</h2>
-
-		<p></p>
+	<!-- Skills -->
+	<section id="skills">
+		<pre>Skills</pre>
 	</section>
 
-	<hr/>
+	<!-- Projects -->
+	<section id="projects">
+		<pre>Projects</pre>
+	</section>
 
-	<section>
-		<h2>Other</h2>
-
-		<p></p>
+	<!-- Contact -->
+	<section id="contact">
+		<pre>Contact</pre>
 	</section>
 </main>
 
+<!-- Sidebar -->
+<div>
+	<h2>Sidebar</h2>
+	<!-- Socials -->
+	<div>
+		<pre>Socials</pre>
+	</div>
+
+	<!-- Navigation Buttons -->
+	<div>
+		<pre>Navigation Buttons</pre>
+	</div>
+</div>
+
 <footer>
-    <!-- <section id="contact" class="cardLayout"> -->
-        <p><a href="contact.jwarren@gmail.com">Email Me Innit</a></p>
-    <!-- </section> -->
+	<h2>Footer</h2>
+	<p><a href="contact.jwarren@gmail.com">Email Me Innit</a></p>
 </footer>
+
+<!-- Ionic Icon Pack -->
+<script type="module"
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+
+<script nomodule
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
 </body>
 </html>

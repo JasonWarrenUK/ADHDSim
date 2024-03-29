@@ -14,7 +14,6 @@
 - [ ] [Steven Mengin](https://www.stevenmengin.com/)
 - [ ] [Majestyk](https://www.majestyk.com/)
 - [ ] [Milli](https://www.milli.agency/)
-- [ ] 
 
 ## Stack Ideas
 
@@ -28,6 +27,7 @@
 - [ ] [Sass](https://sass-lang.com/)
 - [ ] [Tailwind](https://tailwindcss.com/)
 - [ ] [Bootstrap](https://getbootstrap.com/) (also see JS)
+- [x] [animate CSS](https://animate.style/)
 
 ### JS
 

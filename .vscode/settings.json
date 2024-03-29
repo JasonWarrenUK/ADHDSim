@@ -5,5 +5,12 @@
         "activityBar.background": "#451C50",
         "titleBar.activeBackground": "#60276F",
         "titleBar.activeForeground": "#FDFBFE"
-    }
+		},
+		"[choicescript]": {
+			"editor.quickSuggestions": {
+				"comments": false,
+				"strings": false,
+				"other": false
+			}
+		}
 }
