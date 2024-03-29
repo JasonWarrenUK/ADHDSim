@@ -55,3 +55,25 @@ nav {
   background-color: var(--color-bg);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
+
+nav h1 {
+  color: var(--color-1);
+}
+
+nav a {
+  color: var(--color-1);
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--color-2);
+  border-bottom: 2px solid var(--color-2);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: var(--font-bold);
+}
