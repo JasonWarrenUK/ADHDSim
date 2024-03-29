@@ -3,16 +3,19 @@
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
-  --normal-font: 400;
-  --bold-font: 700;
-  --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
-  --bottom-margin: 0.5rem;
-  --bottom-margin-2: 1rem;
+
+  --font-normal: 400;
+  --font-bold: 700;
+  --font-bolder: 900;
+
+  --color-bg: #fcfcfc;
+  --color-1: #4756df;
+  --color-2: #ff7235;
+  --shadow-1: #8b8eaf;
+  --shadow-2: #a17a69;
+
+  --margin-bottom: 0.5rem;
+  --margin-bottom-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
@@ -28,11 +31,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--color-1);
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: var(--color-2);
+	font-weight: var(--font-bold);
 }
 
 body {
