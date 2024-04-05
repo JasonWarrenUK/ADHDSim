@@ -175,3 +175,23 @@ header img {
   width: 21.875rem;
   padding: 1rem;
 }
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--margin-bottom);
+}
+
+.project-details {
+  margin-bottom: var(--margin-bottom);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--shadow-1);
+  padding: 20px;
+  margin: 10px;
+}
